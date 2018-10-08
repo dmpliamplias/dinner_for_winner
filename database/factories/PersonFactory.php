@@ -4,9 +4,7 @@ use Faker\Generator as Faker;
 
 $factory->define(App\Person::class, function (Faker $faker) {
     return [
-        'firstName' => $faker->name,
-        'lastName' => $faker->name,
-        'birthday' => $faker->date(),
+        'name' => $faker->name,
         'user_id' => App\User::all()->random()->id,
     ];
 });

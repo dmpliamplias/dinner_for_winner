@@ -15,8 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('people', 'PersonController');
+Route::get('/person/overview', 'PersonController@getPersonOverview');
+
+Route::post('/person/edit', 'PersonController@createOrUpdate');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'DashboardController@index');

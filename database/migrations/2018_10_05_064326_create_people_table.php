@@ -16,9 +16,7 @@ class CreatePeopleTable extends Migration
         Schema::create('people', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('firstName');
-            $table->string('lastName');
-            $table->date('birthday');
+            $table->string('name');
             $table->unsignedInteger('user_id');
         });
     }

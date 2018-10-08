@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Person;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PersonController extends Controller
 {
@@ -12,74 +13,46 @@ class PersonController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
-    {
-        return view('person.overview');
+    public function getPersonOverview() {
+        $person = $this->retrievePerson();
+        return view('person.overview' )->with('person', $person);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
+    public function retrievePerson() {
+        $user = Auth::user();
+        $person = $user->person();
+        if ($person != null) {
+            return $person;
+        }
+        return $this->create();
+    }
+
     public function create()
     {
-        //
+        $person = new Person();
+
+        $person->name=Auth::user()->name;
+
+        $person->save();
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @return Response
-     */
-    public function store()
-    {
-        //
+    public function update(Request $request) {
+        $person = Auth::user()->person();
+        $person->name = $request->name;
+
+        $person->save();
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
     public function show($id)
     {
         $person = Person::find($id);
         return view('person.show', array('person' => $person));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
+    public function delete()
     {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function update($id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function destroy($id)
-    {
-        //
+        $person = Auth::user()->person();
+        $person->delete();
     }
 
 }

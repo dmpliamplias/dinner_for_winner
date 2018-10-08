@@ -14,7 +14,12 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                   <h1>TODO</h1>
+                   <ul>
+                       <li>Nächstet Rezept, dass gekocht wird.</li>
+                       <li>Nächste Rezepte die einem gefallen könnte (z.B aufgrund Bewertungen)</li>
+                       <li>etc</li>
+                   </ul>
                 </div>
             </div>
         </div>
