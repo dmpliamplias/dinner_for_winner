@@ -1,26 +1,20 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+// Pages (all accessible from outside)
+Route::get('/', 'Page\PageController@home');
+Route::get('/home', 'Page\PageController@home');
+Route::get('/about', 'Page\PageController@about');
+Route::get('/contact', 'Page\PageController@contact');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Person
+Route::get('/person/overview', 'Person\PersonController@getPersonOverview')->name('personOverview');
+Route::post('/person/{id}/edit', 'Person\PersonController@createOrUpdate');
 
-Route::get('/person/overview', 'PersonController@getPersonOverview')->name('personOverview');
+// Calendar
+Route::get("/calendar", 'Calendar\CalendarController@index')->name('calendar');
 
-Route::get("/calendar", 'CalendarController@index')->name('calendar');
+// Dashboard
+Route::get('/dashboard', 'Dashboard\DashboardController@index')->name('dashboard');
 
-Route::post('/person/{id}/edit', 'PersonController@createOrUpdate');
-
-Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
-
+// Laravel immutable default routes
 Auth::routes();
