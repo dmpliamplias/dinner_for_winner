@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Person;
 
 use App\Person;
+use App\User;
 use App\Http\Controllers\Controller;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -19,20 +21,25 @@ class PersonController extends Controller
         return view('person.overview' )->with('person', $person);
     }
 
-    public function retrievePerson() {
-        $user = Auth::user();
-        $person = $user->person();
-        if ($person != null) {
-            return $person;
+    public function createIfNotExists(User $user)
+
+    {
+        if ($this->hasPerson($user)) {
+            return;
         }
-        return $this->create();
+        $this->create();
+    }
+
+    public function hasPerson(User $user)
+    {
+        return $user->person()->selfJoinCount == 0;
     }
 
     public function create()
     {
         $person = new Person();
 
-        $person->name=Auth::user()->name;
+        $person->name = Auth::user()->name;
 
         $person->save();
     }

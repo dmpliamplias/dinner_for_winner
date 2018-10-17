@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreatePeopleTable extends Migration
 {
+
     /**
      * Run the migrations.
      *
@@ -17,7 +18,9 @@ class CreatePeopleTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
-            $table->unsignedInteger('user_id');
+
+            $table->integer('user_id')->unsigned()->index();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
@@ -30,4 +33,5 @@ class CreatePeopleTable extends Migration
     {
         Schema::dropIfExists('people');
     }
+
 }
