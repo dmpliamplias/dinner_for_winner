@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Dinner für Gewinner</title>
+        <title>{{ config('app.name', 'Dinner für Gewinner') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -68,7 +68,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/dashboard') }}">Dashboard</a>
+                        <a href="{{ route('dashboard') }}">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
@@ -78,7 +78,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Dinner für Gewinner
+                    {{ config('app-name', 'Dinner für Gewinner') }}
                 </div>
             </div>
         </div>

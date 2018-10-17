@@ -15,10 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/person/overview', 'PersonController@getPersonOverview');
+Route::get('/person/overview', 'PersonController@getPersonOverview')->name('personOverview');
 
-Route::post('/person/edit', 'PersonController@createOrUpdate');
+Route::get("/calendar", 'CalendarController@index')->name('calendar');
+
+Route::post('/person/{id}/edit', 'PersonController@createOrUpdate');
+
+Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 
 Auth::routes();
-
-Route::get('/dashboard', 'DashboardController@index');

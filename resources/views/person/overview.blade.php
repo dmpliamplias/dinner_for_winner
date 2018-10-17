@@ -8,6 +8,7 @@
                     <div class="card-header">Person</div>
 
                         <div class="card-body">
+                            {{ $person['name'] }}
 {{--                            <p>{{ $person->name }}</p>--}}
                         {{--<table class="table table-hover">--}}
                             {{--<thead>--}}
