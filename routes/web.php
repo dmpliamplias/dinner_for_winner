@@ -1,10 +1,10 @@
 <?php
 
 // Pages (all accessible from outside)
-Route::get('/', 'Page\PageController@home');
-Route::get('/home', 'Page\PageController@home');
-Route::get('/about', 'Page\PageController@about');
-Route::get('/contact', 'Page\PageController@contact');
+Route::get('/', 'Page\PageController@index');
+Route::get('/home', 'Page\PageController@home')->name('home');
+Route::get('/about', 'Page\PageController@about')->name('about');
+Route::get('/contact', 'Page\PageController@contact')->name('contact');
 
 // Person
 Route::get('/person/overview', 'Person\PersonController@getPersonOverview')->name('personOverview');

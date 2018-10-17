@@ -7,6 +7,11 @@ use App\Http\Controllers\Controller;
 
 class PageController extends Controller
 {
+    public function index()
+    {
+        return $this->home();
+    }
+
     public function home()
     {
         return view('welcome');
