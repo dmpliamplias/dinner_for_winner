@@ -17,7 +17,7 @@ class PersonController extends Controller
     }
 
     public function getPersonOverview() {
-        $person = $this->retrievePerson();
+        $person = Auth::user()->person()->getResults();
         return view('person.overview' )->with('person', $person);
     }
 
@@ -27,19 +27,21 @@ class PersonController extends Controller
         if ($this->hasPerson($user)) {
             return;
         }
-        $this->create();
+        $this->create($user);
     }
 
     public function hasPerson(User $user)
     {
-        return $user->person()->selfJoinCount == 0;
+
+        $personResult = $user->person()->getResults();
+        return $personResult->exists;
     }
 
-    public function create()
+    public function create(User $user)
     {
         $person = new Person();
 
-        $person->name = Auth::user()->name;
+        $person->name = $user->name;
 
         $person->save();
     }
