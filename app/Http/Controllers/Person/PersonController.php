@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers\Person;
 
+use App\Http\Controllers\Controller;
 use App\Person;
 use App\User;
-use App\Http\Controllers\Controller;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class PersonController extends Controller
 {
+
     public function __construct()
     {
         $this->middleware('auth');
@@ -42,6 +42,7 @@ class PersonController extends Controller
         $person = new Person();
 
         $person->name = $user->name;
+        $person->user()->associate($user);
 
         $person->save();
     }
@@ -50,7 +51,7 @@ class PersonController extends Controller
         $person = Auth::user()->person();
         $person->name = $request->name;
 
-        $person->save();
+
     }
 
     public function show($id)
