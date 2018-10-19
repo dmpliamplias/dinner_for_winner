@@ -10,6 +10,7 @@ Route::get('/contact', 'Page\PageController@contact')->name('contact');
 Route::get('/person/overview', 'Person\PersonController@getPersonOverview')->name('person.overview');
 Route::get('/person/{id}/edit', 'Person\PersonController@getPersonEditView')->name('person.edit');
 Route::get('/person/{id}/add', 'Person\PersonController@getAddPersonView')->name('person.add');
+Route::post('/person/update', 'Person\PersonController@update')->name('person.update');
 Route::post('/person/add', 'Person\PersonController@addPersonToPerson');/*->name('person.add');*/
 
 // Calendar
