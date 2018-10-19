@@ -30,11 +30,11 @@ class PersonController extends Controller
         $this->create($user);
     }
 
+    //todo move to super class & make generic
     public function hasPerson(User $user)
     {
 
-        $personResult = $user->person()->getResults();
-        return $personResult->exists;
+        return $user->person()->getResults() != null;
     }
 
     public function create(User $user)
@@ -50,8 +50,6 @@ class PersonController extends Controller
     public function update(Request $request) {
         $person = Auth::user()->person();
         $person->name = $request->name;
-
-
     }
 
     public function show($id)
