@@ -25,9 +25,8 @@ class PersonController extends Controller
     public function getPersonEditView($id)
     {
         $person = Person::find($id);
-        $user = Auth::user();
 
-        $this->authorize('update', [$user, $person]);
+        $this->authorize('update-person', $person);
 
         return view('person.edit')->with('person', $person);
     }

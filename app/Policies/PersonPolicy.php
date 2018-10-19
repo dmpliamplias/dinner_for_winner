@@ -42,7 +42,7 @@ class PersonPolicy
      */
     public function update(User $user, Person $person)
     {
-        return $user->person()->id == $person->user()->id;
+        return $user->id == $person->user_id;
     }
 
     /**
