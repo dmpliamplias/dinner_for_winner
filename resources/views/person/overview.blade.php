@@ -8,7 +8,19 @@
                     <div class="card-header">Person</div>
 
                         <div class="card-body">
-                            {{ $person['name'] }}
+
+                            <h2>Hallo {{ $person['name'] }}</h2>
+
+                            <p>Was willst du tun?</p>
+
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a class="btn btn-primary" href="{{ URL::route('person.edit', $person->id) }}">Anpassen</a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="btn btn-primary">Weitere Personen erfassen</a>
+                                </div>
+                            </div>
 {{--                            <p>{{ $person->name }}</p>--}}
                         {{--<table class="table table-hover">--}}
                             {{--<thead>--}}

@@ -16,13 +16,23 @@ class PersonController extends Controller
         $this->middleware('auth');
     }
 
-    public function getPersonOverview() {
+    public function getPersonOverview()
+    {
         $person = Auth::user()->person()->getResults();
         return view('person.overview' )->with('person', $person);
     }
 
-    public function createIfNotExists(User $user)
+    public function getPersonEditView($id)
+    {
+        $person = Person::find($id);
+        $user = Auth::user();
 
+        $this->authorize('update', [$user, $person]);
+
+        return view('person.edit')->with('person', $person);
+    }
+
+    public function createIfNotExists(User $user)
     {
         if ($this->hasPerson($user)) {
             return;
