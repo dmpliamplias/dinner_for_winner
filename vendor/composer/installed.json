@@ -934,17 +934,17 @@
     },
     {
         "name": "filp/whoops",
-        "version": "2.2.1",
-        "version_normalized": "2.2.1.0",
+        "version": "2.3.1",
+        "version_normalized": "2.3.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/filp/whoops.git",
-            "reference": "e79cd403fb77fc8963a99ecc30e80ddd885b3311"
+            "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/e79cd403fb77fc8963a99ecc30e80ddd885b3311",
-            "reference": "e79cd403fb77fc8963a99ecc30e80ddd885b3311",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
+            "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
             "shasum": ""
         },
         "require": {
@@ -960,7 +960,7 @@
             "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
             "whoops/soap": "Formats errors as SOAP responses"
         },
-        "time": "2018-06-30T13:14:06+00:00",
+        "time": "2018-10-23T09:00:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1257,17 +1257,17 @@
     },
     {
         "name": "laravel/framework",
-        "version": "v5.7.9",
-        "version_normalized": "5.7.9.0",
+        "version": "v5.7.11",
+        "version_normalized": "5.7.11.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/framework.git",
-            "reference": "172f69f86bb86e107fb9fafff293b4b01291cf05"
+            "reference": "52ee19c53c4fcd7fea8a83aacae5b8bc212ae19b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/172f69f86bb86e107fb9fafff293b4b01291cf05",
-            "reference": "172f69f86bb86e107fb9fafff293b4b01291cf05",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/52ee19c53c4fcd7fea8a83aacae5b8bc212ae19b",
+            "reference": "52ee19c53c4fcd7fea8a83aacae5b8bc212ae19b",
             "shasum": ""
         },
         "require": {
@@ -1349,6 +1349,7 @@
             "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6).",
             "ext-pcntl": "Required to use all features of the queue worker.",
             "ext-posix": "Required to use all features of the queue worker.",
+            "filp/whoops": "Required for friendly error pages in development (^2.1.4).",
             "fzaninotto/faker": "Required to use the eloquent factory builder (^1.4).",
             "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (^6.0).",
             "laravel/tinker": "Required to use the tinker console command (^1.0).",
@@ -1365,7 +1366,7 @@
             "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (^4.1).",
             "symfony/psr-http-message-bridge": "Required to psr7 bridging features (^1.0)."
         },
-        "time": "2018-10-09T13:28:28+00:00",
+        "time": "2018-10-24T12:50:20+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2363,17 +2364,17 @@
     },
     {
         "name": "phpunit/php-code-coverage",
-        "version": "6.1.1",
-        "version_normalized": "6.1.1.0",
+        "version": "6.1.3",
+        "version_normalized": "6.1.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-            "reference": "b097681a19a48e52706f57e47a09594bac4f7cab"
+            "reference": "4d3ae9b21a7d7e440bd0cf65565533117976859f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/b097681a19a48e52706f57e47a09594bac4f7cab",
-            "reference": "b097681a19a48e52706f57e47a09594bac4f7cab",
+            "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4d3ae9b21a7d7e440bd0cf65565533117976859f",
+            "reference": "4d3ae9b21a7d7e440bd0cf65565533117976859f",
             "shasum": ""
         },
         "require": {
@@ -2394,7 +2395,7 @@
         "suggest": {
             "ext-xdebug": "^2.6.0"
         },
-        "time": "2018-10-18T09:01:38+00:00",
+        "time": "2018-10-23T05:59:32+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2625,17 +2626,17 @@
     },
     {
         "name": "phpunit/phpunit",
-        "version": "7.4.1",
-        "version_normalized": "7.4.1.0",
+        "version": "7.4.3",
+        "version_normalized": "7.4.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "c5a120ade60992bd671a912188ee9ee9f8083bbd"
+            "reference": "c151651fb6ed264038d486ea262e243af72e5e64"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c5a120ade60992bd671a912188ee9ee9f8083bbd",
-            "reference": "c5a120ade60992bd671a912188ee9ee9f8083bbd",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c151651fb6ed264038d486ea262e243af72e5e64",
+            "reference": "c151651fb6ed264038d486ea262e243af72e5e64",
             "shasum": ""
         },
         "require": {
@@ -2674,7 +2675,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "^2.0"
         },
-        "time": "2018-10-18T09:02:52+00:00",
+        "time": "2018-10-23T05:57:41+00:00",
         "bin": [
             "phpunit"
         ],
