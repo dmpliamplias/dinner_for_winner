@@ -20,8 +20,8 @@ Route::get("/calendar", 'Calendar\CalendarController@index')->name('calendar');
 // Dashboard
 Route::get('/dashboard', 'Dashboard\DashboardController@index')->name('dashboard');
 
-// Recipes
-Route::get('/recipes', 'Recipes\RecipesController@index')->name('recipes');
+// Recipe
+Route::resource('recipe', 'Recipe\RecipeController');
 
 // Laravel immutable default routes
 Auth::routes();

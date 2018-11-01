@@ -426,6 +426,7 @@ class ComposerStaticInit5adbd1fb94509eb8054b7d156c2812bf
         'App\\Http\\Controllers\\Dashboard\\DashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/Dashboard/DashboardController.php',
         'App\\Http\\Controllers\\Page\\PageController' => __DIR__ . '/../..' . '/app/Http/Controllers/Page/PageController.php',
         'App\\Http\\Controllers\\Person\\PersonController' => __DIR__ . '/../..' . '/app/Http/Controllers/Person/PersonController.php',
+        'App\\Http\\Controllers\\Recipe\\RecipeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Recipe/RecipeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',

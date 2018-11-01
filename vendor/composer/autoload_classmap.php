@@ -21,6 +21,7 @@ return array(
     'App\\Http\\Controllers\\Dashboard\\DashboardController' => $baseDir . '/app/Http/Controllers/Dashboard/DashboardController.php',
     'App\\Http\\Controllers\\Page\\PageController' => $baseDir . '/app/Http/Controllers/Page/PageController.php',
     'App\\Http\\Controllers\\Person\\PersonController' => $baseDir . '/app/Http/Controllers/Person/PersonController.php',
+    'App\\Http\\Controllers\\Recipe\\RecipeController' => $baseDir . '/app/Http/Controllers/Recipe/RecipeController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\CheckForMaintenanceMode' => $baseDir . '/app/Http/Middleware/CheckForMaintenanceMode.php',
