@@ -92,13 +92,19 @@ class PersonController extends Controller
     /**
      * @param Request $request
      */
-    public function update(Request $request) {
+    public function update(Request $request)
+    {
         $this->validator($request->all())->validate();
 
 
 
         $person = Auth::user()->person();
         $person->name = $request->name;
+    }
+
+    public function add(Request $request)
+    {
+
     }
 
     /**

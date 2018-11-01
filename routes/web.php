@@ -19,5 +19,11 @@ Route::get("/calendar", 'Calendar\CalendarController@index')->name('calendar');
 // Dashboard
 Route::get('/dashboard', 'Dashboard\DashboardController@index')->name('dashboard');
 
+// Recipes
+Route::get('/recipes', 'Recipes\RecipesController@index')->name('recipes');
+
 // Laravel immutable default routes
 Auth::routes();
+
+
+// todo make reoute over resoure and controller https://www.youtube.com/watch?v=emyIlJPxZr4 part 6

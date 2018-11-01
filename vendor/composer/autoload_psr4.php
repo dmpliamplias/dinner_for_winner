@@ -56,6 +56,7 @@ return array(
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
     'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
     'Composer\\' => array($vendorDir . '/composer/composer/src/Composer'),
+    'Collective\\Html\\' => array($vendorDir . '/laravelcollective/html/src'),
     'BeyondCode\\DumpServer\\' => array($vendorDir . '/beyondcode/laravel-dump-server/src'),
     'Barryvdh\\LaravelIdeHelper\\' => array($vendorDir . '/barryvdh/laravel-ide-helper/src'),
     'App\\' => array($baseDir . '/app'),
