@@ -104,7 +104,15 @@ class PersonController extends Controller
 
     public function add(Request $request)
     {
+        $this->validate($request, [
+            'name' => 'required'
+        ]);
 
+        $person = new Person();
+        $person->name = $request->input('name');
+        $person->save();
+
+        return redirect('/person/overview')->with('success', 'Familienmitglied hinzugefügt');
     }
 
     /**

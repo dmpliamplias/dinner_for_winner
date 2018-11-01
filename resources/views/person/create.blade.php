@@ -11,6 +11,10 @@
             {{Form::label('name', 'Name')}}
             {{Form::label('name', '', ['class' => 'form-control', 'placeholder' => 'Name'])}}
         </div>
+        <div class="form-group">
+            {{Form::label('beschreibung', 'Beschreibung')}}
+            {{Form::textarea('beschreibung', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Beschreibung'])}}
+        </div>
+        {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
-
 @endsection

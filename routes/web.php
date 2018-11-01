@@ -7,6 +7,7 @@ Route::get('/about', 'Page\PageController@about')->name('about');
 Route::get('/contact', 'Page\PageController@contact')->name('contact');
 
 // Person
+//Route::resource('person', 'Person\PersonController');
 Route::get('/person/overview', 'Person\PersonController@getPersonOverview')->name('person.overview');
 Route::get('/person/{id}/edit', 'Person\PersonController@getPersonEditView')->name('person.edit');
 Route::get('/person/{id}/add', 'Person\PersonController@getAddPersonView')->name('person.add');
