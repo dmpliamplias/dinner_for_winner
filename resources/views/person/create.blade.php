@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
-@section('tltle')
+@section('title')
     Person hinzufügen
 @endsection
 
 @section('content')
 
-    {!! Form::open(['action' => 'PersonController@add', 'method' => 'POST']) !!}
+    {!! Form::open(['action' => 'Person\PersonController@add', 'method' => 'POST']) !!}
         <div class="form-group">
             {{Form::label('name', 'Name')}}
-            {{Form::label('name', '', ['class' => 'form-control', 'placeholder' => 'Name'])}}
+            {{Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Name'])}}
         </div>
         <div class="form-group">
             {{Form::label('beschreibung', 'Beschreibung')}}
@@ -17,4 +17,5 @@
         </div>
         {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
+
 @endsection

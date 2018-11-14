@@ -64,7 +64,7 @@ class PersonController extends Controller
         if ($this->hasPerson($user)) {
             return;
         }
-        $this->create($user);
+        $this->createInternal($user);
     }
 
     /**
@@ -76,17 +76,9 @@ class PersonController extends Controller
         return $user->person()->getResults() != null;
     }
 
-    /**
-     * @param User $user
-     */
-    public function create(User $user)
+    public function create()
     {
-        $person = new Person();
-
-        $person->name = $user->name;
-        $person->user()->associate($user);
-
-        $person->save();
+        return view('person.create');
     }
 
     /**
@@ -102,6 +94,11 @@ class PersonController extends Controller
         $person->name = $request->name;
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Illuminate\Validation\ValidationException
+     */
     public function add(Request $request)
     {
         $this->validate($request, [
@@ -122,6 +119,30 @@ class PersonController extends Controller
     {
         $person = Auth::user()->person();
         $person->delete();
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * @param User $user
+     */
+    private function createInternal(User $user)
+    {
+        $person = new Person();
+
+        $person->name = $user->name;
+        $person->user()->associate($user);
+
+        $person->save();
     }
 
 }
