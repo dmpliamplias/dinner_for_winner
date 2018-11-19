@@ -3,8 +3,11 @@
 namespace App\Http\Controllers\Recipe;
 
 use App\Http\Controllers\Controller;
+use App\Person;
+use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use App\Recipe;
+use Illuminate\Support\Facades\Auth;
 
 class RecipeController extends Controller
 {
@@ -37,7 +40,20 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+            'description' => 'required'
+        ]);
+
+        $recipe = new Recipe();
+        $recipe->name = $request->input('name');
+        $recipe->description = $request->input('description');
+        $recipe->daytime = $request->input('daytime');
+        $recipe->time = $request->input('time');
+        $recipe->person()->associate(Auth::user()->person()->getResults());
+        $recipe->save();
+
+        return redirect('/recipe')->with('success', 'Rezept erstellt');
     }
 
     /**
@@ -84,4 +100,13 @@ class RecipeController extends Controller
     {
         //
     }
+
+    protected function validator(array $data)
+    {
+        return Validator::make($data, [
+           'name' => 'required|string|max:255',
+           'description' => 'required|string|max:500'
+        ]);
+    }
+
 }

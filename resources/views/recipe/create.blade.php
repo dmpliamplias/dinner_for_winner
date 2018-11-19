@@ -1,23 +1,27 @@
 @extends('layouts.app')
 
 @section('title')
-    Person hinzufügen
+    Rezept hinzufügen
 @endsection
 
 @section('content')
 
-    {!! Form::open(['action' => 'Person\PersonController@add', 'method' => 'POST']) !!}
+    {!! Form::open(['action' => 'Recipe\RecipeController@store', 'method' => 'POST']) !!}
     <div class="form-group">
         {{Form::label('name', 'Name')}}
         {{Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Name'])}}
     </div>
     <div class="form-group">
-        {{Form::label('tageszeit', 'Tageszeit')}}
-        {{Form::select('tageszeit', ['Mo' => 'Morgen', 'Mi' => 'Mittag', 'Ab' => 'Abend'])}}
+        {{Form::label('daytime', 'Tageszeit')}}
+        {{Form::select('daytime', ['Mo' => 'Morgen', 'Mi' => 'Mittag', 'Ab' => 'Abend'], null, ['class' => 'form-control', 'multiple' => true])}}
     </div>
     <div class="form-group">
-        {{Form::label('beschreibung', 'Beschreibung')}}
-        {{Form::textarea('beschreibung', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Beschreibung'])}}
+        {{Form::label('description', 'Beschreibung')}}
+        {{Form::textarea('description', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Beschreibung'])}}
+    </div>
+    <div class="form-group">
+        {{Form::label('time', 'Zeit')}}
+        {{Form::number('time', '', ['class' => 'form-control'])}}
     </div>
     {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}

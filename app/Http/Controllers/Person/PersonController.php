@@ -36,10 +36,10 @@ class PersonController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function getPersonOverview()
+    public function index()
     {
         $person = Auth::user()->person()->getResults();
-        return view('person.overview' )->with('person', $person);
+        return view('person.index' )->with('person', $person);
     }
 
     /**

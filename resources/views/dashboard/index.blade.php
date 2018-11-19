@@ -5,7 +5,7 @@
    <div class="row">
        <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-                <a href="{{ route('dashboard') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+                <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
                 <div class="card-body">
 
                     <p class="card-text">
@@ -19,7 +19,7 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <p class="card-text">
                         Rezepte
@@ -32,7 +32,7 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <p class="card-text">
                         Familienverwaltung
@@ -45,7 +45,7 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <p class="card-text">
                         Events
@@ -58,7 +58,7 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <p class="card-text">
                         Wochenplan
@@ -71,7 +71,7 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <p class="card-text">
                         Einkaufszettel/Bestellungen
