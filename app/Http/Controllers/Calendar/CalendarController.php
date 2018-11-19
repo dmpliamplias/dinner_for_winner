@@ -9,6 +9,20 @@ use Illuminate\Support\Facades\Auth;
 
 class CalendarController extends Controller
 {
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
         $recipesMorning = Recipe::all()->where('daytime = morning')->take(7);

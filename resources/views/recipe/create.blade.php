@@ -13,7 +13,7 @@
     </div>
     <div class="form-group">
         {{Form::label('daytime', 'Tageszeit')}}
-        {{Form::select('daytime', ['Mo' => 'Morgen', 'Mi' => 'Mittag', 'Ab' => 'Abend'], null, ['class' => 'form-control', 'multiple' => true])}}
+        {{Form::select('daytime', ['morning' => 'Frühstück', 'midday' => 'Mittagessen', 'evening' => 'Abendessen'], null, ['class' => 'form-control', 'multiple', 'data-placeholder' => 'Bitte wählen'])}}
     </div>
     <div class="form-group">
         {{Form::label('description', 'Beschreibung')}}

@@ -11,22 +11,36 @@ use Illuminate\Support\Facades\Auth;
 class FamilyMemberController extends Controller
 {
 
+    /**
+     * FamilyMemberController constructor.
+     */
     public function __construct()
     {
         $this->middleware('auth');
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
         $families = Auth::user()->person()->getResults()->familyMembers()->getResults();
         return view('family.index')->with('families', $families);
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function create()
     {
         return view('family.create');
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Illuminate\Validation\ValidationException
+     */
     public function store(Request $request)
     {
         $this->validate($request, [
@@ -41,6 +55,10 @@ class FamilyMemberController extends Controller
         return redirect('/familyMember')->with('success', 'Neues Familienmitglied hinzugefügt');
     }
 
+    /**
+     * @param array $data
+     * @return mixed
+     */
     protected function validator(array $data)
     {
         return Validator::make($data, [

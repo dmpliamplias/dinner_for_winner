@@ -11,6 +11,17 @@ use Illuminate\Support\Facades\Auth;
 
 class RecipeController extends Controller
 {
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -50,6 +61,7 @@ class RecipeController extends Controller
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
         $recipe->daytime = $request->input('daytime');
+        //todo fix multiselect...
         $recipe->time = $request->input('time');
         $recipe->person()->associate(Auth::user()->person()->getResults());
         $recipe->save();
