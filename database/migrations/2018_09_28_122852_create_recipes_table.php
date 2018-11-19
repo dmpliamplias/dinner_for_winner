@@ -15,7 +15,16 @@ class CreateRecipesTable extends Migration
     {
         Schema::create('recipes', function (Blueprint $table) {
             $table->increments('id');
+
             $table->string('name');
+            $table->string('description');
+            $table->integer('time');
+            $table->string('categories')->nullable();
+            $table->string('daytime')->nullable();
+
+            $table->integer('person_id')->unsigned()->index()->nullable();
+            $table->foreign('person_id')->references('id')->on('people');
+
             $table->timestamps();
         });
     }
@@ -27,6 +36,6 @@ class CreateRecipesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rezepte');
+        Schema::dropIfExists('recipes');
     }
 }

@@ -32,4 +32,5 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\Person', 'user_id', 'id');
     }
+
 }

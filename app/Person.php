@@ -10,4 +10,9 @@ class Person extends Model
     {
         return $this->belongsTo('App\User', 'user_id', 'id');
     }
+
+    public function recipes()
+    {
+        return $this->hasMany('App\Recipe', 'recipe_id', 'id');
+    }
 }

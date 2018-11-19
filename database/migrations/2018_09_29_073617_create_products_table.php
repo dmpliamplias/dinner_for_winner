@@ -15,6 +15,17 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+
+            $table->integer('calorie_amount');
+            $table->string('calorie_unit');
+            $table->integer('carb_amount');
+            $table->string('carb_unit');
+            $table->integer('fat_amount');
+            $table->string('fat_unit');
+            $table->integer('salt_amount');
+            $table->string('salt_unit');
+
             $table->timestamps();
         });
     }

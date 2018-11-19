@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCalendarsTable extends Migration
+class CreateProductRecipeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,11 @@ class CreateCalendarsTable extends Migration
      */
     public function up()
     {
-        Schema::create('calendar', function (Blueprint $table) {
+        Schema::create('product_recipe', function (Blueprint $table) {
             $table->increments('id');
-
-            $table->string('day');
-
-            $table->integer('person_id')->unsigned()->index();
-            $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
-
             $table->timestamps();
+            $table->integer('product_id');
+            $table->integer('recipe_id');
         });
     }
 
@@ -32,6 +28,6 @@ class CreateCalendarsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('calendar');
+        Schema::dropIfExists('product_recipe');
     }
 }

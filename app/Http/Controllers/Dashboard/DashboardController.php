@@ -30,7 +30,7 @@ class DashboardController extends Controller
         $personContoller = new PersonController();
         $personContoller->createIfNotExists($user);
 
-        return view('dashboard.dashboard');
+        return view('dashboard.index');
     }
 
 }
