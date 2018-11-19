@@ -9,7 +9,7 @@ class Recipe extends Model
 
     public function person()
     {
-        return $this->belongsTo('App\Person', 'person_id', 'id');
+        return $this->belongsTo('App\Person');
     }
 
     public function products()

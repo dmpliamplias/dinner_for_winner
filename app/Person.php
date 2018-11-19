@@ -8,17 +8,17 @@ class Person extends Model
 {
     public function user()
     {
-        return $this->belongsTo('App\User', 'user_id', 'id');
+        return $this->belongsTo('App\User');
     }
 
     public function recipes()
     {
-        return $this->hasMany('App\Recipe', 'recipe_id', 'id');
+        return $this->hasMany('App\Recipe');
     }
 
     public function familyMembers()
     {
-        return $this->hasMany('App\FamilyMember', 'family_members_id', 'id');
+        return $this->hasMany('App\FamilyMember');
     }
 
 }

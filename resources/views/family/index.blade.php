@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                @if(count($families) > 1)
+                @if(count($families) > 0)
                     @foreach($families as $familyMember)
                         <div class="well">
                             <h3>{{$familyMember->name}}</h3>
