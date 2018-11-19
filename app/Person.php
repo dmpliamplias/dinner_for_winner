@@ -15,4 +15,10 @@ class Person extends Model
     {
         return $this->hasMany('App\Recipe', 'recipe_id', 'id');
     }
+
+    public function familyMembers()
+    {
+        return $this->hasMany('App\FamilyMember', 'family_members_id', 'id');
+    }
+
 }

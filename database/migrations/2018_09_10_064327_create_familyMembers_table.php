@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePeopleTable extends Migration
+class CreateFamilyMembersTable extends Migration
 {
 
     /**
@@ -14,14 +14,13 @@ class CreatePeopleTable extends Migration
      */
     public function up()
     {
-        Schema::create('people', function (Blueprint $table) {
+        Schema::create('family_members', function (Blueprint $table) {
             $table->increments('id');
 
             $table->string('name');
-            $table->string('adresse')->nullable();
 
-            $table->integer('user_id')->unsigned()->index();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->integer('person_id')->unsigned()->index();
+            $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
 
             $table->timestamps();
         });
@@ -34,7 +33,7 @@ class CreatePeopleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('people');
+        Schema::dropIfExists('family_members');
     }
 
 }

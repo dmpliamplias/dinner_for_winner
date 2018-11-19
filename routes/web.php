@@ -23,6 +23,9 @@ Route::resource('dashboard', 'Dashboard\DashboardController');
 // Recipe
 Route::resource('recipe', 'Recipe\RecipeController');
 
+//
+Route::resource('familyMember', 'FamilyMember\FamilyMemberController');
+
 // Laravel immutable default routes
 Auth::routes();
 
