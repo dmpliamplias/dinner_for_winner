@@ -8,11 +8,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                @if(count($recipes) > 1)
+                @if(count($recipes) > 0)
                     @foreach($recipes as $recipe)
                         <div class="well">
-                            <h3>{{$recipe->name}}</h3>
-                            {{--<small>Erfasst von {{$recipe->person}}</small>--}}
+                            <h3><a style="text-decoration: none" href="{{ URL::route('recipe.show', $recipe->id) }}">{{$recipe->name}}</a></h3>
                         </div>
                     @endforeach
                 @else

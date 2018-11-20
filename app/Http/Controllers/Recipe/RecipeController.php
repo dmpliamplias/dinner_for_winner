@@ -77,7 +77,8 @@ class RecipeController extends Controller
      */
     public function show($id)
     {
-        //
+        $recipe = Recipe::find($id);
+        return view('recipe.show')->with('recipe', $recipe);
     }
 
     /**
@@ -94,13 +95,27 @@ class RecipeController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
+     * @throws \Illuminate\Validation\ValidationException
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+            'description' => 'required'
+        ]);
+
+        $recipe = Recipe::find($id);
+        $recipe->name = $request->input('name');
+        $recipe->description = $request->input('description');
+        $daytimes = $request->input('daytime');
+        $recipe->daytime = serialize($daytimes);
+        $recipe->time = $request->input('time');
+        $recipe->save();
+
+        return redirect('/recipe')->with('success', 'Rezept bearbeitet');
     }
 
     /**
