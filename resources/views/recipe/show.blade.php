@@ -26,4 +26,8 @@
     {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
 
+    {!! Form::open(['action' => ['Recipe\RecipeController@destroy', $recipe->id], 'method' => 'DELETE']) !!}
+    {{Form::submit('Löschen', ['class' => 'btn btn-secondary'])}}
+    {!! Form::close() !!}
+
 @endsection
