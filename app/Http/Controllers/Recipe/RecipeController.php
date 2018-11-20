@@ -60,8 +60,8 @@ class RecipeController extends Controller
         $recipe = new Recipe();
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
-        $recipe->daytime = $request->input('daytime');
-        //todo fix multiselect...
+        $daytimes = $request->input('daytime');
+        $recipe->daytime = serialize($daytimes);
         $recipe->time = $request->input('time');
         $recipe->person()->associate(Auth::user()->person()->getResults());
         $recipe->save();
