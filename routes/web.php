@@ -27,8 +27,3 @@ Route::post('/import/upload', 'Import\ImportController1@upload');
 
 // Laravel immutable default routes
 Auth::routes();
-
-
-
-//Route::resource('person', 'Person\PersonController');
-// todo make reoute over resoure and controller https://www.youtube.com/watch?v=emyIlJPxZr4 part 6
