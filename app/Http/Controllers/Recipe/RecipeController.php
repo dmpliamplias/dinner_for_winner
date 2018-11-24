@@ -109,6 +109,7 @@ class RecipeController extends Controller
 
     public function createFromJson($json)
     {
+        // todo validate if invalid return false
         $recipe = new Recipe();
         $recipe->name = $json['name'];
         $recipe->description = $json['calorie_amount'];
@@ -116,6 +117,7 @@ class RecipeController extends Controller
         $recipe->time = $json['carb_amount'];
 
         $recipe->save();
+        return true;
     }
 
     /**

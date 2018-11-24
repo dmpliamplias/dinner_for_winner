@@ -10,6 +10,7 @@ class ProductController extends Controller
 
     public function createFromJson($json)
     {
+        // todo validate if invalid return false
         $product = new Product();
         $product->name = $json['name'];
         $product->name = $json['calorie_amount'];
@@ -22,6 +23,7 @@ class ProductController extends Controller
         $product->name = $json['salt_unit'];
 
         $product->save();
+        return true;
     }
 
 }
