@@ -29,6 +29,12 @@ class ImportController1 extends Controller
     {
         $file = $request->file('file');
         $json = json_decode(file_get_contents($file), true);
-        return redirect('/import')->with('success', 'Datei erfolgreich importiert');
+
+        if ($json == null) {
+            return redirect('/import')->with('error', 'Datei konnte nicht importiert werden');
+        }
+        else {
+            return redirect('/import')->with('success', 'Datei erfolgreich importiert');
+        }
     }
 }
