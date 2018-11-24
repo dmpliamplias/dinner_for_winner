@@ -21,6 +21,10 @@ Route::resource('recipe', 'Recipe\RecipeController');
 // Family member
 Route::resource('familyMember', 'FamilyMember\FamilyMemberController');
 
+// Import
+Route::get('/import', 'Import\ImportController1@index');
+Route::post('/import/upload', 'Import\ImportController1@upload');
+
 // Laravel immutable default routes
 Auth::routes();
 

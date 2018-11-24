@@ -1,0 +1,12 @@
+{
+    "name":"Product",
+    "productName":"Ei",
+    "calorie_amount":70,
+    "calorie_unit":"Stück",
+    "carb_amount":10,
+    "carb_unit":"",
+    "fat_amount":10,
+    "fat_unit":"",
+    "salt_amount":10,
+    "salt_unit":""
+}
