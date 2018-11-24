@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Import;
 
+use App\Http\Controllers\Product\ProductController;
+use App\Http\Controllers\Recipe\RecipeController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -34,7 +36,20 @@ class ImportController1 extends Controller
             return redirect('/import')->with('error', 'Datei konnte nicht importiert werden');
         }
         else {
+            $this->createObjectFromJson($json);
             return redirect('/import')->with('success', 'Datei erfolgreich importiert');
         }
     }
+
+    private function createObjectFromJson($json)
+    {
+        $object = $json['name'];
+        if ($object->strcmp('Product') == 0) {
+            ProductController::createFromJson($json);
+        }
+        if ($object->strcmp('Recipe') == 0) {
+            RecipeController::createFromJson($json);
+        }
+    }
+
 }

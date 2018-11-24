@@ -107,6 +107,17 @@ class RecipeController extends Controller
         return redirect('/recipe')->with('success', 'Rezept bearbeitet');
     }
 
+    public function createFromJson($json)
+    {
+        $recipe = new Recipe();
+        $recipe->name = $json['name'];
+        $recipe->description = $json['calorie_amount'];
+        $recipe->daytimes = $json['calorie_unit'];
+        $recipe->time = $json['carb_amount'];
+
+        $recipe->save();
+    }
+
     /**
      * Remove the specified resource from storage.
      *
