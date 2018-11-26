@@ -6,8 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    public function recipe()
+
+    public function recipes()
     {
-        return $this->belongsToMany('App\Recipe');
+        return $this->belongsToMany('App\Recipe')
+            ->withTimestamps();
     }
+
 }

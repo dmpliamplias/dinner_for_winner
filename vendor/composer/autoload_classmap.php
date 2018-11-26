@@ -25,6 +25,7 @@ return array(
     'App\\Http\\Controllers\\Import\\ImportController1' => $baseDir . '/app/Http/Controllers/Import/ImportController1.php',
     'App\\Http\\Controllers\\Page\\PageController' => $baseDir . '/app/Http/Controllers/Page/PageController.php',
     'App\\Http\\Controllers\\Person\\PersonController' => $baseDir . '/app/Http/Controllers/Person/PersonController.php',
+    'App\\Http\\Controllers\\Product\\ProductController' => $baseDir . '/app/Http/Controllers/Product/ProductController.php',
     'App\\Http\\Controllers\\Recipe\\RecipeController' => $baseDir . '/app/Http/Controllers/Recipe/RecipeController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',

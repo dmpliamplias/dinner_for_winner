@@ -1,8 +1,14 @@
 <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
     <div class="container">
-        <a class="navbar-brand" href="{{ route('home') }}">
-            {{ config('app.name', 'Dinner für Gewinner') }}
-        </a>
+        @guest
+            <a class="navbar-brand" href="{{ route('home') }}">
+                {{ config('app.name', 'Dinner für Gewinner') }}
+            </a>
+        @else
+            <a class="navbar-brand" href="{{ route('dashboard.index') }}">
+                {{ config('app.name', 'Dinner für Gewinner') }}
+            </a>
+        @endguest
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
         </button>

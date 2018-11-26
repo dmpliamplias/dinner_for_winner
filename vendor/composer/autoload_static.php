@@ -428,6 +428,7 @@ class ComposerStaticInit5adbd1fb94509eb8054b7d156c2812bf
         'App\\Http\\Controllers\\Import\\ImportController1' => __DIR__ . '/../..' . '/app/Http/Controllers/Import/ImportController1.php',
         'App\\Http\\Controllers\\Page\\PageController' => __DIR__ . '/../..' . '/app/Http/Controllers/Page/PageController.php',
         'App\\Http\\Controllers\\Person\\PersonController' => __DIR__ . '/../..' . '/app/Http/Controllers/Person/PersonController.php',
+        'App\\Http\\Controllers\\Product\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/Product/ProductController.php',
         'App\\Http\\Controllers\\Recipe\\RecipeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Recipe/RecipeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
