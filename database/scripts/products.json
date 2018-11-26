@@ -1,12 +1,24 @@
 {
-    "name":"Product",
-    "productName":"Ei",
-    "calorie_amount":70,
-    "calorie_unit":"Stück",
-    "carb_amount":10,
-    "carb_unit":"",
-    "fat_amount":10,
-    "fat_unit":"",
-    "salt_amount":10,
-    "salt_unit":""
+   "1":
+    [
+    "name D",
+    "matrix unit",
+    "energy kcal",
+    "carbohydrates, available",
+    "fat, total",
+    "fatty acids, saturated",
+    "sugars",
+    "protein"
+    ],
+    "2":[
+        "product",
+        "Agar Agar",
+        "per 100g edible portion",
+        "160",
+        "0",
+        "0.2",
+        "",
+        "",
+        "2.4"
+    ]
 }
