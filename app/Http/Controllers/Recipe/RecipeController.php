@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Recipe;
 
 use App\Http\Controllers\Controller;
 use App\Person;
+use App\Product;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use App\Recipe;
@@ -40,7 +41,8 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        return view('recipe.create');
+        $products = Product::all();
+        return view('recipe.create')->with('products', $products);
     }
 
     /**

@@ -28,12 +28,24 @@ class CalendarController extends Controller
         $recipesMorning = Recipe::all()->where('daytime = morning')->take(7);
         $recipesMidday = Recipe::all()->where('daytime = midday')->take(7);
         $recipesEvening = Recipe::all()->where('daytime = evening')->take(7);
-        $recipes = [
-            'recipesMorning' => $recipesMorning,
-            'recipesMidday' => $recipesMidday,
-            'recipesEvening' => $recipesEvening
-        ];
-        return view('calendar.index')->with('recipes', $recipes);
+
+        $orderdRecipes = [];
+        $x = 0;
+        for ($z = 0; $z <= 6; $z++) {
+            $orderdRecipes[$x] = $recipesMorning[$z];
+            $x++;
+            $orderdRecipes[$x] = $recipesMidday[$z];
+            $x++;
+            $orderdRecipes{$x} = $recipesEvening[$z];
+            $x++;
+        }
+
+        return view('calendar.index')->with('recipes', $orderdRecipes);
+    }
+
+    private function hasDaytime(Recipe $recipe, $daytime)
+    {
+        return $recipe->daytime === $daytime;
     }
 
 }
