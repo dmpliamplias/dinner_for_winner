@@ -25,6 +25,12 @@ class CalendarController extends Controller
      */
     public function index()
     {
+        $recipes = $this->prepareCalendarRecipes();
+        return view('calendar.index')->with('recipes', $recipes);
+    }
+
+    private function prepareCalendarRecipes()
+    {
         $recipesMorning = Recipe::all()->where('daytime = morning')->take(7);
         $recipesMidday = Recipe::all()->where('daytime = midday')->take(7);
         $recipesEvening = Recipe::all()->where('daytime = evening')->take(7);
@@ -39,13 +45,7 @@ class CalendarController extends Controller
             $orderdRecipes{$x} = $recipesEvening[$z];
             $x++;
         }
-
-        return view('calendar.index')->with('recipes', $orderdRecipes);
-    }
-
-    private function hasDaytime(Recipe $recipe, $daytime)
-    {
-        return $recipe->daytime === $daytime;
+        return $orderdRecipes;
     }
 
 }
