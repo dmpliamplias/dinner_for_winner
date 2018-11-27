@@ -60,17 +60,16 @@ class RecipeController extends Controller
         ]);
 
         $recipe = new Recipe();
+
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
         $daytimes = $request->input('daytime');
         $recipe->daytime = serialize($daytimes);
         $recipe->time = $request->input('time');
-
         $recipe->person()->associate(Auth::user()->person()->getResults());
-//        $recipe->products()->save($request->input('products'));
         $productArray = $request->input('products');
         foreach($productArray as $entry) {
-            $product = Product::find($entry->id);
+            $product = Product::find($entry['id']);
             $recipe->products()->attach($product);
         }
 
