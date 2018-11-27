@@ -37,10 +37,10 @@ class ImportController1 extends Controller
         }
         else {
             $success = $this->createObjectFromJson($json);
-            if ($success) {
-                return redirect('/import')->with('success', 'Datei erfolgreich importiert');
+            foreach($json as $product) {
+                $this->createObjectFromJson($product);
             }
-            return redirect('/import')->with('error', 'Datei konnte nicht importiert werden');
+            return redirect('/import')->with('success', 'Datei erfolgreich importiert');
         }
     }
 

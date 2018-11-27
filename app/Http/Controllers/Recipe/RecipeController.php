@@ -65,7 +65,10 @@ class RecipeController extends Controller
         $daytimes = $request->input('daytime');
         $recipe->daytime = serialize($daytimes);
         $recipe->time = $request->input('time');
+
         $recipe->person()->associate(Auth::user()->person()->getResults());
+        $recipe->products()->save($request->input('products'));
+
         $recipe->save();
 
         return redirect('/recipe')->with('success', 'Rezept erstellt');
