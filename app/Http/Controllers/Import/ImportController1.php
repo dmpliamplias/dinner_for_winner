@@ -46,10 +46,10 @@ class ImportController1 extends Controller
     private function createObjectFromJson($json)
     {
         $object = $json[0];
-        if ($object->strcmp('product') == 0) {
+        if ($object === "product") {
             return ProductController::createFromJson($json);
         }
-        if ($object->strcmp('recipe') == 0) {
+        if ($object === "recipe") {
             return RecipeController::createFromJson($json);
         }
     }
