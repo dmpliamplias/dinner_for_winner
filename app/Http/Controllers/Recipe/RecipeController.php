@@ -67,7 +67,12 @@ class RecipeController extends Controller
         $recipe->time = $request->input('time');
 
         $recipe->person()->associate(Auth::user()->person()->getResults());
-        $recipe->products()->save($request->input('products'));
+//        $recipe->products()->save($request->input('products'));
+        $productArray = $request->input('products');
+        foreach($productArray as $entry) {
+            $product = Product::find($entry->id);
+            $recipe->products()->attach($product);
+        }
 
         $recipe->save();
 
