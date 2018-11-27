@@ -36,7 +36,6 @@ class ImportController1 extends Controller
             return redirect('/import')->with('error', 'Datei konnte nicht importiert werden');
         }
         else {
-            $success = $this->createObjectFromJson($json);
             foreach($json as $product) {
                 $this->createObjectFromJson($product);
             }
@@ -46,14 +45,13 @@ class ImportController1 extends Controller
 
     private function createObjectFromJson($json)
     {
-        $object = $json['name'];
-        if ($object->strcmp('Product') == 0) {
+        $object = $json[0];
+        if ($object->strcmp('product') == 0) {
             return ProductController::createFromJson($json);
         }
-        if ($object->strcmp('Recipe') == 0) {
+        if ($object->strcmp('recipe') == 0) {
             return RecipeController::createFromJson($json);
         }
-        return false;
     }
 
 }
