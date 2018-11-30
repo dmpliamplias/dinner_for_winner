@@ -21,6 +21,7 @@ class CreateRecipesTable extends Migration
             $table->integer('time');
             $table->string('categories')->nullable();
             $table->string('daytime')->nullable();
+            $table->string('imagePath');
 
             $table->integer('person_id')->unsigned()->index()->nullable();
             $table->foreign('person_id')->references('id')->on('people');

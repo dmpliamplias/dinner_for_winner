@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRecipeProductTable extends Migration
+class CreateProductRecipeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateRecipeProductTable extends Migration
      */
     public function up()
     {
-        Schema::create('recipe_product', function (Blueprint $table) {
+        Schema::create('product_recipe', function (Blueprint $table) {
             $table->increments('id');
 
             $table->integer('recipe_id')->unsigned()->nullable();

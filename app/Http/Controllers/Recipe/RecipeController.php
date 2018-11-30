@@ -41,8 +41,8 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        $products = Product::all();
-        return view('recipe.create')->with('products', $products);
+        $products = Product::pluck('name', 'id');
+        return view('recipe.create', compact('products'));
     }
 
     /**
@@ -69,9 +69,13 @@ class RecipeController extends Controller
         $recipe->person()->associate(Auth::user()->person()->getResults());
         $productArray = $request->input('products');
         foreach($productArray as $entry) {
-            $product = Product::find($entry['id']);
-            $recipe->products()->attach($product);
+            $product = Product::find($entry);
+            $recipe->products()->save($product);
         }
+        $picture = $request->file('file');
+        $pictureName = time().'.'.$picture->getClientOriginalExtension();
+        $picture->move('img/recipes', $pictureName);
+        $recipe->imagePath = 'img/recipes/'.$pictureName;
 
         $recipe->save();
 
