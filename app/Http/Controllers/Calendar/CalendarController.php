@@ -31,9 +31,9 @@ class CalendarController extends Controller
 
     private function prepareCalendarRecipes()
     {
-        $recipesMorning = Recipe::all()->where('daytime = morning')->take(7);
-        $recipesMidday = Recipe::all()->where('daytime = midday')->take(7);
-        $recipesEvening = Recipe::all()->where('daytime = evening')->take(7);
+        $recipesMorning = Recipe::all()->take(7)->where('daytime = morning')[2];
+        $recipesMidday = Recipe::all()->where('daytime = midday')->take(7)[2];
+        $recipesEvening = Recipe::all()->where('daytime = evening')->take(7)[2];
 
         $orderdRecipes = [];
         $x = 0;
