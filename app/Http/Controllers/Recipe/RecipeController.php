@@ -60,12 +60,19 @@ class RecipeController extends Controller
         ]);
 
         $recipe = new Recipe();
+
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
         $daytimes = $request->input('daytime');
         $recipe->daytime = serialize($daytimes);
         $recipe->time = $request->input('time');
         $recipe->person()->associate(Auth::user()->person()->getResults());
+        $productArray = $request->input('products');
+        foreach($productArray as $entry) {
+            $product = Product::find($entry['id']);
+            $recipe->products()->attach($product);
+        }
+
         $recipe->save();
 
         return redirect('/recipe')->with('success', 'Rezept erstellt');
@@ -109,19 +116,6 @@ class RecipeController extends Controller
         return redirect('/recipe')->with('success', 'Rezept bearbeitet');
     }
 
-    public function createFromJson($json)
-    {
-        // todo validate if invalid return false
-        $recipe = new Recipe();
-        $recipe->name = $json['name'];
-        $recipe->description = $json['calorie_amount'];
-        $recipe->daytimes = $json['calorie_unit'];
-        $recipe->time = $json['carb_amount'];
-
-        $recipe->save();
-        return true;
-    }
-
     /**
      * Remove the specified resource from storage.
      *
@@ -134,6 +128,19 @@ class RecipeController extends Controller
         $recipe->delete();
 
         return redirect('/recipe')->with('success', 'Rezept gelöscht');
+    }
+
+    public static function createFromJson($json)
+    {
+        // todo validate if invalid return false
+        $recipe = new Recipe();
+        $recipe->name = $json['name'];
+        $recipe->description = $json['calorie_amount'];
+        $recipe->daytimes = $json['calorie_unit'];
+        $recipe->time = $json['carb_amount'];
+
+        $recipe->save();
+        return true;
     }
 
     protected function validator(array $data)

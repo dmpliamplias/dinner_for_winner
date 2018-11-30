@@ -29,6 +29,11 @@ class CalendarController extends Controller
         return view('calendar.index')->with('recipes', $recipes);
     }
 
+    public function store(Request $request)
+    {
+
+    }
+
     private function prepareCalendarRecipes()
     {
         $recipesMorning = Recipe::all()->take(7)->where('daytime = morning')[2];

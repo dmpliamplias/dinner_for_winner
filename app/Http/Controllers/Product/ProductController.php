@@ -8,22 +8,24 @@ use App\Http\Controllers\Controller;
 class ProductController extends Controller
 {
 
-    public function createFromJson($json)
+    public static function createFromJson($json)
     {
-        // todo validate if invalid return false
         $product = new Product();
-        $product->name = $json['name'];
-        $product->name = $json['calorie_amount'];
-        $product->name = $json['calorie_unit'];
-        $product->name = $json['carb_amount'];
-        $product->name = $json['carb_unit'];
-        $product->name = $json['fat_amount'];
-        $product->name = $json['fat_unit'];
-        $product->name = $json['salt_amount'];
-        $product->name = $json['salt_unit'];
+
+        $product->name = $json[1];
+
+        $product->product_amount = 0;
+        $product->product_unit = "TODO";
+        $product->calorie_amount = 0;
+        $product->calorie_unit = "TODO";
+        $product->carb_amount = 0;
+        $product->carb_unit = "TODO";
+        $product->fat_amount = 0;
+        $product->fat_unit = "TODO";
+        $product->salt_amount = 0;
+        $product->salt_unit = "TODO";
 
         $product->save();
-        return true;
     }
 
 }

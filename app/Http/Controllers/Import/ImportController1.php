@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 
 class ImportController1 extends Controller
 {
+
     /**
      * Create a new controller instance.
      *
@@ -36,24 +37,22 @@ class ImportController1 extends Controller
             return redirect('/import')->with('error', 'Datei konnte nicht importiert werden');
         }
         else {
-            $success = $this->createObjectFromJson($json);
-            if ($success) {
-                return redirect('/import')->with('success', 'Datei erfolgreich importiert');
+            foreach($json as $product) {
+                $this->createObjectFromJson($product);
             }
-            return redirect('/import')->with('error', 'Datei konnte nicht importiert werden');
+            return redirect('/import')->with('success', 'Datei erfolgreich importiert');
         }
     }
 
     private function createObjectFromJson($json)
     {
-        $object = $json['name'];
-        if ($object->strcmp('Product') == 0) {
+        $object = $json[0];
+        if ($object === "product") {
             return ProductController::createFromJson($json);
         }
-        if ($object->strcmp('Recipe') == 0) {
+        if ($object === "recipe") {
             return RecipeController::createFromJson($json);
         }
-        return false;
     }
 
 }

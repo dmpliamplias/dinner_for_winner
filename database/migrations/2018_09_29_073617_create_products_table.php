@@ -16,6 +16,8 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('product_unit');
+            $table->integer('product_amount');
 
             $table->integer('calorie_amount');
             $table->string('calorie_unit');
