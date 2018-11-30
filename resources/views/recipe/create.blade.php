@@ -6,7 +6,7 @@
 
 @section('content')
 
-    {!! Form::open(['action' => 'Recipe\RecipeController@store', 'method' => 'POST']) !!}
+    {!! Form::open(['action' => 'Recipe\RecipeController@store', 'method' => 'POST', 'files' => 'true']) !!}
     <div class="form-group">
         {{ Form::label('name', 'Name') }}
         {{ Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Name'] )}}
@@ -26,6 +26,10 @@
     <div class="form-group">
         {{ Form::label('time', 'Zeit') }}
         {{ Form::number('time', '', ['class' => 'form-control'] )}}
+    </div>
+    <div class="form-group">
+        {{Form::label('file', 'Datei')}}
+        {{Form::file('file')}}
     </div>
     {{ Form::submit('Speichern', ['class' => 'btn btn-primary'] )}}
     {!! Form::close() !!}

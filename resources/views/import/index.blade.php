@@ -11,7 +11,7 @@
         {{Form::label('file', 'Datei')}}
         {{Form::file('file')}}
     </div>
-    {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
+    {{Form::submit('Importieren', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
 
 @endsection

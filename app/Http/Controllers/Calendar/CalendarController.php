@@ -36,8 +36,16 @@ class CalendarController extends Controller
 
     private function prepareCalendarRecipes()
     {
-        $recipesMorning = Recipe::all()->take(7)->where('daytime = morning')[2];
-        $recipesMidday = Recipe::all()->where('daytime = midday')->take(7)[2];
+        $recipesSize = Recipe::all();
+
+        $fakeRecipes = Recipe::all()->take(0);
+
+        if ($recipesSize->count() != 21) {
+            return redirect('/calendar')->with(['error' => 'Sie müssen mehr Rezete erfassen', 'recipes' => $fakeRecipes]);
+        }
+
+        $recipesMorning = Recipe::all()->where('daytime = morning')->take(7)[2];
+        $recipesMidday = Recipe::all()->where('daytime = mitakedday')->take(7)[2];
         $recipesEvening = Recipe::all()->where('daytime = evening')->take(7)[2];
 
         $orderdRecipes = [];
