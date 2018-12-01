@@ -9,7 +9,7 @@
 <div class="container">
         @if(count($products) > 0)
               <ul class="list-group list-group-flush">
-                  <table class="table">
+                  <table class="table table-hover">
                       <thead>
                         <tr>
                           <th scope="col">Produktname</th>
@@ -45,7 +45,7 @@
                     <p>Keine Produkte erfasst</p>
                 @endif
                 <p>
-                <a class="btn-primary" href="{{ route('product.create') }}">Neues Produkt hinzufügen</a>
-        </div>
+                  <a class="btn-primary" href="{{ route('product.create') }}">Neues Produkt hinzufügen</a>
+            </div>
     </div>
 @endsection

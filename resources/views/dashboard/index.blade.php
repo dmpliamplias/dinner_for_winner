@@ -45,10 +45,10 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.PNG') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{ route('product.index') }}"><img class="card-img-top" src="{{ asset('img/products.jpg') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <p class="card-text">
-                        Events
+                        Produkte
                    </p>
                    <div class="d-flex justify-content-between align-items-center">
 
