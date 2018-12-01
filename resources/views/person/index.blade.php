@@ -18,7 +18,7 @@
                                     <a class="btn btn-primary" href="{{ URL::route('person.edit', $person->id) }}">Anpassen</a>
                                 </div>
                                 <div class="col-md-2">
-                                    <a class="btn btn-primary" href="{{ URL::route('person.create'), $person->id}}">Weitere Personen erfassen</a>
+                                  <a class="btn-primary" href="{{ route('familyMember.create') }}">Neues Familienmitglied hinzufügen</a>
                                 </div>
                             </div>
                         </div>

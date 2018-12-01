@@ -13,10 +13,10 @@
                       <thead>
                         <tr>
                           <th scope="col">Produktname</th>
-                          <th scope="col">Kalorien**</th>
-                          <th scope="col">Kohlenhydrate*</th>
-                          <th scope="col">Fett*</th>
-                          <th scope="col">Salz*</th>
+                          <th scope="col">Kalorien</th>
+                          <th scope="col">Kohlenhydrate</th>
+                          <th scope="col">Fett</th>
+                          <th scope="col">Salz</th>
                           <th scope="col">Bearbeiten</th>
                           <th scope="col">Erfasst am</th>
                           <th scope="col">Geändert am</th>
@@ -26,10 +26,10 @@
                         @foreach($products as $product)
                         <tr>
                           <td>{{$product->name}}</td>
-                          <td>{{$product->calorie_amount}}</td>
-                          <td>{{$product->carb_amount}}</td>
-                          <td>{{$product->fat_amount}}</td>
-                          <td>{{$product->salt_amount}}</td>
+                          <td>{{$product->calorie_amount}} kcal</td>
+                          <td>{{$product->carb_amount}} g</td>
+                          <td>{{$product->fat_amount}} g</td>
+                          <td>{{$product->salt_amount}} g</td>
                           <td>
                             <a href="{{ URL::route('product.show', $product->id) }}}" class="btn btn-outline-primary" role="button" aria-pressed="true">Bearbeiten</a>
                           </td>
@@ -43,8 +43,7 @@
               </ul>
               <p>
               <div class="alert alert-dark" role="alert">
-                    <p>*in Gramm pro Portion (100g)</p>
-                    <p>**in kcal pro 100g</p>
+                    Nährwertinfos pro 100g
               </div>
         @else
                     <p>Keine Produkte erfasst</p>
