@@ -28,4 +28,20 @@ class ProductController extends Controller
         $product->save();
     }
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $products = Product::all();
+        return view('product.index')->with('products', $products);
+    }
+
 }

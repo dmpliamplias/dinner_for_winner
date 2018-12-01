@@ -18,6 +18,9 @@ Route::resource('dashboard', 'Dashboard\DashboardController');
 // Recipe
 Route::resource('recipe', 'Recipe\RecipeController');
 
+// Recipe
+Route::resource('product', 'Product\ProductController');
+
 // Family member
 Route::resource('familyMember', 'FamilyMember\FamilyMemberController');
 
