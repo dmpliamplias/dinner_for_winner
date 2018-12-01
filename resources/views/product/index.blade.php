@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+<p>
 <div class="container">
         @if(count($products) > 0)
               <ul class="list-group list-group-flush">
@@ -34,13 +35,16 @@
                         @endforeach
                       </tbody>
                     </table>
+                    {{ $products->links() }}
               </ul>
+              <p>
               <div class="alert alert-dark" role="alert">
                 *in Gramm pro Portion (100g)
               </div>
         @else
                     <p>Keine Produkte erfasst</p>
                 @endif
+                <p>
                 <a class="btn-primary" href="{{ route('product.create') }}">Neues Produkt hinzufügen</a>
         </div>
     </div>
