@@ -31,7 +31,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <a class="btn-primary" href="{{ route('recipe.create') }}">Neues Rezept hinzufügen</a>
+              <a class="btn btn-primary" href="{{ route('recipe.create') }}" role="button">Neues Rezept hinzufügen</a>
             </div>
         </div>
     </div>

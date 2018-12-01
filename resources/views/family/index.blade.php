@@ -32,7 +32,7 @@
                     <p>Keine Familiehmitglieder erfasst</p>
                 @endif
                 <p>
-                  <a class="btn-primary" href="{{ route('familyMember.create') }}">Neues Familienmitglied hinzufügen</a>
+                  <a class="btn btn-primary" href="{{ route('familyMember.create') }}" role="button">Neues Familienmitglied hinzufügen</a>
             </div>
     </div>
 @endsection

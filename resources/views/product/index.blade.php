@@ -49,7 +49,8 @@
                     <p>Keine Produkte erfasst</p>
                 @endif
                 <p>
-                  <a class="btn-primary" href="{{ route('product.create') }}">Neues Produkt hinzufügen</a>
+                  <a class="btn btn-primary" href="{{ route('product.create') }}" role="button">Neues Produkt hinzufügen</a>
+
             </div>
     </div>
 @endsection
