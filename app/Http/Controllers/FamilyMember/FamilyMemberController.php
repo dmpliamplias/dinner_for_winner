@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Person;
+
 
 class FamilyMemberController extends Controller
 {
@@ -66,5 +68,25 @@ class FamilyMemberController extends Controller
         ]);
     }
 
-}
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        $familyMember = family_members::find($id);
+        return view('familyMember.show')->with('familyMember', $familyMember);
+    }
 
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
+     * @return \Illuminate\Http\Response
+     * @throws \Illuminate\Validation\ValidationException
+     */
+
+}

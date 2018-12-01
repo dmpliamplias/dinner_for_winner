@@ -5,21 +5,34 @@
 @endsection
 
 @section('content')
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                @if(count($families) > 0)
-                    @foreach($families as $familyMember)
-                        <div class="well">
-                            <h3>{{$familyMember->name}}</h3>
-                            {{--<small>Erfasst von {{$recipe->person}}</small>--}}
-                        </div>
-                    @endforeach
+<p>
+<div class="container">
+        @if(count($families) > 0)
+              <ul class="list-group list-group-flush">
+                  <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Name</th>
+                          <th scope="col">Erfasst am</th>
+                          <th scope="col">Geändert am</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @foreach($families as $familyMember)
+                        <tr>
+                          <td>{{$familyMember->name}}</td>
+                          <td>{{$familyMember->created_at}}</td>
+                          <td>{{$familyMember->updated_at}}</td>
+                        </tr>
+                        @endforeach
+                      </tbody>
+                    </table>
+              </ul>
                 @else
-                    <p>Keine Familienmitglieder erfasst</p>
+                    <p>Keine Familiehmitglieder erfasst</p>
                 @endif
-                <a class="btn-primary" href="{{ route('familyMember.create') }}">Neues Familienmitglied hinzufügen</a>
+                <p>
+                  <a class="btn-primary" href="{{ route('familyMember.create') }}">Neues Familienmitglied hinzufügen</a>
             </div>
-        </div>
     </div>
 @endsection
