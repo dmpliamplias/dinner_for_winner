@@ -7,13 +7,9 @@
             <div class="card mb-4 box-shadow">
                 <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/rocket.jpg') }}" style="height: 255px; width: 100%"></a>
                 <div class="card-body">
-
                     <h5 class="card-title">
                         Schnellstart
                     </h5>
-                    <div class="d-flex justify-content-between align-items-center">
-
-                    </div>
                 </div>
             </div>
        </div>
@@ -24,9 +20,6 @@
                    <h5 class="card-title">
                         Rezepte
                    </h5>
-                   <div class="d-flex justify-content-between align-items-center">
-
-                   </div>
                </div>
            </div>
        </div>
@@ -37,9 +30,6 @@
                    <h5 class="card-title">
                         Familienverwaltung
                    </h5>
-                   <div class="d-flex justify-content-between align-items-center">
-
-                   </div>
                </div>
            </div>
        </div>
@@ -50,9 +40,6 @@
                    <h5 class="card-title">
                         Produkte
                    </h5>
-                   <div class="d-flex justify-content-between align-items-center">
-
-                   </div>
                </div>
            </div>
        </div>
@@ -63,9 +50,6 @@
                    <h5 class="card-title">
                         Wochenplan
                    </h5>
-                   <div class="d-flex justify-content-between align-items-center">
-
-                   </div>
                </div>
            </div>
        </div>
@@ -76,9 +60,6 @@
                    <h5 class="card-title">
                         Einkaufszettel/Bestellungen
                    </h5>
-                   <div class="d-flex justify-content-between align-items-center">
-
-                   </div>
                </div>
            </div>
        </div>
