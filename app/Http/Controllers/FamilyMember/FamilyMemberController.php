@@ -46,7 +46,7 @@ class FamilyMemberController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'name' => 'required'
+            'name' => 'required|String|max:255'
         ]);
 
         $familyMember = new FamilyMember();

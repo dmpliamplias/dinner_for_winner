@@ -66,7 +66,7 @@ class ProductController extends Controller
     {
         $this->validate($request, [
             'name' => 'bail|required|String|unique:products,name|max:255',
-            'calorie' => 'bail|required|integer|max:100',
+            'calorie' => 'bail|required|integer',
             'carb' => 'bail|required|integer|max:100',
             'fat' => 'bail|required|integer|max:100',
             'salt' => 'bail|required|integer|max:100'
@@ -99,7 +99,7 @@ class ProductController extends Controller
     {
         return Validator::make($data, [
           'name' => 'bail|required|String|unique:products,name|max:255',
-          'calorie' => 'bail|required|integer|max:100',
+          'calorie' => 'bail|required|integer',
           'carb' => 'bail|required|integer|max:100',
           'fat' => 'bail|required|integer|max:100',
           'salt' => 'bail|required|integer|max:100'
@@ -130,7 +130,7 @@ class ProductController extends Controller
     {
         $this->validate($request, [
           'name' => 'bail|required|String|unique:products,name|max:255',
-          'calorie' => 'bail|required|integer|max:100',
+          'calorie' => 'bail|required|integer',
           'carb' => 'bail|required|integer|max:100',
           'fat' => 'bail|required|integer|max:100',
           'salt' => 'bail|required|integer|max:100'

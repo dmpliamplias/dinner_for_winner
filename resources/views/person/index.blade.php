@@ -11,6 +11,7 @@
                 <div class="card">
                         <div class="card-body">
                             <h2>Hallo {{ $person['name'] }}</h2>
+                            <p>{{ $person['name'] }}</p>
                             <p>Was willst du tun?</p>
                             <div class="row">
                                 <div class="col-md-2">
