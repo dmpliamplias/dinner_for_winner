@@ -31,7 +31,7 @@
                           <td>{{$product->fat_amount}} g</td>
                           <td>{{$product->salt_amount}} g</td>
                           <td>
-                            <a href="{{ URL::route('product.show', $product->id) }}}" class="btn btn-outline-primary" role="button" aria-pressed="true">Bearbeiten</a>
+                            <a href="{{ route('product.show', $product->id) }}}" class="btn btn-outline-primary" role="button" aria-pressed="true">Bearbeiten</a>
                           </td>
                           <td>{{$product->created_at}}</td>
                           <td>{{$product->updated_at}}</td>
@@ -50,7 +50,6 @@
                 @endif
                 <p>
                   <a class="btn btn-primary" href="{{ route('product.create') }}" role="button">Neues Produkt hinzufügen</a>
-
             </div>
     </div>
 @endsection
