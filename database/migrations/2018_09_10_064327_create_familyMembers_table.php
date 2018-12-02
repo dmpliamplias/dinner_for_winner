@@ -18,10 +18,6 @@ class CreateFamilyMembersTable extends Migration
             $table->increments('id');
 
             $table->string('name');
-            $table->boolean('vegetarisch');
-            $table->boolean('vegan');
-            $table->boolean('laktosefrei');
-            $table->boolean('glutenfrei');
             $table->integer('person_id')->unsigned()->index();
             $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
 
