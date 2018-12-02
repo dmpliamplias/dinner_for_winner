@@ -24,16 +24,20 @@
         @include('inc.navbar')
 
         <main class="py-4">
-            @include('inc.messages')
             <div class="container">
-                <h2>@yield('title')</h2>
+                @include('inc.messages')
+            </div>
+            <div class="container">
+                <p>
+                    <h2>@yield('title')</h2>
+                </p>
                 @yield('content')
             </div>
         </main>
     </div>
-    {{--<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>--}}
-    {{--<script>--}}
-        {{--CKEDITOR.replace( 'article-ckeditor' );--}}
-    {{--</script>--}}
+    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'article-ckeditor' );
+    </script>
 </body>
 </html>
