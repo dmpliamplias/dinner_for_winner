@@ -3,8 +3,6 @@
 @section('content')
     <div class="container">
         <div class="row">
-            @if(count($recipes) === 0)
-            @else
             @foreach($recipes as $recipe)
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
@@ -34,7 +32,6 @@
                 </div>
             </div>
             @endforeach
-            @endif
         </div>
     </div>
 @endsection

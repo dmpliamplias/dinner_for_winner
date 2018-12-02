@@ -12,12 +12,8 @@
         {{ Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Name'] )}}
     </div>
     <div class="form-group">
-        {{ Form::label('daytime', 'Tageszeit') }}
-        {{ Form::select('daytime[]', ['morning' => 'Frühstück', 'midday' => 'Mittagessen', 'evening' => 'Abendessen'], null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
-    </div>
-    <div class="form-group">
         {{ Form::label('description', 'Beschreibung') }}
-        {{ Form::textarea('description', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Beschreibung']) }}
+        {{ Form::textarea('description', '', ['class' => 'form-control']) }}
     </div>
     <div class="form-group">
         {{ Form::label('products', 'Produkte') }}
@@ -33,5 +29,4 @@
     </div>
     {{ Form::submit('Speichern', ['class' => 'btn btn-primary'] )}}
     {!! Form::close() !!}
-
 @endsection

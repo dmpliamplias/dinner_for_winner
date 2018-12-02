@@ -3,11 +3,11 @@
 namespace App\Http\Controllers\Recipe;
 
 use App\Http\Controllers\Controller;
-use App\Person;
 use App\Product;
+use App\Recipe;
+use File;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
-use App\Recipe;
 use Illuminate\Support\Facades\Auth;
 
 class RecipeController extends Controller
@@ -55,20 +55,20 @@ class RecipeController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'name' => 'required',
-            'description' => 'required'
+            'name' => 'bail|required|String|unique:recipes,name|max:255',
+            'description' => 'required',
+            'products' => 'required',
+            'file' => 'required'
         ]);
 
         $recipe = new Recipe();
 
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
-        $daytimes = $request->input('daytime');
-        $recipe->daytime = serialize($daytimes);
         $recipe->time = $request->input('time');
         $recipe->person()->associate(Auth::user()->person()->getResults());
         $productArray = $request->input('products');
-        foreach($productArray as $entry) {
+        foreach ($productArray as $entry) {
             $product = Product::find($entry);
             $recipe->products()->save($product);
         }
@@ -105,16 +105,27 @@ class RecipeController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'name' => 'required',
-            'description' => 'required'
+            'name' => 'bail|required|String|unique:recipes,name|max:255',
+            'description' => 'required',
+            'products' => 'required',
+            'file' => 'required'
         ]);
 
         $recipe = Recipe::find($id);
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
-        $daytimes = $request->input('daytime');
-        $recipe->daytime = serialize($daytimes);
         $recipe->time = $request->input('time');
+        $productArray = $request->input('products');
+        foreach ($productArray as $entry) {
+            $product = Product::find($entry);
+            $recipe->products()->save($product);
+        }
+        File::delete($recipe->imagePath);
+        $picture = $request->file('file');
+        $pictureName = time().'.'.$picture->getClientOriginalExtension();
+        $picture->move('img/recipes', $pictureName);
+        $recipe->imagePath = 'img/recipes/'.$pictureName;
+
         $recipe->save();
 
         return redirect('/recipe')->with('success', 'Rezept bearbeitet');
