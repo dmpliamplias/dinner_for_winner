@@ -65,8 +65,13 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'name' => 'required'
-        ]);
+            'name' => 'bail|required|String|unique:products,name|max:255',
+            'calorie' => 'bail|required|integer|max:100',
+            'carb' => 'bail|required|integer|max:100',
+            'fat' => 'bail|required|integer|max:100',
+            'salt' => 'bail|required|integer|max:100'
+        ]
+      );
 
         $product = new Product();
         $product->name = $request->input('name');
@@ -93,7 +98,11 @@ class ProductController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|string|max:255'
+          'name' => 'bail|required|String|unique:products,name|max:255',
+          'calorie' => 'bail|required|integer|max:100',
+          'carb' => 'bail|required|integer|max:100',
+          'fat' => 'bail|required|integer|max:100',
+          'salt' => 'bail|required|integer|max:100'
         ]);
     }
 
@@ -120,7 +129,11 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'name' => 'required',
+          'name' => 'bail|required|String|unique:products,name|max:255',
+          'calorie' => 'bail|required|integer|max:100',
+          'carb' => 'bail|required|integer|max:100',
+          'fat' => 'bail|required|integer|max:100',
+          'salt' => 'bail|required|integer|max:100'
         ]);
 
         $product = Product::find($id);
