@@ -8,9 +8,7 @@ use App\About;
 class AboutController extends Controller
 {
     public function submitForm(Form $form){
-
             return("hello");
-
     }
 
     public function contactUSPost(Request $request)
