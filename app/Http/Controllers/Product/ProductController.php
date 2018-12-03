@@ -129,7 +129,7 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-          'name' => 'bail|required|String|unique:products,name|max:255',
+          'name' => 'bail|required|String|max:255',
           'calorie' => 'bail|required|integer',
           'carb' => 'bail|required|integer|max:100',
           'fat' => 'bail|required|integer|max:100',
@@ -148,6 +148,8 @@ class ProductController extends Controller
         $product->fat_unit = "TODO";
         $product->salt_amount = $request->input('salt');
         $product->salt_unit = "TODO";
+
+        $product->save();
 
         return redirect('/product')->with('success', 'Produkt bearbeitet');
     }
