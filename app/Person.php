@@ -32,4 +32,9 @@ class Person extends Model
         return $this->hasMany('App\FamilyMember');
     }
 
+    public function calendars()
+    {
+        return $this->hasMany('App\Calendar');
+    }
+
 }

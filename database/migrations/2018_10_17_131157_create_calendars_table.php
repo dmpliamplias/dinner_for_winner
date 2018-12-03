@@ -17,9 +17,19 @@ class CreateCalendarsTable extends Migration
             $table->increments('id');
 
             $table->string('day');
+            $table->string('daytime');
 
+            $table->integer('recipe_id')->unsigned()->index();
             $table->integer('person_id')->unsigned()->index();
-            $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
+
+            $table->foreign('recipe_id')
+                ->references('id')
+                ->on('recipes')
+                ->onDelete('cascade');
+            $table->foreign('person_id')
+                ->references('id')
+                ->on('people')
+                ->onDelete('cascade');
 
             $table->timestamps();
         });

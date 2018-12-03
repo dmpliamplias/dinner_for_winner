@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            @foreach($recipes as $recipe)
+            @foreach($recipes as $index => $recipe)
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
                     <a href="/recipe/{{ $recipe->id }}"><img class="card-img-top" src="{{ asset($recipe->imagePath) }}" style="height: 255px; width: 100%"></a>
@@ -14,19 +14,21 @@
                         </p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                {!! Form::open(['action' => 'Recipe\CalendarController@store', 'method' => 'POST']) !!}
-                                {{Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary'])}}
+                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
+                                {{ Form::text('index', $index, ['hidden' => true]) }}
+                                {{ Form::text('recipeId', $recipe->id, ['hidden' => true]) }}
+                                {{ Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary']) }}
                                 {!! Form::close() !!}
 
-                                {!! Form::open(['action' => 'Recipe\CalendarController@store', 'method' => 'POST']) !!}
-                                {{Form::submit('Neu', ['class' => 'btn btn-sm btn-outline-secondary'])}}
+                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
+                                {{ Form::submit('Neu', ['class' => 'btn btn-sm btn-outline-secondary']) }}
                                 {!! Form::close() !!}
 
-                                {!! Form::open(['action' => 'Recipe\CalendarController@', 'method' => 'POST']) !!}
-                                {{Form::submit('Löschen', ['class' => 'btn btn-sm btn-outline-secondary'])}}
+                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
+                                {{ Form::submit('Löschen', ['class' => 'btn btn-sm btn-outline-secondary'] )}}
                                 {!! Form::close() !!}
                             </div>
-                            <small class="text-muted">{{ $recipe->time }}</small>
+                            <small class="text-muted">{{ $recipe->time }} Minuten</small>
                         </div>
                     </div>
                 </div>

@@ -18,4 +18,9 @@ class Recipe extends Model
             ->withTimestamps();
     }
 
+    public function calendars()
+    {
+        return $this->hasMany('App\Calendar');
+    }
+
 }

@@ -24,8 +24,8 @@
         {{ Form::number('time', '', ['class' => 'form-control'] )}}
     </div>
     <div class="form-group">
-        {{Form::label('file', 'Datei')}}
-        {{Form::file('file')}}
+        {{Form::label('file', 'Bild')}}
+        {{Form::file('file', ['class' => 'form-control-file'])}}
     </div>
     {{ Form::submit('Speichern', ['class' => 'btn btn-primary'] )}}
     {!! Form::close() !!}

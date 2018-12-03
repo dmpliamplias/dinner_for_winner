@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\Calendar;
 
+use App\Calendar;
+use App\Day;
+use App\Daytime;
 use App\Http\Controllers\Controller;
 use App\Recipe;
 use Illuminate\Http\Request;
@@ -25,40 +28,121 @@ class CalendarController extends Controller
      */
     public function index()
     {
-        $recipes = $this->prepareCalendarRecipes();
+        $existingEntries = Auth::user()->person()->calendars();
+        $allRecipes = Recipe::all();
+
+        if ($allRecipes->count() < 21) {
+            return view('calendar.index')->with('recipes', $allRecipes);
+        }
+        // todo read more function for description in view
+        $recipes = $allRecipes->random(21);
         return view('calendar.index')->with('recipes', $recipes);
     }
 
     public function store(Request $request)
     {
+        $calendar = new Calendar();
 
+        $index = $request->input('index');
+        $dayAndTime = $this->determineDayAndTime($index);
+        $calendar->day = $dayAndTime[0];
+        $calendar->daytime = $dayAndTime[1];
+        $calendar->recipe()->associate(Recipe::find($request->input('recipeId')));
+
+        $calendar->save();
+
+        return $this->index();
     }
 
-    private function prepareCalendarRecipes()
-    {
-        $recipesSize = Recipe::all();
-
-        $fakeRecipes = Recipe::all()->take(0);
-
-        if ($recipesSize->count() != 21) {
-            return redirect('/calendar')->with(['error' => 'Sie müssen mehr Rezete erfassen', 'recipes' => $fakeRecipes]);
+    private function determineDayAndTime($index) {
+        // todo find better solution for this ugly shit
+        $day = null;
+        $daytime = null;
+        if ($index <= 2) {
+            if ($index === 0) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 1) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 2) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::MONDAY;
         }
-
-        $recipesMorning = Recipe::all()->where('daytime = morning')->take(7)[2];
-        $recipesMidday = Recipe::all()->where('daytime = mitakedday')->take(7)[2];
-        $recipesEvening = Recipe::all()->where('daytime = evening')->take(7)[2];
-
-        $orderdRecipes = [];
-        $x = 0;
-        for ($z = 0; $z <= 6; $z++) {
-            $orderdRecipes[$x] = $recipesMorning[$z];
-            $x++;
-            $orderdRecipes[$x] = $recipesMidday[$z];
-            $x++;
-            $orderdRecipes{$x} = $recipesEvening[$z];
-            $x++;
+        else if ($index <= 5) {
+            if ($index === 3) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 4) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 5) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::TUESDAY;
         }
-        return $orderdRecipes;
+        else if ($index <= 8) {
+            if ($index === 6) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 7) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 8) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::WEDNESDAY;
+        }
+        else if ($index <= 11) {
+            if ($index === 9) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 10) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 11) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::THURSDAY;
+        }
+        else if ($index <= 14) {
+            if ($index === 12) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 13) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 14) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::FRIDAY;
+        }
+        else if ($index <= 17) {
+            if ($index === 15) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 16) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 17) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::SATURDAY;
+        }
+        else {
+            if ($index === 18) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index === 19) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index === 20) {
+                $daytime = Daytime::EVENING;
+            }
+            $day = Day::SUNDAY;
+        }
+        return [$day, $daytime];
     }
 
 }
