@@ -55,7 +55,7 @@ class RecipeController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'name' => 'bail|required|String|unique:recipes,name|max:255',
+            'name' => 'bail|required|String|max:255',
             'description' => 'required',
             'products' => 'required',
             'file' => 'required'
@@ -105,7 +105,7 @@ class RecipeController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'name' => 'bail|required|String|unique:recipes,name|max:255',
+            'name' => 'bail|required|String|max:255',
             'description' => 'required',
             'products' => 'required',
             'file' => 'required'
