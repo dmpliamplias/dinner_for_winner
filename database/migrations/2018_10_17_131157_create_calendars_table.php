@@ -13,11 +13,12 @@ class CreateCalendarsTable extends Migration
      */
     public function up()
     {
-        Schema::create('calendar', function (Blueprint $table) {
+        Schema::create('calendars', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->string('day');
-            $table->string('daytime');
+            $table->string('day')->nullable();
+            $table->string('daytime')->nullable();
+            $table->string('kw');
 
             $table->integer('recipe_id')->unsigned()->index();
             $table->integer('person_id')->unsigned()->index();

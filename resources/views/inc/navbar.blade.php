@@ -45,8 +45,6 @@
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('calendar.index') }}">{{ __('Wochenplan') }}</a>
                             <a class="dropdown-item" href="{{ route('recipe.index') }}">{{ __('Rezepte') }}</a>
-                            <a class="dropdown-item" href="{{ route('product.index') }}">{{ __('Produkte') }}</a>
-                            <a class="dropdown-item" href="{{ route('familyMember.index') }}">{{ __('Familienmitglieder') }}</a>
                             <a class="dropdown-item" href="{{ route('person.index') }}">{{ __('Profil') }}</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
