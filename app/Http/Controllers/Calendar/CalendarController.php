@@ -28,15 +28,43 @@ class CalendarController extends Controller
      */
     public function index()
     {
-        $existingEntries = Auth::user()->person()->calendars();
-        $allRecipes = Recipe::all();
+        $person = Auth::user()->person()->getResults();
+        $existingEntries = Calendar::all()->where('person_id = '.$person->id.' and kw ='.date("W", time()));
 
-        if ($allRecipes->count() < 21) {
-            return view('calendar.index')->with('recipes', $allRecipes);
+        if (sizeof($existingEntries) === 0) {
+            $existingEntries = $this->create();
         }
-        // todo read more function for description in view
-        $recipes = $allRecipes->random(21);
-        return view('calendar.index')->with('recipes', $recipes);
+
+        return view('calendar.index')->with('calendars', $existingEntries);
+    }
+
+    public function create()
+    {
+        $morningCounter = 0;
+        $middayCounter = 0;
+        $eveningCounter = 0;
+        $person = Auth::user()->person()->getResults();
+        for ($x = 0; $x <= 20; $x++) {
+            $calendar = new Calendar();
+            $calendar->kw = date('W', time());
+            $randomRecipe = Recipe::all()->random()->get();
+            $time = $randomRecipe->time;
+            if ($time === Daytime::MORNING) {
+                $morningCounter++;
+            }
+            if ($time === Daytime::MIDDAY) {
+                $middayCounter++;
+            }
+            if ($time === Daytime::EVENING) {
+                $eveningCounter++;
+            }
+            $calendar->recipe()->associate($recipe);
+            $calendar->person()->associate($person);
+
+            $calendar->save();
+        }
+        $calendars = $person->calendars();
+        return $calendars;
     }
 
     public function store(Request $request)
