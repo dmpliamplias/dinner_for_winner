@@ -11,10 +11,10 @@
                 <thead>
                 <tr>
                     <th scope="col">Produktname</th>
-                    <th scope="col">Kalorien</th>
-                    <th scope="col">Kohlenhydrate</th>
-                    <th scope="col">Fett</th>
-                    <th scope="col">Salz</th>
+                    <th scope="col">Kalorien*</th>
+                    <th scope="col">Kohlenhydrate*</th>
+                    <th scope="col">Fett*</th>
+                    <th scope="col">Salz*</th>
                     <th scope="col">Erfasst am</th>
                     <th scope="col">Geändert am</th>
                 </tr>
@@ -35,7 +35,7 @@
             </table>
             {{ $products->links() }}
             <div class="alert alert-dark" role="alert">
-                Nährwertinfos pro 100g
+                *Nährwertinfos pro 100g
             </div>
         @else
             <p>Keine Produkte erfasst</p>
