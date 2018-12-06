@@ -35,30 +35,21 @@ class CalendarController extends Controller
             $existingEntries = $this->create();
         }
 
-        return view('calendar.index')->with('calendars', $existingEntries);
+        $recipes = Recipe::all();
+
+        if (sizeof($recipes) > 21) {
+            $recipes = $recipes->random(21);
+        }
+
+        return view('calendar.index')->with(['calendars' => $existingEntries, 'recipes' => $recipes]);
     }
 
     public function create()
     {
-        $morningCounter = 0;
-        $middayCounter = 0;
-        $eveningCounter = 0;
         $person = Auth::user()->person()->getResults();
         for ($x = 0; $x <= 20; $x++) {
             $calendar = new Calendar();
             $calendar->kw = date('W', time());
-            $randomRecipe = Recipe::all()->random()->get();
-            $time = $randomRecipe->time;
-            if ($time === Daytime::MORNING) {
-                $morningCounter++;
-            }
-            if ($time === Daytime::MIDDAY) {
-                $middayCounter++;
-            }
-            if ($time === Daytime::EVENING) {
-                $eveningCounter++;
-            }
-            $calendar->recipe()->associate($recipe);
             $calendar->person()->associate($person);
 
             $calendar->save();
@@ -80,97 +71,6 @@ class CalendarController extends Controller
         $calendar->save();
 
         return $this->index();
-    }
-
-    private function determineDayAndTime($index) {
-        // todo find better solution for this ugly shit
-        $day = null;
-        $daytime = null;
-        if ($index <= 2) {
-            if ($index === 0) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 1) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 2) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::MONDAY;
-        }
-        else if ($index <= 5) {
-            if ($index === 3) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 4) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 5) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::TUESDAY;
-        }
-        else if ($index <= 8) {
-            if ($index === 6) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 7) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 8) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::WEDNESDAY;
-        }
-        else if ($index <= 11) {
-            if ($index === 9) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 10) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 11) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::THURSDAY;
-        }
-        else if ($index <= 14) {
-            if ($index === 12) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 13) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 14) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::FRIDAY;
-        }
-        else if ($index <= 17) {
-            if ($index === 15) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 16) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 17) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::SATURDAY;
-        }
-        else {
-            if ($index === 18) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 19) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 20) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::SUNDAY;
-        }
-        return [$day, $daytime];
     }
 
 }

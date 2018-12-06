@@ -20,7 +20,7 @@ class CreateCalendarsTable extends Migration
             $table->string('daytime')->nullable();
             $table->string('kw');
 
-            $table->integer('recipe_id')->unsigned()->index();
+            $table->integer('recipe_id')->unsigned()->index()->nullable();
             $table->integer('person_id')->unsigned()->index();
 
             $table->foreign('recipe_id')
