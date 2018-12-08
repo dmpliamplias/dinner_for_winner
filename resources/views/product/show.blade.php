@@ -12,6 +12,11 @@
       {{Form::text('name', $product->name, ['class' => 'form-control', 'placeholder' => 'Name'])}}
     </div>
     <div class="form-group">
+      {{Form::label('price', 'Preise')}}
+      {{Form::text('price', $product->price, ['class' => 'form-control', 'placeholder' => 'z.B. 3.50 (ohne Einheit)'])}}
+      <small id="calorieHelp" class="form-text text-muted">Preis in CHF & pro 100g</small>
+    </div>
+    <div class="form-group">
       {{Form::label('calorie', 'Kalorien')}}
       {{Form::text('calorie', $product->calorie_amount, ['class' => 'form-control', 'placeholder' => 'Kalorien eingeben'])}}
       <small id="calorieHelp" class="form-text text-muted">in Gramm pro Portion (100g)</small>

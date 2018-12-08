@@ -66,6 +66,7 @@ class ProductController extends Controller
     {
         $this->validate($request, [
             'name' => 'bail|required|String|unique:products,name|max:255',
+            'price' => 'bail|required|numeric',
             'calorie' => 'bail|required|integer',
             'carb' => 'bail|required|integer|max:100',
             'fat' => 'bail|required|integer|max:100',
@@ -77,6 +78,7 @@ class ProductController extends Controller
         $product->name = $request->input('name');
         $product->product_amount = 0;
         $product->product_unit = "TODO";
+        $product->price = $request->input('price');
         $product->calorie_amount = $request->input('calorie');
         $product->calorie_unit = "TODO";
         $product->carb_amount = $request->input('carb');
@@ -99,6 +101,7 @@ class ProductController extends Controller
     {
         return Validator::make($data, [
           'name' => 'bail|required|String|unique:products,name|max:255',
+          'price' => 'bail|required|numeric',
           'calorie' => 'bail|required|integer',
           'carb' => 'bail|required|integer|max:100',
           'fat' => 'bail|required|integer|max:100',
@@ -130,6 +133,7 @@ class ProductController extends Controller
     {
         $this->validate($request, [
           'name' => 'bail|required|String|max:255',
+          'price' => 'bail|required|numeric',
           'calorie' => 'bail|required|integer',
           'carb' => 'bail|required|integer|max:100',
           'fat' => 'bail|required|integer|max:100',
@@ -139,6 +143,7 @@ class ProductController extends Controller
         $product = Product::find($id);
         $product->name = $request->input('name');
         $product->product_amount = 0;
+        $product->price = $request->input('price');
         $product->product_unit = "TODO";
         $product->calorie_amount = $request->input('calorie');
         $product->calorie_unit = "TODO";

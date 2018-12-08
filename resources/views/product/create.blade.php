@@ -9,7 +9,7 @@
   <head>
     <script>
 
-      function validateForm() {
+      /*function validateForm() {
         var grammFat = parseInt(document.forms["productForm"]["fat"].value);
         var grammCarb = parseInt(document.forms["productForm"]["carb"].value);
         var grammSalt = parseInt(document.forms["productForm"]["salt"].value);
@@ -39,7 +39,20 @@
       <div class="col-12 col-sm-3">
       <div class="form-group">
         {{Form::label('name', 'Name')}}
-        {{Form::text('name', '', ['class' => 'form-control', 'onchange' => 'myScript', 'placeholder' => 'Name eingeben'])}}
+        {{Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Name eingeben'])}}
+      </div>
+    </div>
+    <div class="col-12 col-sm-5">
+
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-3">
+      <div class="form-group">
+        {{Form::label('price', 'Preise')}}
+        {{Form::text('price', '', ['class' => 'form-control', 'placeholder' => 'z.B. 3.50 (ohne Einheit)'])}}
+        <small id="calorieHelp" class="form-text text-muted">Preis in CHF & pro 100g</small>
       </div>
     </div>
     <div class="col-12 col-sm-5">

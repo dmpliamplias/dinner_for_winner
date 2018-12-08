@@ -18,7 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->string('product_unit');
             $table->integer('product_amount');
-
+            $table->decimal('price', 8, 2);
             $table->integer('calorie_amount');
             $table->string('calorie_unit');
             $table->integer('carb_amount');

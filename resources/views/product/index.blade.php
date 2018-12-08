@@ -11,31 +11,29 @@
                 <thead>
                 <tr>
                     <th scope="col">Produktname</th>
+                    <th scope="col">Preis*</th>
                     <th scope="col">Kalorien*</th>
                     <th scope="col">Kohlenhydrate*</th>
                     <th scope="col">Fett*</th>
                     <th scope="col">Salz*</th>
-                    <th scope="col">Erfasst am</th>
-                    <th scope="col">Geändert am</th>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach($products as $product)
                     <tr onclick="window.location = '/product/{{ $product->id }}'">
                         <td>{{$product->name}}</td>
+                        <td>{{$product->price}} CHF</td>
                         <td>{{$product->calorie_amount}} kcal</td>
                         <td>{{$product->carb_amount}} g</td>
                         <td>{{$product->fat_amount}} g</td>
                         <td>{{$product->salt_amount}} g</td>
-                        <td>{{$product->created_at}}</td>
-                        <td>{{$product->updated_at}}</td>
                     </tr>
                 @endforeach
                 </tbody>
             </table>
             {{ $products->links() }}
             <div class="alert alert-dark" role="alert">
-                *Nährwertinfos pro 100g
+                *Nährwertinfos & Preis pro 100g
             </div>
         @else
             <p>Keine Produkte erfasst</p>
