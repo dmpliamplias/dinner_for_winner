@@ -28,6 +28,11 @@ class PageController extends Controller
         return view('contact');
     }
 
+    public function buylist()
+    {
+      return view('buylist');
+    }
+
     public function test()
     {
         $to_name = 'BRZ';
