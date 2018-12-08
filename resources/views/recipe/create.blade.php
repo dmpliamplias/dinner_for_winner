@@ -33,4 +33,5 @@
     </div>
     {{ Form::submit('Speichern', ['class' => 'btn btn-primary'] )}}
     {!! Form::close() !!}
+
 @endsection

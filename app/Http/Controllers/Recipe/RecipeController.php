@@ -49,11 +49,17 @@ class RecipeController extends Controller
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
         $recipe->time = $request->input('time');
-        $productArray = $request->input('products');
-        foreach ($productArray as $entry) {
+        $products = $request->input('products');
+        foreach ($products as $entry) {
             $product = Product::find($entry);
             $recipe->products()->save($product);
         }
+        $categories = $request->input('categories');
+        $categoriesString = "";
+        foreach ($categories as $category) {
+            $categoriesString = $categoriesString.$category.";";
+        }
+        $recipe->categories = $categoriesString;
         $picture = $request->file('file');
         $pictureName = time().'.'.$picture->getClientOriginalExtension();
         $picture->move('img/recipes', $pictureName);
@@ -90,6 +96,12 @@ class RecipeController extends Controller
             $product = Product::find($entry);
             $recipe->products()->save($product);
         }
+        $categories = $request->input('categories');
+        $categoriesString = "";
+        foreach ($categories as $category) {
+            $categoriesString = $categoriesString.$category.";";
+        }
+        $recipe->categories = $categoriesString;
         File::delete($recipe->imagePath);
         $picture = $request->file('file');
         $pictureName = time().'.'.$picture->getClientOriginalExtension();
