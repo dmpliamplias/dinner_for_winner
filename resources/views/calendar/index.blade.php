@@ -16,8 +16,8 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         {!! Form::open(['action' => ['Calendar\CalendarController@store', $calendars[$x]->id], 'method' => 'POST']) !!}
-                                        {{Form::text('day', 'monday', ['hidden' => true])}}
-                                        {{Form::text('daytime', 'morning', ['hidden' => true])}}
+                                        {{ Form::text('day', 'monday', ['hidden' => true]) }}
+                                        {{ Form::text('daytime', 'morning', ['hidden' => true ] ) }}
                                         {{ Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary']) }}
                                         {!! Form::close() !!}
 

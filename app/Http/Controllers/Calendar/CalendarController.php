@@ -45,6 +45,10 @@ class CalendarController extends Controller
         $recipeId = $request->input('recipeId');
         $newRecipe = $this->getNewRecipe($recipeId);
 
+        if (sizeof($newRecipe->all()) === 0) {
+            return redirect('/calendar');
+        }
+
         if ($newRecipe->all()[0]->id != $recipeId) {
             $calendar->recipe()->dissociate($recipeId);
             $calendar->save();
