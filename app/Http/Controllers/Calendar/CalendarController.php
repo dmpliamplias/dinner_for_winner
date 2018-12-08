@@ -13,164 +13,136 @@ use Illuminate\Support\Facades\Auth;
 class CalendarController extends Controller
 {
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
     public function index()
     {
+        $existingEntries = $this->getExistingCalendarEntries();
+
+        $amountOfRecipes = $this->getAmountOfRecipes($existingEntries);
+
+        return view('calendar.index')->with(['calendars' => $existingEntries->all(), 'amountOfRecipes' => $amountOfRecipes]);
+    }
+
+    public function unconfirm($calendarId)
+    {
+        $calendar = Calendar::find($calendarId);
+
+        $calendar->confirmed = false;
+
+        $calendar->save();
+
+        return redirect('/calendar');
+    }
+
+    public function newRecipe(Request $request, $id)
+    {
+        $calendar = Calendar::find($id);
+
+        $recipeId = $request->input('recipeId');
+        $newRecipe = $this->getNewRecipe($recipeId);
+
+        if ($newRecipe->all()[0]->id != $recipeId) {
+            $calendar->recipe()->dissociate($recipeId);
+            $calendar->save();
+
+            $calendar = Calendar::find($calendar->id);
+
+            $calendar->recipe()->associate($newRecipe->all()[0]);
+            $calendar->save();
+        }
+
+        return redirect('/calendar');
+    }
+
+    public function store(Request $request, $id)
+    {
+        $calendar = Calendar::find($id);
+
+        $calendar->day = $request->input('day');
+        $calendar->daytime = $request->input('daytime');
+        $calendar->confirmed = true;
+
+        $calendar->save();
+
+        return redirect('/calendar');
+    }
+
+    private function create()
+    {
         $person = Auth::user()->person()->getResults();
-        $existingEntries = Calendar::all()->where('person_id = '.$person->id.' and kw ='.date("W", time()));
+        for ($x = 0; $x <= 20; $x++) {
+            $calendar = new Calendar();
+
+            $calendar->kw = date('W', time());
+            $calendar->confirmed = false;
+
+            $calendar->person()->associate($person);
+
+            $calendar->save();
+        }
+
+        $calendars = $person->calendars();
+        $recipes = $this->getRecipes();
+        for ($i = 0; $i < sizeof($recipes); $i++) {
+            $calendar = $calendars->getResults()[$i];
+            $calendar->recipe()->associate($recipes[$i]);
+
+            $calendar->save();
+        }
+
+        return $calendars;
+    }
+
+    private function getExistingCalendarEntries()
+    {
+        $person = Auth::user()->person()->getResults();
+        $existingEntries = Calendar::all()
+            ->where('person_id', $person->id)
+            ->where('kw', date("W", time()));
 
         if (sizeof($existingEntries) === 0) {
             $existingEntries = $this->create();
         }
 
-        return view('calendar.index')->with('calendars', $existingEntries);
+        return $existingEntries;
     }
 
-    public function create()
+    private function getRecipes()
     {
-        $morningCounter = 0;
-        $middayCounter = 0;
-        $eveningCounter = 0;
-        $person = Auth::user()->person()->getResults();
-        for ($x = 0; $x <= 20; $x++) {
-            $calendar = new Calendar();
-            $calendar->kw = date('W', time());
-            $randomRecipe = Recipe::all()->random()->get();
-            $time = $randomRecipe->time;
-            if ($time === Daytime::MORNING) {
-                $morningCounter++;
-            }
-            if ($time === Daytime::MIDDAY) {
-                $middayCounter++;
-            }
-            if ($time === Daytime::EVENING) {
-                $eveningCounter++;
-            }
-            $calendar->recipe()->associate($recipe);
-            $calendar->person()->associate($person);
+        $recipes = Recipe::all();
 
-            $calendar->save();
+        if (sizeof($recipes) >= 21) {
+            $recipes = $recipes->random(21);
         }
-        $calendars = $person->calendars();
-        return $calendars;
+
+        return $recipes;
     }
 
-    public function store(Request $request)
+    private function getNewRecipe($recipeId)
     {
-        $calendar = new Calendar();
+        $otherRecipes = Recipe::all()->whereNotIn('id', [$recipeId]);
+        if (sizeof($otherRecipes) === 0) {
+            return Recipe::all()->where('id = '.$recipeId);
+        }
 
-        $index = $request->input('index');
-        $dayAndTime = $this->determineDayAndTime($index);
-        $calendar->day = $dayAndTime[0];
-        $calendar->daytime = $dayAndTime[1];
-        $calendar->recipe()->associate(Recipe::find($request->input('recipeId')));
-
-        $calendar->save();
-
-        return $this->index();
+        return $otherRecipes->random(1);
     }
 
-    private function determineDayAndTime($index) {
-        // todo find better solution for this ugly shit
-        $day = null;
-        $daytime = null;
-        if ($index <= 2) {
-            if ($index === 0) {
-                $daytime = Daytime::MORNING;
+    private function getAmountOfRecipes($existingEntries)
+    {
+        $counter = 0;
+        foreach ($existingEntries as $entry) {
+            $recipe = $entry->recipe()->getResults();
+            if ($recipe != null) {
+                $counter++;
             }
-            if ($index === 1) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 2) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::MONDAY;
         }
-        else if ($index <= 5) {
-            if ($index === 3) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 4) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 5) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::TUESDAY;
-        }
-        else if ($index <= 8) {
-            if ($index === 6) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 7) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 8) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::WEDNESDAY;
-        }
-        else if ($index <= 11) {
-            if ($index === 9) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 10) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 11) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::THURSDAY;
-        }
-        else if ($index <= 14) {
-            if ($index === 12) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 13) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 14) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::FRIDAY;
-        }
-        else if ($index <= 17) {
-            if ($index === 15) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 16) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 17) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::SATURDAY;
-        }
-        else {
-            if ($index === 18) {
-                $daytime = Daytime::MORNING;
-            }
-            if ($index === 19) {
-                $daytime = Daytime::MIDDAY;
-            }
-            if ($index === 20) {
-                $daytime = Daytime::EVENING;
-            }
-            $day = Day::SUNDAY;
-        }
-        return [$day, $daytime];
+
+        return $counter;
     }
 
 }

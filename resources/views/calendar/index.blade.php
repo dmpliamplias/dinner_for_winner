@@ -1,69 +1,85 @@
 @extends('layouts.app')
 
 @section('content')
-    @foreach($calendars as $calendar)
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                    <a href="/recipe/{{ $recipe->id }}"><img class="card-img-top" src="{{ asset($recipe->imagePath) }}" style="height: 255px; width: 100%"></a>
-                    <div class="card-body">
-                        <p class="card-text"><b>{{ $recipe->name }}</b></p>
-                        <p class="card-text">
-                            {{ $recipe->description }}
-                        </p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
-                                {{ Form::text('index', $index, ['hidden' => true]) }}
-                                {{ Form::text('recipeId', $recipe->id, ['hidden' => true]) }}
-                                {{ Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary']) }}
-                                {!! Form::close() !!}
+            @if($amountOfRecipes < 21)
+                @for($x = 0; $x < $amountOfRecipes; $x++)
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <a href="/recipe/{{ $calendars[$x]->recipe()->getResults()->id }}"><img class="card-img-top" src="{{ asset($calendars[$x]->recipe()->getResults()->imagePath) }}" style="height: 255px; width: 100%"></a>
+                            <div class="card-body">
+                                <p class="card-text"><b>{{ $calendars[$x]->recipe()->getResults()->name }}</b></p>
+                                <p class="card-text">
+                                    {{ $calendars[$x]->recipe()->getResults()->description }}
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        {!! Form::open(['action' => ['Calendar\CalendarController@store', $calendars[$x]->id], 'method' => 'POST']) !!}
+                                        {{Form::text('day', 'monday', ['hidden' => true])}}
+                                        {{Form::text('daytime', 'morning', ['hidden' => true])}}
+                                        {{ Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary']) }}
+                                        {!! Form::close() !!}
 
-                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
-                                {{ Form::submit('Neu', ['class' => 'btn btn-sm btn-outline-secondary']) }}
-                                {!! Form::close() !!}
+                                        {!! Form::open(['action' => ['Calendar\CalendarController@newRecipe', $calendars[$x]->id], 'method' => 'POST']) !!}
+                                        {{Form::text('recipeId', $calendars[$x]->recipe()->getResults()->id, ['hidden' => true])}}
+                                        {{ Form::submit('Neu', ['class' => 'btn btn-sm btn-outline-secondary']) }}
+                                        {!! Form::close() !!}
 
-                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
-                                {{ Form::submit('Löschen', ['class' => 'btn btn-sm btn-outline-secondary'] )}}
-                                {!! Form::close() !!}
+                                        {!! Form::open(['action' => ['Calendar\CalendarController@unconfirm', $calendars[$x]->id], 'method' => 'POST']) !!}
+                                        {{ Form::submit('Löschen', ['class' => 'btn btn-sm btn-outline-secondary'] )}}
+                                        {!! Form::close() !!}
+                                    </div>
+                                    <div>
+                                        @if($calendars[$x]->confirmed)
+                                            ✔
+                                        @endif
+                                    </div>
+                                    <small class="text-muted">{{ $calendars[$x]->recipe()->getResults()->time }} Minuten</small>
+                                </div>
                             </div>
-                            <small class="text-muted">{{ $recipe->time }} Minuten</small>
+                        </div>
+                    </div>
+                @endfor
+            @else
+                @for($i = 0; $i < sizeof($calendars) - 1; $i++)
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a href="/recipe/{{ $calendars[$i]->recipe()->getResults()->id }}"><img class="card-img-top" src="{{ asset($calendars[$i]->recipe()->getResults()->imagePath) }}" style="height: 255px; width: 100%"></a>
+                        <div class="card-body">
+                            <p class="card-text"><b>{{ $calendars[$i]->recipe()->getResults()->name }}</b></p>
+                            <p class="card-text">
+                                {{ $calendars[$i]->recipe()->getResults()->description }}
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    {!! Form::open(['action' => ['Calendar\CalendarController@store', $calendars[$i]->id], 'method' => 'POST']) !!}
+                                    {{Form::text('day', 'monday', ['hidden' => true])}}
+                                    {{Form::text('daytime', 'morning', ['hidden' => true])}}
+                                    {{ Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary']) }}
+                                    {!! Form::close() !!}
+
+                                    {!! Form::open(['action' => ['Calendar\CalendarController@newRecipe', $calendars[$i]->id], 'method' => 'POST']) !!}
+                                    {{Form::text('recipeId', $calendars[$i]->recipe()->getResults()->id, ['hidden' => true])}}
+                                    {{ Form::submit('Neu', ['class' => 'btn btn-sm btn-outline-secondary']) }}
+                                    {!! Form::close() !!}
+
+                                    {!! Form::open(['action' => ['Calendar\CalendarController@unconfirm', $calendars[$i]->id], 'method' => 'POST']) !!}
+                                    {{ Form::submit('Löschen', ['class' => 'btn btn-sm btn-outline-secondary'] )}}
+                                    {!! Form::close() !!}
+                                </div>
+                                <div>
+                                    @if($calendars[$i]->confirmed)
+                                        ✔
+                                    @endif
+                                </div>
+                                <small class="text-muted">{{ $calendars[$i]->recipe()->getResults()->time }} Minuten</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            @foreach($recipes as $index => $recipe)
-            <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                    <a href="/recipe/{{ $recipe->id }}"><img class="card-img-top" src="{{ asset($recipe->imagePath) }}" style="height: 255px; width: 100%"></a>
-                    <div class="card-body">
-                        <p class="card-text"><b>{{ $recipe->name }}</b></p>
-                        <p class="card-text">
-                            {{ $recipe->description }}
-                        </p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
-                                {{ Form::text('index', $index, ['hidden' => true]) }}
-                                {{ Form::text('recipeId', $recipe->id, ['hidden' => true]) }}
-                                {{ Form::submit('Übernehmen', ['class' => 'btn btn-sm btn-outline-secondary']) }}
-                                {!! Form::close() !!}
-
-                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
-                                {{ Form::submit('Neu', ['class' => 'btn btn-sm btn-outline-secondary']) }}
-                                {!! Form::close() !!}
-
-                                {!! Form::open(['action' => 'Calendar\CalendarController@store', 'method' => 'POST']) !!}
-                                {{ Form::submit('Löschen', ['class' => 'btn btn-sm btn-outline-secondary'] )}}
-                                {!! Form::close() !!}
-                            </div>
-                            <small class="text-muted">{{ $recipe->time }} Minuten</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            @endforeach
+                @endfor
+            @endif
         </div>
     </div>
 @endsection
