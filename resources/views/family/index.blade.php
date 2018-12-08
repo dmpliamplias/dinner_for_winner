@@ -13,16 +13,20 @@
                       <thead>
                         <tr>
                           <th scope="col">Name</th>
-                          <th scope="col">Erfasst am</th>
-                          <th scope="col">Geändert am</th>
+                          <th scope="col">Ziel</th>
+                          <th scope="col">Essgewohnheit</th>
+                          <th scope="col">Geschlecht</th>
+                          <th scope="col"> </th>
                         </tr>
                       </thead>
                       <tbody>
                         @foreach($families as $familyMember)
                         <tr>
                           <td>{{$familyMember->name}}</td>
-                          <td>{{$familyMember->created_at}}</td>
-                          <td>{{$familyMember->updated_at}}</td>
+                          <td>{{$familyMember->goal}}</td>
+                          <td>{{$familyMember->eat}}</td>
+                          <td>{{$familyMember->gender}}</td>
+                          <td><button type="button" class="btn btn-outline-danger">Löschen</button></td>
                         </tr>
                         @endforeach
                       </tbody>
