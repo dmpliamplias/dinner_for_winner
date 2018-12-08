@@ -36,12 +36,16 @@
       {{Form::text('salt', $product->salt_amount, ['class' => 'form-control', 'placeholder' => 'Salz eingeben'])}}
       <small id="saltHelp" class="form-text text-muted">in Gramm pro Portion (100g)</small>
     </div>
-    <div class="btn-group">
+    <div class="row">
+      <div class="col-12 col-sm-2">
     {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
+</div>
+<div class="col-12 col-sm-2">
     {!! Form::open(['action' => ['Product\ProductController@destroy', $product->id], 'method' => 'DELETE']) !!}
-    {{Form::submit('Löschen', ['class' => 'btn btn-secondary'])}}
+    {{Form::submit('Löschen', ['class' => 'btn btn-danger'])}}
     {!! Form::close() !!}
+</div>
     </div>
 
 @endsection
