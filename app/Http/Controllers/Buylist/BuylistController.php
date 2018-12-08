@@ -1,5 +1,5 @@
 <?php
-namespace App\Http\Controllers\Buylist\BuylistController;
+namespace App\Http\Controllers\Buylist;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
