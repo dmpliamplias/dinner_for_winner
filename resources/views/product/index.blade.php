@@ -11,7 +11,7 @@
                 <thead>
                 <tr>
                     <th scope="col">Produktname</th>
-                    <th scope="col">Kalorien*</th>
+                    <th scope="col">Kalorien</th>
                     <th scope="col">Kohlenhydrate*</th>
                     <th scope="col">Fett*</th>
                     <th scope="col">Gesättigte Fettsäuren*</th>
