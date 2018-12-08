@@ -17,17 +17,14 @@ class ProductController extends Controller
         $product = new Product();
 
         $product->name = $json[1];
-
-        $product->product_amount = 0;
-        $product->product_unit = "TODO";
-        $product->calorie_amount = 0;
-        $product->calorie_unit = "TODO";
-        $product->carb_amount = 0;
-        $product->carb_unit = "TODO";
-        $product->fat_amount = 0;
-        $product->fat_unit = "TODO";
-        $product->salt_amount = 0;
-        $product->salt_unit = "TODO";
+        $product->unit = $json[2];
+        $product->calorie = $json[3];
+        $product->carb = $json[4];
+        $product->fat = $json[5];
+        $product->fattyAcid = $json[6];
+        $product->sugar = $json[7];
+        $product->protein = $json[8];
+        $product->price = $json[9];
 
         $product->save();
     }
