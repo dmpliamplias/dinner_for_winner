@@ -52,16 +52,7 @@
                 </div>
             </div>
         </div>
-        <h2>Kontakt</h2>
-        <p>Haben Sie Veresserungsvorschläge oder eine Frage? Zögern Sie nicht uns zu kontaktieren:</p>
 
-        {!! Form::open(['action'=>'About\AboutController@contactUSPost','method'=>'POST']) !!}
-            <div class="form-group">
-                {{Form::label('name','Name')}}
-                {{Form::text('name','',['class'=>'form-control','placeholder'=>'Name'])}}
-
-            </div>
-        {!! Form::close() !!}
 
 
     </div>
