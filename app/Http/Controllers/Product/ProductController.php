@@ -131,7 +131,7 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-          'name' => 'bail|required|String|unique:products,name|max:255',
+          'name' => 'bail|required|String|max:255',
           'price' => 'bail|required|numeric',
           'calorie' => 'bail|required|numeric',
           'carb' => 'bail|required|numeric|max:100',
@@ -143,21 +143,18 @@ class ProductController extends Controller
 
         $product = Product::find($id);
         $product->name = $request->input('name');
-        $product->product_amount = 0;
+        $product->unit = '1';
+        $product->calorie = $request->input('calorie');
+        $product->carb = $request->input('carb');
+        $product->fat = $request->input('fat');
+        $product->fattyAcid = $request->input('fattyAcid');
+        $product->sugar = $request->input('sugar');
+        $product->protein = $request->input('protein');
         $product->price = $request->input('price');
-        $product->product_unit = "TODO";
-        $product->calorie_amount = $request->input('calorie');
-        $product->calorie_unit = "TODO";
-        $product->carb_amount = $request->input('carb');
-        $product->carb_unit = "TODO";
-        $product->fat_amount = $request->input('fat');
-        $product->fat_unit = "TODO";
-        $product->salt_amount = $request->input('salt');
-        $product->salt_unit = "TODO";
 
         $product->save();
 
-        return redirect('/product')->with('success', 'Produkt bearbeitet');
+        return redirect('/product')->with('success', 'Produkt erfolgreich bearbeitet');
     }
 
     /**
@@ -171,7 +168,7 @@ class ProductController extends Controller
         $product = Product::find($id);
         $product->delete();
 
-        return redirect('/product')->with('success', 'Produkt gelöscht');
+        return redirect('/product')->with('success', 'Produkt erfolgreich gelöscht');
     }
 
 }
