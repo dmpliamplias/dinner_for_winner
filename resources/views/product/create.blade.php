@@ -11,7 +11,9 @@
       function validateForm() {
         var grammFat = parseInt(document.forms["productForm"]["fat"].value);
         var grammCarb = parseInt(document.forms["productForm"]["carb"].value);
-        var grammSalt = parseInt(document.forms["productForm"]["salt"].value);
+        var grammSugar = parseInt(document.forms["productForm"]["sugar"].value);
+        var grammProtein = parseInt(document.forms["productForm"]["protein"].value);
+        var grammFattyAcid = parseInt(document.forms["productForm"]["fattyAcid"].value);
 
           if (grammCarb > 100) {
             document.getElementById("validationCarb").style.visibility='visible';
@@ -23,12 +25,23 @@
           }else {
             document.getElementById("validationFat").style.visibility='hidden';
           }
-          if (grammSalt > 100) {
-            document.getElementById("validationSalt").style.visibility='visible';
+          if (grammProtein > 100) {
+            document.getElementById("validationProtein").style.visibility='visible';
           }else {
-            document.getElementById("validationSalt").style.visibility='hidden';
+            document.getElementById("validationProtein").style.visibility='hidden';
           }
-          if (grammFat + grammCarb + grammSalt > 100) {
+          if (grammSugar > 100) {
+            document.getElementById("validationSugar").style.visibility='visible';
+          }else {
+            document.getElementById("validationSugar").style.visibility='hidden';
+          }
+          if (grammFattyAcid > grammFat) {
+            document.getElementById("validationFattyAcid").style.visibility='visible';
+            return false;
+          }else {
+            document.getElementById("validationFattyAcid").style.visibility='hidden';
+          }
+          if (grammFat + grammCarb + grammSugar + grammProtein > 100) {
             document.getElementById("validationGrammTotal").style.visibility='visible';
             document.getElementById('validationGrammTotal').scrollIntoView();
             return false;
@@ -124,7 +137,7 @@
     </div>
     <div class="col-12 col-sm-5">
       <div id="validationFattyAcid" class="alert alert-warning" role="alert" style="visibility: hidden">
-        Platzhalter
+        Der Anteil der gesättigten Fettsäuren darf den Fettwert nicht übersteigen.
       </div>
     </div>
     </div>
