@@ -64,26 +64,26 @@ class ProductController extends Controller
         $this->validate($request, [
             'name' => 'bail|required|String|unique:products,name|max:255',
             'price' => 'bail|required|numeric',
-            'calorie' => 'bail|required|integer',
-            'carb' => 'bail|required|integer|max:100',
-            'fat' => 'bail|required|integer|max:100',
-            'salt' => 'bail|required|integer|max:100'
+            'calorie' => 'bail|required|numeric',
+            'carb' => 'bail|required|numeric|max:100',
+            'fat' => 'bail|required|numeric|max:100',
+            'fattyAcid' => 'bail|required|numeric|max:100',
+            'sugar' => 'bail|required|numeric|max:100',
+            'protein' => 'bail|required|numeric|max:100',
         ]
       );
 
         $product = new Product();
+
         $product->name = $request->input('name');
-        $product->product_amount = 0;
-        $product->product_unit = "TODO";
+        $product->unit = '1';
+        $product->calorie = $request->input('calorie');
+        $product->carb = $request->input('carb');
+        $product->fat = $request->input('fat');
+        $product->fattyAcid = $request->input('fattyAcid');
+        $product->sugar = $request->input('sugar');
+        $product->protein = $request->input('protein');
         $product->price = $request->input('price');
-        $product->calorie_amount = $request->input('calorie');
-        $product->calorie_unit = "TODO";
-        $product->carb_amount = $request->input('carb');
-        $product->carb_unit = "TODO";
-        $product->fat_amount = $request->input('fat');
-        $product->fat_unit = "TODO";
-        $product->salt_amount = $request->input('salt');
-        $product->salt_unit = "TODO";
 
         $product->save();
 
@@ -99,10 +99,12 @@ class ProductController extends Controller
         return Validator::make($data, [
           'name' => 'bail|required|String|unique:products,name|max:255',
           'price' => 'bail|required|numeric',
-          'calorie' => 'bail|required|integer',
-          'carb' => 'bail|required|integer|max:100',
-          'fat' => 'bail|required|integer|max:100',
-          'salt' => 'bail|required|integer|max:100'
+          'calorie' => 'bail|required|numeric',
+          'carb' => 'bail|required|numeric|max:100',
+          'fat' => 'bail|required|numeric|max:100',
+          'fattyAcid' => 'bail|required|numeric|max:100',
+          'sugar' => 'bail|required|numeric|max:100',
+          'protein' => 'bail|required|numeric|max:100',
         ]);
     }
 
@@ -129,12 +131,14 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-          'name' => 'bail|required|String|max:255',
+          'name' => 'bail|required|String|unique:products,name|max:255',
           'price' => 'bail|required|numeric',
-          'calorie' => 'bail|required|integer',
-          'carb' => 'bail|required|integer|max:100',
-          'fat' => 'bail|required|integer|max:100',
-          'salt' => 'bail|required|integer|max:100'
+          'calorie' => 'bail|required|numeric',
+          'carb' => 'bail|required|numeric|max:100',
+          'fat' => 'bail|required|numeric|max:100',
+          'fattyAcid' => 'bail|required|numeric|max:100',
+          'sugar' => 'bail|required|numeric|max:100',
+          'protein' => 'bail|required|numeric|max:100',
         ]);
 
         $product = Product::find($id);
