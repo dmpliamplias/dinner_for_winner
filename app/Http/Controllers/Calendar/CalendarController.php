@@ -24,7 +24,7 @@ class CalendarController extends Controller
 
         $amountOfRecipes = $this->getAmountOfRecipes($existingEntries);
 
-        return view('calendar.index')->with(['calendars' => $existingEntries->all(), 'amountOfRecipes' => $amountOfRecipes]);
+        return view('calendar.index')->with(['calendars' => $existingEntries->take(sizeof($existingEntries)), 'amountOfRecipes' => $amountOfRecipes]);
     }
 
     public function unconfirm($calendarId)
