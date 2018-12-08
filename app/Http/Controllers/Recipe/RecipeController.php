@@ -9,49 +9,32 @@ use File;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use ReflectionClass;
 
 class RecipeController extends Controller
 {
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        $recipes = Recipe::all();
+        $recipes = Recipe::paginate(10);
+
         return view('recipe.index')->with('recipes', $recipes);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         $products = Product::pluck('name', 'id');
-        return view('recipe.create', compact('products'));
+        $refl = new ReflectionClass('App\Category');
+        $categories = ($refl->getConstants());
+
+        return view('recipe.create', ['products' => $products, 'categories' => $categories]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
-     * @throws \Illuminate\Validation\ValidationException
-     */
     public function store(Request $request)
     {
         $this->validate($request, [
@@ -66,7 +49,6 @@ class RecipeController extends Controller
         $recipe->name = $request->input('name');
         $recipe->description = $request->input('description');
         $recipe->time = $request->input('time');
-        $recipe->person()->associate(Auth::user()->person()->getResults());
         $productArray = $request->input('products');
         foreach ($productArray as $entry) {
             $product = Product::find($entry);
@@ -77,31 +59,19 @@ class RecipeController extends Controller
         $picture->move('img/recipes', $pictureName);
         $recipe->imagePath = 'img/recipes/'.$pictureName;
 
+        $recipe->person()->associate(Auth::user()->person()->getResults());
+
         $recipe->save();
 
         return redirect('/recipe')->with('success', 'Rezept erstellt');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
         $recipe = Recipe::find($id);
         return view('recipe.show')->with('recipe', $recipe);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request $request
-     * @param  int $id
-     * @return \Illuminate\Http\Response
-     * @throws \Illuminate\Validation\ValidationException
-     */
     public function update(Request $request, $id)
     {
         $this->validate($request, [
@@ -131,12 +101,6 @@ class RecipeController extends Controller
         return redirect('/recipe')->with('success', 'Rezept bearbeitet');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
         $recipe = Recipe::find($id);

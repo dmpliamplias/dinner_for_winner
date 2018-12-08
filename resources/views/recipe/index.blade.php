@@ -6,32 +6,30 @@
 
 @section('content')
     <div class="container">
-        <div class="row justify-content-center">
-            @if(count($recipes) > 0)
+        @if(count($recipes) > 0)
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Zeit</th>
+                </tr>
+                </thead>
+                <tbody>
                 @foreach($recipes as $recipe)
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <a href="{{ URL::route('recipe.show', $recipe->id) }}}"><img class="card-img-top" src="{{ asset($recipe->imagePath) }}" style="height: 255px; width: 100%"></a>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    {{ $recipe->name }}
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <tr onclick="window.location = '/recipe/{{ $recipe->id }}'">
+                        <td>{{ $recipe->name }}</td>
+                        <td>{{ $recipe->time }}</td>
+                    </tr>
                 @endforeach
-            @else
-                <div class="col-lg-12">
-                    <p>Keine Rezepte vorhanden</p>
-                </div>
-            @endif
-        </div>
+                </tbody>
+            </table>
+            {{ $recipes->links() }}
+        @else
+            <p>Keine Rezepte erfasst</p>
+        @endif
         <div class="row">
             <div class="col-lg-4">
-              <a class="btn btn-primary" href="{{ route('recipe.create') }}" role="button">Neues Rezept hinzufügen</a>
+                <a class="btn btn-primary" href="{{ route('recipe.create') }}" role="button">Neues Rezept hinzufügen</a>
             </div>
         </div>
     </div>
