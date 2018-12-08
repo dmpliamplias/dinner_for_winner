@@ -51,6 +51,9 @@ class FamilyMemberController extends Controller
 
         $familyMember = new FamilyMember();
         $familyMember->name = $request->input('name');
+        $familyMember->gender = $request->input('gender');
+        $familyMember->goal = $request->input('goal');
+        $familyMember->eat = $request->input('eat');
         $familyMember->person()->associate(Auth::user()->person()->getResults());
         $familyMember->save();
 
@@ -66,6 +69,14 @@ class FamilyMemberController extends Controller
         return Validator::make($data, [
             'name' => 'required|string|max:255'
         ]);
+    }
+
+    public function destroy($id)
+    {
+        $familyMember = FamilyMember::find($id);
+        $familyMember->delete();
+
+        return redirect('/familyMember')->with('success', 'Familienmitglied gelöscht');
     }
 
 }

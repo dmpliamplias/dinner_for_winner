@@ -19,7 +19,7 @@ class CreateRecipesTable extends Migration
             $table->string('name');
             $table->string('description');
             $table->integer('time');
-            $table->string('categories')->nullable();
+            $table->string('categories');
             $table->string('imagePath');
 
             $table->integer('person_id')->unsigned()->index()->nullable();
