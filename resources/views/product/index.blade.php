@@ -36,7 +36,9 @@
                 *Nährwertinfos & Preis pro 100g
             </div>
         @else
-            <p>Keine Produkte erfasst</p>
+        <div class="alert alert-info" role="alert">
+Keine Produkte erfasst
+</div>
         @endif
         <a class="btn btn-primary" href="{{ route('product.create') }}" role="button">Neues Produkt hinzufügen</a>
     </div>
