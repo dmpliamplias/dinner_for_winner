@@ -19,6 +19,7 @@ class CreateCalendarsTable extends Migration
             $table->string('day')->nullable();
             $table->string('daytime')->nullable();
             $table->string('kw');
+            $table->boolean('confirmed');
 
             $table->integer('recipe_id')->unsigned()->index()->nullable();
             $table->integer('person_id')->unsigned()->index();

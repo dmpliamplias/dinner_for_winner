@@ -11,7 +11,10 @@ Route::get('/test', 'Page\PageController@test');
 Route::resource('person', 'Person\PersonController');
 
 // Calendar
-Route::resource('calendar', 'Calendar\CalendarController');
+Route::get('/calendar', 'Calendar\CalendarController@index')->name('calendar.index');
+Route::post('/calendar/store/{id}', 'Calendar\CalendarController@store');
+Route::post('/calendar/new/{id}', 'Calendar\CalendarController@newRecipe');
+Route::post('/calendar/unconfirm/{id}', 'Calendar\CalendarController@unconfirm');
 
 // Dashboard
 Route::resource('dashboard', 'Dashboard\DashboardController');

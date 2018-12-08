@@ -13,64 +13,136 @@ use Illuminate\Support\Facades\Auth;
 class CalendarController extends Controller
 {
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
     public function index()
     {
+        $existingEntries = $this->getExistingCalendarEntries();
+
+        $amountOfRecipes = $this->getAmountOfRecipes($existingEntries);
+
+        return view('calendar.index')->with(['calendars' => $existingEntries->all(), 'amountOfRecipes' => $amountOfRecipes]);
+    }
+
+    public function unconfirm($calendarId)
+    {
+        $calendar = Calendar::find($calendarId);
+
+        $calendar->confirmed = false;
+
+        $calendar->save();
+
+        return redirect('/calendar');
+    }
+
+    public function newRecipe(Request $request, $id)
+    {
+        $calendar = Calendar::find($id);
+
+        $recipeId = $request->input('recipeId');
+        $newRecipe = $this->getNewRecipe($recipeId);
+
+        if ($newRecipe->all()[0]->id != $recipeId) {
+            $calendar->recipe()->dissociate($recipeId);
+            $calendar->save();
+
+            $calendar = Calendar::find($calendar->id);
+
+            $calendar->recipe()->associate($newRecipe->all()[0]);
+            $calendar->save();
+        }
+
+        return redirect('/calendar');
+    }
+
+    public function store(Request $request, $id)
+    {
+        $calendar = Calendar::find($id);
+
+        $calendar->day = $request->input('day');
+        $calendar->daytime = $request->input('daytime');
+        $calendar->confirmed = true;
+
+        $calendar->save();
+
+        return redirect('/calendar');
+    }
+
+    private function create()
+    {
         $person = Auth::user()->person()->getResults();
-        $existingEntries = Calendar::all()->where('person_id = '.$person->id.' and kw ='.date("W", time()));
+        for ($x = 0; $x <= 20; $x++) {
+            $calendar = new Calendar();
+
+            $calendar->kw = date('W', time());
+            $calendar->confirmed = false;
+
+            $calendar->person()->associate($person);
+
+            $calendar->save();
+        }
+
+        $calendars = $person->calendars();
+        $recipes = $this->getRecipes();
+        for ($i = 0; $i < sizeof($recipes); $i++) {
+            $calendar = $calendars->getResults()[$i];
+            $calendar->recipe()->associate($recipes[$i]);
+
+            $calendar->save();
+        }
+
+        return $calendars;
+    }
+
+    private function getExistingCalendarEntries()
+    {
+        $person = Auth::user()->person()->getResults();
+        $existingEntries = Calendar::all()
+            ->where('person_id', $person->id)
+            ->where('kw', date("W", time()));
 
         if (sizeof($existingEntries) === 0) {
             $existingEntries = $this->create();
         }
 
+        return $existingEntries;
+    }
+
+    private function getRecipes()
+    {
         $recipes = Recipe::all();
 
-        if (sizeof($recipes) > 21) {
+        if (sizeof($recipes) >= 21) {
             $recipes = $recipes->random(21);
         }
 
-        return view('calendar.index')->with(['calendars' => $existingEntries, 'recipes' => $recipes]);
+        return $recipes;
     }
 
-    public function create()
+    private function getNewRecipe($recipeId)
     {
-        $person = Auth::user()->person()->getResults();
-        for ($x = 0; $x <= 20; $x++) {
-            $calendar = new Calendar();
-            $calendar->kw = date('W', time());
-            $calendar->person()->associate($person);
-
-            $calendar->save();
+        $otherRecipes = Recipe::all()->whereNotIn('id', [$recipeId]);
+        if (sizeof($otherRecipes) === 0) {
+            return Recipe::all()->where('id = '.$recipeId);
         }
-        $calendars = $person->calendars();
-        return $calendars;
+
+        return $otherRecipes->random(1);
     }
 
-    public function store(Request $request)
+    private function getAmountOfRecipes($existingEntries)
     {
-        $calendar = new Calendar();
+        $counter = 0;
+        foreach ($existingEntries as $entry) {
+            $recipe = $entry->recipe()->getResults();
+            if ($recipe != null) {
+                $counter++;
+            }
+        }
 
-        $index = $request->input('index');
-        $dayAndTime = $this->determineDayAndTime($index);
-        $calendar->day = $dayAndTime[0];
-        $calendar->daytime = $dayAndTime[1];
-        $calendar->recipe()->associate(Recipe::find($request->input('recipeId')));
-
-        $calendar->save();
-
-        return $this->index();
+        return $counter;
     }
 
 }
