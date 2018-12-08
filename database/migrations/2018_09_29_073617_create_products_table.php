@@ -18,12 +18,12 @@ class CreateProductsTable extends Migration
 
             $table->string('name');
             $table->string('unit');
-            $table->integer('calorie');
-            $table->integer('carb');
-            $table->integer('fat');
-            $table->integer('fattyAcid');
-            $table->integer('sugar');
-            $table->integer('protein');
+            $table->decimal('calorie', 8, 2);
+            $table->decimal('carb', 8, 2);
+            $table->decimal('fat', 8, 2);
+            $table->decimal('fattyAcid', 8, 2);
+            $table->decimal('sugar', 8, 2);
+            $table->decimal('protein', 8, 2);
             $table->decimal('price', 8, 2);
 
             $table->timestamps();
