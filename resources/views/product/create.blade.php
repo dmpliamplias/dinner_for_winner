@@ -8,17 +8,34 @@
 
   <head>
     <script>
-
-      /*function validateForm() {
+      function validateForm() {
         var grammFat = parseInt(document.forms["productForm"]["fat"].value);
         var grammCarb = parseInt(document.forms["productForm"]["carb"].value);
         var grammSalt = parseInt(document.forms["productForm"]["salt"].value);
+          if (grammCarb > 100) {
+            document.getElementById("validationCarb").style.visibility='visible';
+          }else {
+            document.getElementById("validationCarb").style.visibility='hidden';
+          }
+          if (grammFat > 100) {
+            document.getElementById("validationFat").style.visibility='visible';
+          }else {
+            document.getElementById("validationFat").style.visibility='hidden';
+          }
+          if (grammSalt > 100) {
+            document.getElementById("validationSalt").style.visibility='visible';
+          }else {
+            document.getElementById("validationSalt").style.visibility='hidden';
+          }
           if (grammFat + grammCarb + grammSalt > 100) {
             document.getElementById("validationGrammTotal").style.visibility='visible';
             document.getElementById('validationGrammTotal').scrollIntoView();
-            return false;
+          }else {
+            document.getElementById("validationGrammTotal").style.visibility='hidden';
           }
-          if (grammCarb > 100) {
+
+        }
+          /*if (grammCarb > 100) {
             document.getElementById("validationCarb").style.visibility='visible';
             }
           if (grammFat > 100) {
@@ -29,8 +46,7 @@
           }
           else {
             return false;
-          }
-        }
+          }*/
     </script>
   </head>
 

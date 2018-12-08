@@ -32,7 +32,7 @@
                 </tbody>
             </table>
             {{ $products->links() }}
-            <div class="alert alert-dark" role="alert">
+            <div class="alert alert-info" role="alert">
                 *Nährwertinfos & Preis pro 100g
             </div>
         @else
