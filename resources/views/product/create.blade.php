@@ -12,6 +12,7 @@
         var grammFat = parseInt(document.forms["productForm"]["fat"].value);
         var grammCarb = parseInt(document.forms["productForm"]["carb"].value);
         var grammSalt = parseInt(document.forms["productForm"]["salt"].value);
+
           if (grammCarb > 100) {
             document.getElementById("validationCarb").style.visibility='visible';
           }else {
@@ -30,10 +31,11 @@
           if (grammFat + grammCarb + grammSalt > 100) {
             document.getElementById("validationGrammTotal").style.visibility='visible';
             document.getElementById('validationGrammTotal').scrollIntoView();
+            return false;
           }else {
             document.getElementById("validationGrammTotal").style.visibility='hidden';
+            return true;
           }
-
         }
           /*if (grammCarb > 100) {
             document.getElementById("validationCarb").style.visibility='visible';
