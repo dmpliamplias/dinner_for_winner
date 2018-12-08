@@ -11,3 +11,4 @@ yarn-error.log
 /public/img/recipes
 /vendor
 config/database.php
+config/database.php

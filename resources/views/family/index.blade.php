@@ -33,7 +33,8 @@
                     </table>
               </ul>
                 @else
-                    <p>Keine Familiehmitglieder erfasst</p>
+                <div class="alert alert-info" role="alert">
+Keine Familiehmitglieder erfasst</div>
                 @endif
                 <p>
                   <a class="btn btn-primary" href="{{ route('familyMember.create') }}" role="button">Neues Familienmitglied hinzufügen</a>
