@@ -28,6 +28,8 @@ class PageController extends Controller
         return view('contact');
     }
 
+
+
     public function test()
     {
         $to_name = 'BRZ';
