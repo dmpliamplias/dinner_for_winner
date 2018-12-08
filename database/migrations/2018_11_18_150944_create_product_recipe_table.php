@@ -16,6 +16,8 @@ class CreateProductRecipeTable extends Migration
         Schema::create('product_recipe', function (Blueprint $table) {
             $table->increments('id');
 
+            $table->integer('amount');
+
             $table->integer('recipe_id')->unsigned()->nullable();
             $table->integer('product_id')->unsigned()->nullable();
 
