@@ -82,10 +82,7 @@
             @endif
         </div>
     </div>
-    <div class="container">
-
-    </div>
-    <div class="container">
+    <div class="container" style="margin-top: 40px">
         <div class="row">
             <div class="col-lg-12">
                 <table class="table">
