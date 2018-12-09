@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('https://dinner4winner.herokuapp.com/', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------
