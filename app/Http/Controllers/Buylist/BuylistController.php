@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Controllers\Buylist;
 
 use App\Http\Controllers\Controller;
@@ -9,13 +10,17 @@ use Barryvdh\DomPDF\Facade as PDF;
 class BuylistController extends Controller
 {
 
-     public function index(){
-       return view('buylist.index');
-     }
+    public function index()
+    {
+        return view('buylist.index');
+    }
 
-     public function create_pdf(){
-       $pdf = PDF::loadView ('buylist.pdf');
-       return $pdf->download('Einkaufszettel.pdf');
-     }
+    public function create_pdf()
+    {
+        $data = [0, 9, 324];
+        $pdf = PDF::loadView('buylist.pdf', ['data' => $data]);
+
+        return $pdf->download('Einkaufszettel.pdf');
+    }
 
 }

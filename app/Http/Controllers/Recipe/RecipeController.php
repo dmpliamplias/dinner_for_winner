@@ -29,6 +29,7 @@ class RecipeController extends Controller
     public function create()
     {
         $products = Product::pluck('name', 'id');
+
         $refl = new ReflectionClass('App\Category');
         $categories = ($refl->getConstants());
 
@@ -37,6 +38,7 @@ class RecipeController extends Controller
 
     public function store(Request $request)
     {
+        // Validate
         $this->validate($request, [
             'name' => 'required|String|max:255',
             'description' => 'required',
@@ -48,8 +50,10 @@ class RecipeController extends Controller
 
         // Name
         $recipe->name = $request->input('name');
+
         // Description
         $recipe->description = $request->input('description');
+
         // Time
         $recipe->time = $request->input('time');
 
@@ -60,6 +64,7 @@ class RecipeController extends Controller
             $categoriesString = $categoriesString.$category.";";
         }
         $recipe->categories = $categoriesString;
+
         // Picture
         $picture = $request->file('file');
         $pictureName = time().'.'.$picture->getClientOriginalExtension();
@@ -96,7 +101,10 @@ class RecipeController extends Controller
         ]);
 
         $recipe = Recipe::find($id);
+
+        // Name
         $recipe->name = $request->input('name');
+        // Description
         $recipe->description = $request->input('description');
         $recipe->time = $request->input('time');
         $productArray = $request->input('products');

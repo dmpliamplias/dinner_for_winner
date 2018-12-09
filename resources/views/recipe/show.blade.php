@@ -17,11 +17,11 @@
     </div>
     <div class="form-group">
         {{ Form::label('products', 'Produkte') }}
-        {{ Form::select('products[]', $products, null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
+        {{ Form::select('products[]', $recipe->products()->getResults(), null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
     </div>
     <div class="form-group">
         {{ Form::label('categories', 'Kategorien') }}
-        {{ Form::select('categories[]', $categories, null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
+        {{ Form::select('categories[]', $recipe->categories, null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
     </div>
     <div class="form-group">
         {{ Form::label('time', 'Zeit') }}
