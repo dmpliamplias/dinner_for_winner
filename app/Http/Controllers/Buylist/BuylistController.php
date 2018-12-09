@@ -9,13 +9,13 @@ use Barryvdh\DomPDF\Facade as PDF;
 class BuylistController extends Controller
 {
 
- public function index(){
-   return view('buylist.index');
- }
+     public function index(){
+       return view('buylist.index');
+     }
 
- public function create_pdf(){
-   $pdf = PDF::loadView ('buylist.index');
-   return $pdf->download('Einkaufszettel.pdf');
- }
+     public function create_pdf(){
+       $pdf = PDF::loadView ('buylist.pdf');
+       return $pdf->download('Einkaufszettel.pdf');
+     }
 
 }

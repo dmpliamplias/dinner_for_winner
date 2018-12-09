@@ -28,14 +28,10 @@ Route::resource('product', 'Product\ProductController');
 // Family member
 Route::resource('familyMember', 'FamilyMember\FamilyMemberController');
 
-
-
-//Route::resource('buylist', 'Buylist\BuylistController');
-//Route::get('/buylist', 'Buylist\BuylistController@index');
-Route::get('/buylist', function(){
-  return view('buylist.index');
-});
+// Buylist
+Route::get('/buylist', 'Buylist\BuylistController@index');
 Route::get('/buylist/pdf', 'Buylist\BuylistController@create_pdf');
+
 // Import
 Route::get('/import', 'Import\ImportController1@index');
 Route::post('/import/upload', 'Import\ImportController1@upload');
