@@ -26,7 +26,9 @@
 
       <p> Total Preis: 24.45</p>
 
-        </div>
+
+  <a class="btn btn-primary" href="{{url('/buylist/pdf') }}" role="button">Einkaufszettel drucken</a>
+</div>
 
   </body>
 </html>

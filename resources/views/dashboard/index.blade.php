@@ -55,7 +55,7 @@
        </div>
        <div class="col-md-4">
            <div class="card mb-4 box-shadow">
-               <a href="{{ route('dashboard.index') }}"><img class="card-img-top" src="{{ asset('img/shoppinglist.jpg') }}" style="height: 255px; width: 100%"></a>
+               <a href="{{url('/buylist') }}"><img class="card-img-top" src="{{ asset('img/shoppinglist.jpg') }}" style="height: 255px; width: 100%"></a>
                <div class="card-body">
                    <h5 class="card-title">
                         Einkaufszettel
