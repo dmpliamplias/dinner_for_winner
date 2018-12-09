@@ -12,9 +12,9 @@ Route::resource('person', 'Person\PersonController');
 
 // Calendar
 Route::get('/calendar', 'Calendar\CalendarController@index')->name('calendar.index');
-Route::post('/calendar/store/{id}', 'Calendar\CalendarController@store');
-Route::post('/calendar/new/{id}', 'Calendar\CalendarController@newRecipe');
-Route::post('/calendar/unconfirm/{id}', 'Calendar\CalendarController@unconfirm');
+Route::post('/calendar/{id}/store', 'Calendar\CalendarController@store');
+Route::post('/calendar/{id}/new', 'Calendar\CalendarController@newRecipe');
+Route::post('/calendar/{id}/unconfirm', 'Calendar\CalendarController@unconfirm');
 
 // Dashboard
 Route::resource('dashboard', 'Dashboard\DashboardController');
@@ -30,7 +30,7 @@ Route::resource('familyMember', 'FamilyMember\FamilyMemberController');
 
 // Buylist
 Route::get('/buylist', 'Buylist\BuylistController@index');
-Route::get('/buylist/pdf', 'Buylist\BuylistController@create_pdf');
+Route::get('/buylist/pdf', 'Buylist\BuylistController@createPdf');
 
 // Import
 Route::get('/import', 'Import\ImportController1@index');

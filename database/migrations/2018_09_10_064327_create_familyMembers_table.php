@@ -16,10 +16,12 @@ class CreateFamilyMembersTable extends Migration
     {
         Schema::create('family_members', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('goal');
-            $table->string('eat');
-            $table->string('gender');
+
             $table->string('name');
+            $table->string('goal')->nullable();
+            $table->string('eat')->nullable();
+            $table->string('gender')->nullable();
+
             $table->integer('person_id')->unsigned()->index();
             $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
 

@@ -5,39 +5,34 @@
 @endsection
 
 @section('content')
-<p>
-<div class="container">
+    <div class="container">
         @if(count($families) > 0)
-              <ul class="list-group list-group-flush">
-                  <table class="table table-hover">
-                      <thead>
-                        <tr>
-                          <th scope="col">Name</th>
-                          <th scope="col">Ziel</th>
-                          <th scope="col">Essgewohnheit</th>
-                          <th scope="col">Geschlecht</th>
-                          <th scope="col"> </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        @foreach($families as $familyMember)
-                        <tr>
-                          <td>{{$familyMember->name}}</td>
-                          <td>{{$familyMember->goal}}</td>
-                          <td>{{$familyMember->eat}}</td>
-                          <td>{{$familyMember->gender}}</td>
-                          <td><button type="button" class="btn btn-outline-danger">Löschen</button></td>
-                        </tr>
-                        @endforeach
-                      </tbody>
-                    </table>
-              </ul>
-                @else
-                <div class="alert alert-info" role="alert">
-Keine Familiehmitglieder erfasst</div>
-                @endif
-                <p>
-                  <a class="btn btn-primary" href="{{ route('familyMember.create') }}" role="button">Neues Familienmitglied hinzufügen</a>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Ziel</th>
+                    <th scope="col">Essgewohnheit</th>
+                    <th scope="col">Geschlecht</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach($families as $familyMember)
+                    <tr onclick="window.location = '/familyMember/ {{ $familyMember->id }}'">
+                        <td>{{$familyMember->name}}</td>
+                        <td>{{$familyMember->goal}}</td>
+                        <td>{{$familyMember->eat}}</td>
+                        <td>{{$familyMember->gender}}</td>
+                    </tr>
+                @endforeach
+                </tbody>
+            </table>
+        @else
+            <div class="alert alert-info" role="alert">
+                Keine Familiehmitglieder erfasst
             </div>
+        @endif
+        <a class="btn btn-primary" href="{{ route('familyMember.create') }}" role="button">Neues Familienmitglied
+            hinzufügen</a>
     </div>
 @endsection

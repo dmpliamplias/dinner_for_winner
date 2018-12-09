@@ -13,36 +13,49 @@ use App\Person;
 class FamilyMemberController extends Controller
 {
 
-    /**
-     * FamilyMemberController constructor.
-     */
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
     public function index()
     {
-        $families = Auth::user()->person()->getResults()->familyMembers()->getResults();
+        $person = Auth::user()->person()->getResults();
+        $families = $person->familyMembers()->getResults();
+
+        if (!$this->hasPersonFamilyMemberEntry($person)) {
+            $this->createForPerson($person);
+        }
+
         return view('family.index')->with('families', $families);
     }
 
-    /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
+    public function show($id)
+    {
+        $familyMember = FamilyMember::find($id);
+
+        return view('family.show')->with('member', $familyMember);
+    }
+
+    public function update(Request $request, $id)
+    {
+        $familyMember = FamilyMember::find($id);
+
+        $familyMember->name = $request->input('name');
+        $familyMember->gender = $request->input('gender');
+        $familyMember->goal = $request->input('goal');
+        $familyMember->eat = $request->input('eat');
+
+        $familyMember->save();
+
+        return redirect('/familyMember')->with('success', 'Familienmitglied bearbeitet');
+    }
+
     public function create()
     {
         return view('family.create');
     }
 
-    /**
-     * @param Request $request
-     * @return \Illuminate\Http\RedirectResponse
-     * @throws \Illuminate\Validation\ValidationException
-     */
     public function store(Request $request)
     {
         $this->validate($request, [
@@ -60,10 +73,6 @@ class FamilyMemberController extends Controller
         return redirect('/familyMember')->with('success', 'Neues Familienmitglied hinzugefügt');
     }
 
-    /**
-     * @param array $data
-     * @return mixed
-     */
     protected function validator(array $data)
     {
         return Validator::make($data, [
@@ -77,6 +86,33 @@ class FamilyMemberController extends Controller
         $familyMember->delete();
 
         return redirect('/familyMember')->with('success', 'Familienmitglied gelöscht');
+    }
+
+    private function hasPersonFamilyMemberEntry($person)
+    {
+        $familyMembers = FamilyMember::all()->where('person_id', $person->id);
+
+        if (count($familyMembers) === 0) {
+            return false;
+        }
+
+        foreach ($familyMembers as $familyMember) {
+            $name = $familyMember->name;
+            if (strcmp($name, $person->name) === 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private function createForPerson($person)
+    {
+        $familyMember = new FamilyMember();
+
+        $familyMember->name = $person->name;
+        $familyMember->person()->associate($person);
+
+        $familyMember->save();
     }
 
 }
