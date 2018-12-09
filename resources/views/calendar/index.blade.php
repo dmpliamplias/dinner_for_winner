@@ -82,4 +82,38 @@
             @endif
         </div>
     </div>
+    <div class="container">
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Kalorien</th>
+                        <th>Kolenhydrate</th>
+                        <th>Fett</th>
+                        <th>Fettsäuren</th>
+                        <th>Zucker</th>
+                        <th>Protein</th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                   <tr>
+                       <td>{{ $values[0] }} g</td>
+                       <td>{{ $values[1] }} g</td>
+                       <td>{{ $values[2] }} g</td>
+                       <td>{{ $values[3] }} g</td>
+                       <td>{{ $values[4] }} g</td>
+                       <td>{{ $values[5] }} g</td>
+                   </tr>
+                   </tbody>
+                </table>
+                <div class="alert alert-info" role="alert">
+                    <b>Gesamtkosten für bestätigte Rezepte: {{ $values[6] }} CHF</b>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

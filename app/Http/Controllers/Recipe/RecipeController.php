@@ -46,27 +46,35 @@ class RecipeController extends Controller
 
         $recipe = new Recipe();
 
+        // Name
         $recipe->name = $request->input('name');
+        // Description
         $recipe->description = $request->input('description');
+        // Time
         $recipe->time = $request->input('time');
-        $products = $request->input('products');
-        foreach ($products as $entry) {
-            $product = Product::find($entry);
-            $recipe->products()->save($product);
-        }
+
+        // Categories
         $categories = $request->input('categories');
         $categoriesString = "";
         foreach ($categories as $category) {
             $categoriesString = $categoriesString.$category.";";
         }
         $recipe->categories = $categoriesString;
+        // Picture
         $picture = $request->file('file');
         $pictureName = time().'.'.$picture->getClientOriginalExtension();
         $picture->move('img/recipes', $pictureName);
         $recipe->imagePath = 'img/recipes/'.$pictureName;
 
+        // Person relationship
         $recipe->person()->associate(Auth::user()->person()->getResults());
 
+        // Products
+        $products = $request->input('products');
+        foreach ($products as $entry) {
+            $product = Product::find($entry);
+            $product->recipes()->save($recipe);
+        }
         $recipe->save();
 
         return redirect('/recipe')->with('success', 'Rezept erstellt');

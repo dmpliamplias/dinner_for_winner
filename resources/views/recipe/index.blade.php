@@ -26,7 +26,8 @@
             {{ $recipes->links() }}
         @else
         <div class="alert alert-info" role="alert">
-Keine Rezepte erfasst</div>
+            Keine Rezepte erfasst
+        </div>
         @endif
         <div class="row">
             <div class="col-lg-4">

@@ -3,8 +3,6 @@
 namespace App\Http\Controllers\Calendar;
 
 use App\Calendar;
-use App\Day;
-use App\Daytime;
 use App\Http\Controllers\Controller;
 use App\Recipe;
 use Illuminate\Http\Request;
@@ -24,7 +22,12 @@ class CalendarController extends Controller
 
         $amountOfRecipes = $this->getAmountOfRecipes($existingEntries);
 
-        return view('calendar.index')->with(['calendars' => $existingEntries->take(sizeof($existingEntries)), 'amountOfRecipes' => $amountOfRecipes]);
+        $values = $this->getValuesOfAllConfirmedRecipes($existingEntries);
+
+        //todo first run crash & lookup recipes when theres enough time
+        return view('calendar.index')
+            ->with(['calendars' => $existingEntries->take(sizeof($existingEntries)),
+                'amountOfRecipes' => $amountOfRecipes, 'values' => $values]);
     }
 
     public function unconfirm($calendarId)
@@ -147,6 +150,34 @@ class CalendarController extends Controller
         }
 
         return $counter;
+    }
+
+    private function getValuesOfAllConfirmedRecipes($existingEntries)
+    {
+        $calorie = 0;
+        $carb = 0;
+        $fat = 0;
+        $fattyAcid = 0;
+        $sugar = 0;
+        $protein = 0;
+        $price = 0;
+        foreach ($existingEntries as $entry) {
+            $recipe = $entry->recipe()->getResults();
+            if ($recipe != null && $entry->confirmed) {
+                $products = $recipe->products()->getResults();
+                foreach ($products as $product) {
+                    $calorie += $product->calorie;
+                    $carb += $product->carb;
+                    $fat += $product->fat;
+                    $fattyAcid += $product->fattyAcid;
+                    $sugar += $product->sugar;
+                    $protein += $product->protein;
+                    $price += $product->price;
+                }
+            }
+        }
+
+        return [$calorie, $carb, $fat, $fattyAcid, $sugar, $protein, $price];
     }
 
 }
