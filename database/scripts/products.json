@@ -2,7 +2,7 @@
     "342": [
         "product",
         "Kalb Brust roh",
-        "gr",
+        "g",
         "204",
         "0",
         "14.5",
@@ -14,7 +14,7 @@
     "350": [
         "product",
         "Kalb Kotelett roh",
-        "gr",
+        "g",
         "161",
         "0",
         "8.7",
@@ -26,7 +26,7 @@
     "355": [
         "product",
         "Kalb Nierstück Steak roh",
-        "gr",
+        "g",
         "113",
         "0",
         "2.4",
@@ -38,7 +38,7 @@
     "445": [
         "product",
         "Lamm Gigot roh (Schweiz Neuseeland)",
-        "gr",
+        "g",
         "155",
         "0",
         "8.2",
@@ -50,7 +50,7 @@
     "446": [
         "product",
         "Lamm Kotelett roh (Schweiz)",
-        "gr",
+        "g",
         "179",
         "0",
         "10.9",
@@ -62,7 +62,7 @@
     "676": [
         "product",
         "Rind Gehacktes roh",
-        "gr",
+        "g",
         "154",
         "0",
         "7.5",
@@ -74,7 +74,7 @@
     "801": [
         "product",
         "Schwein Gehacktes roh",
-        "gr",
+        "g",
         "158",
         "0",
         "8.5",
@@ -86,7 +86,7 @@
     "809": [
         "product",
         "Schwein Kotelett roh",
-        "gr",
+        "g",
         "179",
         "0",
         "10.4",
@@ -98,7 +98,7 @@
     "816": [
         "product",
         "Schwein Voressen roh",
-        "gr",
+        "g",
         "135",
         "0",
         "5.7",
@@ -110,7 +110,7 @@
     "351": [
         "product",
         "Kalb Leber roh",
-        "gr",
+        "g",
         "135",
         "4.6",
         "4.2",
@@ -122,7 +122,7 @@
     "345": [
         "product",
         "Kalb Gehacktes roh",
-        "gr",
+        "g",
         "104",
         "0",
         "2.4",
@@ -134,7 +134,7 @@
     "300": [
         "product",
         "Hirsch Entrecôte roh",
-        "gr",
+        "g",
         "111",
         "0",
         "2.1",
@@ -146,7 +146,7 @@
     "347": [
         "product",
         "Kalb Geschnetzeltes roh",
-        "gr",
+        "g",
         "98",
         "0",
         "1.1",
@@ -158,7 +158,7 @@
     "356": [
         "product",
         "Kalb Runder Mocken roh",
-        "gr",
+        "g",
         "104",
         "0",
         "1.8",
@@ -170,7 +170,7 @@
     "359": [
         "product",
         "Kalb Voressen roh",
-        "gr",
+        "g",
         "102",
         "0",
         "2.4",
@@ -182,7 +182,7 @@
     "370": [
         "product",
         "Kaninchen Filet roh",
-        "gr",
+        "g",
         "111",
         "0",
         "1.5",
@@ -194,7 +194,7 @@
     "447": [
         "product",
         "Lamm Nierstück roh (Australien Neuseeland)",
-        "gr",
+        "g",
         "117",
         "0",
         "3.3",
@@ -206,7 +206,7 @@
     "448": [
         "product",
         "Lamm Racks roh (Australien Neuseeland)",
-        "gr",
+        "g",
         "156",
         "0",
         "8.3",
@@ -218,7 +218,7 @@
     "449": [
         "product",
         "Lamm Voressen roh (Schweiz)",
-        "gr",
+        "g",
         "154",
         "0",
         "8.4",
@@ -230,7 +230,7 @@
     "611": [
         "product",
         "Poulet Brust mit Haut roh (Schweiz)",
-        "gr",
+        "g",
         "152",
         "0",
         "6.5",
@@ -242,7 +242,7 @@
     "610": [
         "product",
         "Poulet Brust mit Haut roh (Frankreich)",
-        "gr",
+        "g",
         "126",
         "0",
         "3.3",
@@ -254,7 +254,7 @@
     "613": [
         "product",
         "Poulet Brust ohne Haut roh (Schweiz)",
-        "gr",
+        "g",
         "107",
         "0",
         "1",
@@ -266,7 +266,7 @@
     "612": [
         "product",
         "Poulet Brust ohne Haut roh (Frankreich)",
-        "gr",
+        "g",
         "109",
         "0",
         "0.9",
@@ -278,7 +278,7 @@
     "621": [
         "product",
         "Poulet Schenkel mit Haut roh (Schweiz)",
-        "gr",
+        "g",
         "163",
         "0",
         "10.2",
@@ -290,7 +290,7 @@
     "620": [
         "product",
         "Poulet Schenkel mit Haut roh (Frankreich)",
-        "gr",
+        "g",
         "145",
         "0",
         "7.5",
@@ -302,7 +302,7 @@
     "623": [
         "product",
         "Poulet Schenkel ohne Haut roh (Schweiz)",
-        "gr",
+        "g",
         "135",
         "0",
         "6.2",
@@ -314,7 +314,7 @@
     "622": [
         "product",
         "Poulet Schenkel ohne Haut roh (Frankreich)",
-        "gr",
+        "g",
         "121",
         "0",
         "4.3",
@@ -326,7 +326,7 @@
     "651": [
         "product",
         "Reh Ragout roh",
-        "gr",
+        "g",
         "105",
         "0",
         "1.9",
@@ -338,7 +338,7 @@
     "652": [
         "product",
         "Reh Schnitzel roh",
-        "gr",
+        "g",
         "105",
         "0",
         "1.7",
@@ -350,7 +350,7 @@
     "671": [
         "product",
         "Rind Entrecôte roh (Schweiz)",
-        "gr",
+        "g",
         "133",
         "0",
         "4.5",
@@ -362,7 +362,7 @@
     "672": [
         "product",
         "Rind Entrecôte roh (USA)",
-        "gr",
+        "g",
         "210",
         "0",
         "13.7",
@@ -374,7 +374,7 @@
     "679": [
         "product",
         "Rind Hohrücken roh (Schweiz)",
-        "gr",
+        "g",
         "165",
         "0",
         "9",
@@ -386,7 +386,7 @@
     "680": [
         "product",
         "Rind Hohrücken roh (USA)",
-        "gr",
+        "g",
         "218",
         "0",
         "15.7",
@@ -398,7 +398,7 @@
     "682": [
         "product",
         "Rind Runder Mocken roh",
-        "gr",
+        "g",
         "106",
         "0",
         "1.8",
@@ -410,7 +410,7 @@
     "687": [
         "product",
         "Rind Siedfleisch durchzogen  roh",
-        "gr",
+        "g",
         "227",
         "0",
         "16.6",
@@ -422,7 +422,7 @@
     "690": [
         "product",
         "Rind Siedfleisch mager roh",
-        "gr",
+        "g",
         "132",
         "0",
         "5.5",
@@ -434,7 +434,7 @@
     "677": [
         "product",
         "Rind Geschnetzeltes roh",
-        "gr",
+        "g",
         "102",
         "0",
         "1.5",
@@ -446,7 +446,7 @@
     "691": [
         "product",
         "Rind Voressen roh",
-        "gr",
+        "g",
         "96",
         "0",
         "1.3",
@@ -458,7 +458,7 @@
     "796": [
         "product",
         "Schwein Brustspitz roh",
-        "gr",
+        "g",
         "239",
         "0",
         "18.6",
@@ -470,7 +470,7 @@
     "803": [
         "product",
         "Schwein Geschnetzeltes roh",
-        "gr",
+        "g",
         "134",
         "0",
         "5.4",
@@ -482,7 +482,7 @@
     "805": [
         "product",
         "Schwein Hals Steak roh",
-        "gr",
+        "g",
         "202",
         "0",
         "14.1",
@@ -494,7 +494,7 @@
     "811": [
         "product",
         "Schwein Nierstück roh",
-        "gr",
+        "g",
         "138",
         "0",
         "5.1",
@@ -518,7 +518,7 @@
     "906": [
         "product",
         "Trinkwasser (Mittelwert Schweiz)",
-        "gr",
+        "g",
         "0",
         "0",
         "0",
@@ -530,7 +530,7 @@
     "922": [
         "product",
         "Vorzugsbutter",
-        "gr",
+        "g",
         "746",
         "0.7",
         "82.3",
@@ -542,7 +542,7 @@
     "95": [
         "product",
         "Bratbutter",
-        "gr",
+        "g",
         "885",
         "0",
         "98.3",
@@ -554,7 +554,7 @@
     "410": [
         "product",
         "Kochbutter",
-        "gr",
+        "g",
         "745",
         "0.7",
         "82.2",
@@ -566,7 +566,7 @@
     "327": [
         "product",
         "Joghurt nature",
-        "gr",
+        "g",
         "66",
         "4.5",
         "3.6",
@@ -578,7 +578,7 @@
     "323": [
         "product",
         "Joghurt Erdbeer",
-        "gr",
+        "g",
         "101",
         "15.2",
         "2.7",
@@ -590,7 +590,7 @@
     "329": [
         "product",
         "Joghurt Schokolade",
-        "gr",
+        "g",
         "120",
         "16.9",
         "3.9",
@@ -602,7 +602,7 @@
     "324": [
         "product",
         "Joghurt Haselnuss",
-        "gr",
+        "g",
         "119",
         "15",
         "4.6",
@@ -614,7 +614,7 @@
     "330": [
         "product",
         "Joghurt Vanille",
-        "gr",
+        "g",
         "98",
         "14",
         "3",
@@ -626,7 +626,7 @@
     "325": [
         "product",
         "Joghurt Mokka",
-        "gr",
+        "g",
         "100",
         "14.1",
         "3.1",
@@ -650,7 +650,7 @@
     "877": [
         "product",
         "Teilentrahmte Milch pasteurisiert",
-        "gr",
+        "g",
         "57",
         "4.7",
         "2.8",
@@ -710,7 +710,7 @@
     "478": [
         "product",
         "Magermilch UHT",
-        "gr",
+        "g",
         "33",
         "4.7",
         "0.1",
@@ -722,7 +722,7 @@
     "919": [
         "product",
         "Vollrahm pasteurisiert",
-        "gr",
+        "g",
         "334",
         "3.1",
         "34.8",
@@ -734,7 +734,7 @@
     "920": [
         "product",
         "Vollrahm UHT",
-        "gr",
+        "g",
         "334",
         "3.1",
         "34.9",
@@ -746,7 +746,7 @@
     "280": [
         "product",
         "Halbrahm pasteurisiert",
-        "gr",
+        "g",
         "274",
         "3.3",
         "27.9",
@@ -758,7 +758,7 @@
     "281": [
         "product",
         "Halbrahm UHT",
-        "gr",
+        "g",
         "251",
         "3.7",
         "25.1",
@@ -770,7 +770,7 @@
     "338": [
         "product",
         "Kaffeerahm",
-        "gr",
+        "g",
         "161",
         "3.8",
         "15",
@@ -782,7 +782,7 @@
     "631": [
         "product",
         "Quark nature Rahm",
-        "gr",
+        "g",
         "183",
         "3.7",
         "15.6",
@@ -806,7 +806,7 @@
     "836": [
         "product",
         "Soja Drink nature",
-        "gr",
+        "g",
         "40",
         "0.8",
         "2.2",
@@ -818,7 +818,7 @@
     "538": [
         "product",
         "Mozzarella",
-        "gr",
+        "g",
         "253",
         "0.7",
         "19.5",
@@ -830,7 +830,7 @@
     "326": [
         "product",
         "Joghurt Mokka Bio",
-        "gr",
+        "g",
         "96",
         "13.1",
         "3.3",
@@ -842,7 +842,7 @@
     "279": [
         "product",
         "Halbfettbutter",
-        "gr",
+        "g",
         "388",
         "3.5",
         "39.8",
@@ -854,7 +854,7 @@
     "438": [
         "product",
         "Lachs geräuchert",
-        "gr",
+        "g",
         "167",
         "0",
         "8.2",
@@ -866,7 +866,7 @@
     "441": [
         "product",
         "Lachs Zucht roh",
-        "gr",
+        "g",
         "200",
         "0",
         "13.4",
@@ -878,7 +878,7 @@
     "522": [
         "product",
         "Milchschokolade",
-        "gr",
+        "g",
         "537",
         "56.9",
         "31.1",
@@ -890,7 +890,7 @@
     "786": [
         "product",
         "Schokolade dunkel (bitter)",
-        "gr",
+        "g",
         "535",
         "53.4",
         "31.8",
@@ -902,7 +902,7 @@
     "787": [
         "product",
         "Schokolade weiss",
-        "gr",
+        "g",
         "568",
         "55.8",
         "35.2",
@@ -914,7 +914,7 @@
     "277": [
         "product",
         "Haferflocken",
-        "gr",
+        "g",
         "372",
         "57.5",
         "7.5",
@@ -926,7 +926,7 @@
     "558": [
         "product",
         "Panettone",
-        "gr",
+        "g",
         "354",
         "56.5",
         "10.7",
@@ -938,7 +938,7 @@
     "949": [
         "product",
         "Weizenmehl Ruch Typ 1100",
-        "gr",
+        "g",
         "339",
         "64.6",
         "1.7",
@@ -950,7 +950,7 @@
     "947": [
         "product",
         "Weizenmehl (Backmehl) Typ 550",
-        "gr",
+        "g",
         "344",
         "69.5",
         "1.3",
@@ -962,7 +962,7 @@
     "951": [
         "product",
         "Weizenmehl weiss Typ 400",
-        "gr",
+        "g",
         "346",
         "71",
         "1.1",
@@ -974,7 +974,7 @@
     "950": [
         "product",
         "Weizenmehl Vollkorn Typ 1700",
-        "gr",
+        "g",
         "338",
         "61",
         "2",
@@ -986,7 +986,7 @@
     "948": [
         "product",
         "Weizenmehl halbweiss Typ 720",
-        "gr",
+        "g",
         "340",
         "66.2",
         "1.5",
@@ -998,7 +998,7 @@
     "496": [
         "product",
         "Margarine",
-        "gr",
+        "g",
         "724",
         "0.5",
         "80",
@@ -1010,7 +1010,7 @@
     "439": [
         "product",
         "Lachs wild roh",
-        "gr",
+        "g",
         "182",
         "0",
         "11.5",
@@ -1022,7 +1022,7 @@
     "207": [
         "product",
         "Felche roh",
-        "gr",
+        "g",
         "101",
         "0",
         "2.7",
@@ -1034,7 +1034,7 @@
     "491": [
         "product",
         "Mandel geröstet gesalzen",
-        "gr",
+        "g",
         "631",
         "7.2",
         "55.2",
@@ -1046,7 +1046,7 @@
     "287": [
         "product",
         "Haselnuss",
-        "gr",
+        "g",
         "643",
         "6.9",
         "59.5",
@@ -1058,7 +1058,7 @@
     "45": [
         "product",
         "Baumnuss",
-        "gr",
+        "g",
         "742",
         "7",
         "70.8",
@@ -1070,7 +1070,7 @@
     "175": [
         "product",
         "Edelkastanie roh",
-        "gr",
+        "g",
         "198",
         "42.4",
         "1.5",
@@ -1082,7 +1082,7 @@
     "490": [
         "product",
         "Mandel",
-        "gr",
+        "g",
         "576",
         "4",
         "49.9",
@@ -1094,7 +1094,7 @@
     "590": [
         "product",
         "Pistazie",
-        "gr",
+        "g",
         "580",
         "17.6",
         "45.4",
@@ -1106,7 +1106,7 @@
     "133": [
         "product",
         "Cashewnuss",
-        "gr",
+        "g",
         "593",
         "26.6",
         "45.2",
@@ -1118,7 +1118,7 @@
     "436": [
         "product",
         "Kürbiskerne",
-        "gr",
+        "g",
         "603",
         "4.7",
         "49.1",
@@ -1130,7 +1130,7 @@
     "465": [
         "product",
         "Leinsamen",
-        "gr",
+        "g",
         "472",
         "10.8",
         "33.6",
@@ -1142,7 +1142,7 @@
     "492": [
         "product",
         "Mandel ohne Fett geröstet gesalzen",
-        "gr",
+        "g",
         "620",
         "10.3",
         "52.1",
@@ -1154,7 +1154,7 @@
     "562": [
         "product",
         "Paranuss",
-        "gr",
+        "g",
         "692",
         "3.2",
         "66.5",
@@ -1166,7 +1166,7 @@
     "830": [
         "product",
         "Sesamsamen ungeschält",
-        "gr",
+        "g",
         "589",
         "11.7",
         "49.8",
@@ -1178,7 +1178,7 @@
     "843": [
         "product",
         "Sonnenblumenkerne",
-        "gr",
+        "g",
         "626",
         "12",
         "53",
@@ -1190,7 +1190,7 @@
     "197": [
         "product",
         "Erdnuss",
-        "gr",
+        "g",
         "600",
         "11.2",
         "48.5",
@@ -1202,7 +1202,7 @@
     "589": [
         "product",
         "Pinienkerne",
-        "gr",
+        "g",
         "594",
         "13.9",
         "44.9",
@@ -1214,7 +1214,7 @@
     "423": [
         "product",
         "Kokosnuss",
-        "gr",
+        "g",
         "497",
         "16",
         "42",
@@ -1226,7 +1226,7 @@
     "173": [
         "product",
         "Dorsch roh",
-        "gr",
+        "g",
         "76",
         "0",
         "0.4",
@@ -1238,7 +1238,7 @@
     "225": [
         "product",
         "Forelle roh",
-        "gr",
+        "g",
         "127",
         "0",
         "7",
@@ -1250,7 +1250,7 @@
     "310": [
         "product",
         "Hühnerei ganz roh",
-        "gr",
+        "g",
         "142",
         "0.3",
         "10.3",
@@ -1262,7 +1262,7 @@
     "894": [
         "product",
         "Tomate roh",
-        "gr",
+        "g",
         "21",
         "3.2",
         "0.3",
@@ -1274,7 +1274,7 @@
     "28": [
         "product",
         "Aubergine roh",
-        "gr",
+        "g",
         "23",
         "3.1",
         "0.2",
@@ -1286,7 +1286,7 @@
     "80": [
         "product",
         "Blumenkohl roh",
-        "gr",
+        "g",
         "26",
         "2.3",
         "0.3",
@@ -1298,7 +1298,7 @@
     "103": [
         "product",
         "Broccoli roh",
-        "gr",
+        "g",
         "31",
         "2.4",
         "0.4",
@@ -1310,7 +1310,7 @@
     "209": [
         "product",
         "Fenchel roh",
-        "gr",
+        "g",
         "23",
         "2.3",
         "0.3",
@@ -1322,7 +1322,7 @@
     "86": [
         "product",
         "Bohne grün roh",
-        "gr",
+        "g",
         "31",
         "3.6",
         "0.2",
@@ -1334,7 +1334,7 @@
     "272": [
         "product",
         "Gurke roh",
-        "gr",
+        "g",
         "13",
         "2",
         "0.1",
@@ -1346,7 +1346,7 @@
     "372": [
         "product",
         "Karotte roh",
-        "gr",
+        "g",
         "38",
         "6.6",
         "0.3",
@@ -1358,7 +1358,7 @@
     "406": [
         "product",
         "Knoblauch roh",
-        "gr",
+        "g",
         "136",
         "24.5",
         "0.5",
@@ -1370,7 +1370,7 @@
     "408": [
         "product",
         "Knollensellerie roh",
-        "gr",
+        "g",
         "28",
         "2.4",
         "0.3",
@@ -1382,7 +1382,7 @@
     "456": [
         "product",
         "Lauch roh",
-        "gr",
+        "g",
         "30",
         "3.7",
         "0.3",
@@ -1394,7 +1394,7 @@
     "568": [
         "product",
         "Peperoni grün roh",
-        "gr",
+        "g",
         "20",
         "2.6",
         "0.3",
@@ -1406,7 +1406,7 @@
     "570": [
         "product",
         "Peperoni rot roh",
-        "gr",
+        "g",
         "32",
         "5.2",
         "0.4",
@@ -1418,7 +1418,7 @@
     "660": [
         "product",
         "Rettich roh",
-        "gr",
+        "g",
         "18",
         "2.6",
         "0.3",
@@ -1430,7 +1430,7 @@
     "661": [
         "product",
         "Rhabarber roh",
-        "gr",
+        "g",
         "12",
         "1",
         "0.1",
@@ -1442,7 +1442,7 @@
     "716": [
         "product",
         "Rosenkohl roh",
-        "gr",
+        "g",
         "43",
         "3.5",
         "0.5",
@@ -1454,7 +1454,7 @@
     "721": [
         "product",
         "Rotkohl roh",
-        "gr",
+        "g",
         "30",
         "4",
         "0.3",
@@ -1466,7 +1466,7 @@
     "850": [
         "product",
         "Spinat roh",
-        "gr",
+        "g",
         "23",
         "0.8",
         "0.4",
@@ -1478,7 +1478,7 @@
     "860": [
         "product",
         "Stangensellerie roh",
-        "gr",
+        "g",
         "14",
         "1.5",
         "0.1",
@@ -1490,7 +1490,7 @@
     "980": [
         "product",
         "Zucchetti roh",
-        "gr",
+        "g",
         "19",
         "2",
         "0.2",
@@ -1502,7 +1502,7 @@
     "997": [
         "product",
         "Zwiebel roh",
-        "gr",
+        "g",
         "39",
         "7",
         "0.2",
@@ -1514,7 +1514,7 @@
     "191": [
         "product",
         "Erbse grün roh",
-        "gr",
+        "g",
         "90",
         "12",
         "0.7",
@@ -1526,7 +1526,7 @@
     "470": [
         "product",
         "Linse ganz getrocknet",
-        "gr",
+        "g",
         "324",
         "44.8",
         "1.5",
@@ -1538,7 +1538,7 @@
     "111": [
         "product",
         "Brunnenkresse roh",
-        "gr",
+        "g",
         "17",
         "0.3",
         "0.2",
@@ -1550,7 +1550,7 @@
     "546": [
         "product",
         "Nüsslisalat roh",
-        "gr",
+        "g",
         "23",
         "2",
         "0.4",
@@ -1562,7 +1562,7 @@
     "571": [
         "product",
         "Petersilie roh",
-        "gr",
+        "g",
         "56",
         "6.8",
         "0.5",
@@ -1574,7 +1574,7 @@
     "783": [
         "product",
         "Schnittlauch roh",
-        "gr",
+        "g",
         "30",
         "1.9",
         "0.6",
@@ -1586,7 +1586,7 @@
     "137": [
         "product",
         "Champignon roh",
-        "gr",
+        "g",
         "22",
         "1.1",
         "0.3",
@@ -1598,7 +1598,7 @@
     "182": [
         "product",
         "Eierschwamm roh",
-        "gr",
+        "g",
         "21",
         "0.2",
         "0.5",
@@ -1610,7 +1610,7 @@
     "6": [
         "product",
         "Ananas roh",
-        "gr",
+        "g",
         "51",
         "11.3",
         "0.2",
@@ -1622,7 +1622,7 @@
     "10": [
         "product",
         "Apfel roh",
-        "gr",
+        "g",
         "55",
         "11.7",
         "0.3",
@@ -1634,7 +1634,7 @@
     "23": [
         "product",
         "Aprikose roh",
-        "gr",
+        "g",
         "48",
         "10",
         "0.1",
@@ -1646,7 +1646,7 @@
     "32": [
         "product",
         "Avocado roh",
-        "gr",
+        "g",
         "144",
         "0.8",
         "14.2",
@@ -1658,7 +1658,7 @@
     "37": [
         "product",
         "Banane roh",
-        "gr",
+        "g",
         "95",
         "21",
         "0.3",
@@ -1670,7 +1670,7 @@
     "62": [
         "product",
         "Birne roh",
-        "gr",
+        "g",
         "58",
         "12.2",
         "0.3",
@@ -1682,7 +1682,7 @@
     "104": [
         "product",
         "Brombeere roh",
-        "gr",
+        "g",
         "44",
         "6.2",
         "0.4",
@@ -1694,7 +1694,7 @@
     "166": [
         "product",
         "Dattel getrocknet",
-        "gr",
+        "g",
         "305",
         "69",
         "0.5",
@@ -1706,7 +1706,7 @@
     "196": [
         "product",
         "Erdbeere roh",
-        "gr",
+        "g",
         "40",
         "7",
         "0.5",
@@ -1718,7 +1718,7 @@
     "206": [
         "product",
         "Feige roh",
-        "gr",
+        "g",
         "74",
         "15.5",
         "0.3",
@@ -1730,7 +1730,7 @@
     "205": [
         "product",
         "Feige getrocknet",
-        "gr",
+        "g",
         "273",
         "56.8",
         "1.2",
@@ -1742,7 +1742,7 @@
     "261": [
         "product",
         "Grapefruit roh",
-        "gr",
+        "g",
         "30",
         "5.9",
         "0.1",
@@ -1754,7 +1754,7 @@
     "295": [
         "product",
         "Heidelbeere roh",
-        "gr",
+        "g",
         "58",
         "11.3",
         "0.5",
@@ -1766,7 +1766,7 @@
     "297": [
         "product",
         "Himbeere roh",
-        "gr",
+        "g",
         "52",
         "7",
         "0.6",
@@ -1778,7 +1778,7 @@
     "331": [
         "product",
         "Johannisbeere rot roh",
-        "gr",
+        "g",
         "45",
         "5",
         "0.5",
@@ -1790,7 +1790,7 @@
     "332": [
         "product",
         "Johannisbeere schwarz roh",
-        "gr",
+        "g",
         "58",
         "9",
         "0.3",
@@ -1802,7 +1802,7 @@
     "340": [
         "product",
         "Kaki roh",
-        "gr",
+        "g",
         "71",
         "15.3",
         "0.2",
@@ -1814,7 +1814,7 @@
     "399": [
         "product",
         "Kirsche roh",
-        "gr",
+        "g",
         "74",
         "15.3",
         "0.5",
@@ -1826,7 +1826,7 @@
     "402": [
         "product",
         "Kiwi roh",
-        "gr",
+        "g",
         "54",
         "9.9",
         "0.6",
@@ -1838,7 +1838,7 @@
     "493": [
         "product",
         "Mango roh",
-        "gr",
+        "g",
         "62",
         "13.4",
         "0.2",
@@ -1850,7 +1850,7 @@
     "489": [
         "product",
         "Mandarine roh",
-        "gr",
+        "g",
         "47",
         "10",
         "0.2",
@@ -1862,7 +1862,7 @@
     "975": [
         "product",
         "Zitrone roh",
-        "gr",
+        "g",
         "22",
         "2.9",
         "0.4",
@@ -1874,7 +1874,7 @@
     "307": [
         "product",
         "Honigmelone roh",
-        "gr",
+        "g",
         "38",
         "8",
         "0.1",
@@ -1886,7 +1886,7 @@
     "858": [
         "product",
         "Stachelbeere roh",
-        "gr",
+        "g",
         "34",
         "6.2",
         "0.1",
@@ -1898,7 +1898,7 @@
     "577": [
         "product",
         "Pfirsich roh",
-        "gr",
+        "g",
         "48",
         "10",
         "0.2",
@@ -1910,7 +1910,7 @@
     "926": [
         "product",
         "Wassermelone roh",
-        "gr",
+        "g",
         "30",
         "6.3",
         "0.3",
@@ -1922,7 +1922,7 @@
     "531": [
         "product",
         "Mirabelle roh",
-        "gr",
+        "g",
         "57",
         "12",
         "0.2",
@@ -1934,7 +1934,7 @@
     "543": [
         "product",
         "Nektarine roh",
-        "gr",
+        "g",
         "51",
         "10.2",
         "0.2",
@@ -1946,7 +1946,7 @@
     "552": [
         "product",
         "Orange roh",
-        "gr",
+        "g",
         "44",
         "8.6",
         "0.2",
@@ -1958,7 +1958,7 @@
     "199": [
         "product",
         "Erdnuss geröstet",
-        "gr",
+        "g",
         "593",
         "8.6",
         "49",
@@ -1970,7 +1970,7 @@
     "311": [
         "product",
         "Hühnereigelb roh (Eidotter)",
-        "gr",
+        "g",
         "350",
         "0.2",
         "31.5",
@@ -1994,7 +1994,7 @@
     "486": [
         "product",
         "Maiskeimöl",
-        "gr",
+        "g",
         "809",
         "0",
         "89.9",
@@ -2006,7 +2006,7 @@
     "764": [
         "product",
         "Sardine im Öl abgetropft",
-        "gr",
+        "g",
         "215",
         "0",
         "13.7",
@@ -2018,7 +2018,7 @@
     "762": [
         "product",
         "Sardelle im Öl abgetropft",
-        "gr",
+        "g",
         "182",
         "0.2",
         "8.4",
@@ -2030,7 +2030,7 @@
     "791": [
         "product",
         "Scholle roh",
-        "gr",
+        "g",
         "86",
         "0",
         "1.9",
@@ -2042,7 +2042,7 @@
     "292": [
         "product",
         "Hecht roh",
-        "gr",
+        "g",
         "81",
         "0",
         "0.8",
@@ -2054,7 +2054,7 @@
     "882": [
         "product",
         "Thon im Wasser abgetropft",
-        "gr",
+        "g",
         "117",
         "0",
         "1.6",
@@ -2066,7 +2066,7 @@
     "881": [
         "product",
         "Thon im Öl abgetropft",
-        "gr",
+        "g",
         "186",
         "0",
         "8.4",
@@ -2078,7 +2078,7 @@
     "655": [
         "product",
         "Reis parboiled trocken",
-        "gr",
+        "g",
         "349",
         "78.2",
         "0.6",
@@ -2090,7 +2090,7 @@
     "114": [
         "product",
         "Buchweizenmehl",
-        "gr",
+        "g",
         "344",
         "64.5",
         "2.8",
@@ -2102,7 +2102,7 @@
     "113": [
         "product",
         "Buchweizen Korn geschält",
-        "gr",
+        "g",
         "343",
         "71",
         "1.7",
@@ -2114,7 +2114,7 @@
     "301": [
         "product",
         "Hirse Korn geschält",
-        "gr",
+        "g",
         "357",
         "68.8",
         "3.9",
@@ -2126,7 +2126,7 @@
     "285": [
         "product",
         "Hartweizengriess trocken",
-        "gr",
+        "g",
         "351",
         "70.4",
         "1.2",
@@ -2138,7 +2138,7 @@
     "608": [
         "product",
         "Popcorn",
-        "gr",
+        "g",
         "367",
         "62.9",
         "4.2",
@@ -2150,7 +2150,7 @@
     "485": [
         "product",
         "Maisgriess trocken",
-        "gr",
+        "g",
         "350",
         "73.8",
         "1.1",
@@ -2162,7 +2162,7 @@
     "488": [
         "product",
         "Maisstärke",
-        "gr",
+        "g",
         "354",
         "88",
         "0",
@@ -2174,7 +2174,7 @@
     "657": [
         "product",
         "Reis poliert trocken",
-        "gr",
+        "g",
         "348",
         "78.3",
         "0.6",
@@ -2186,7 +2186,7 @@
     "659": [
         "product",
         "Reis unpoliert trocken",
-        "gr",
+        "g",
         "357",
         "73.9",
         "2.8",
@@ -2198,7 +2198,7 @@
     "710": [
         "product",
         "Rollgerste",
-        "gr",
+        "g",
         "344",
         "71",
         "1.4",
@@ -2210,7 +2210,7 @@
     "944": [
         "product",
         "Weizenkeime",
-        "gr",
+        "g",
         "355",
         "33.3",
         "10",
@@ -2222,7 +2222,7 @@
     "946": [
         "product",
         "Weizenkleie",
-        "gr",
+        "g",
         "262",
         "17.7",
         "4.6",
@@ -2234,7 +2234,7 @@
     "483": [
         "product",
         "Mais roh",
-        "gr",
+        "g",
         "92",
         "15.7",
         "1.2",
@@ -2246,7 +2246,7 @@
     "60": [
         "product",
         "Birne getrocknet",
-        "gr",
+        "g",
         "288",
         "59.7",
         "1.4",
@@ -2258,7 +2258,7 @@
     "9": [
         "product",
         "Apfel geschält getrocknet",
-        "gr",
+        "g",
         "295",
         "63.2",
         "2",
@@ -2270,7 +2270,7 @@
     "305": [
         "product",
         "Holunderbeere schwarz roh",
-        "gr",
+        "g",
         "52",
         "7.4",
         "0.5",
@@ -2282,7 +2282,7 @@
     "142": [
         "product",
         "Chinakohl roh",
-        "gr",
+        "g",
         "16",
         "1.2",
         "0.3",
@@ -2294,7 +2294,7 @@
     "393": [
         "product",
         "Kefe roh",
-        "gr",
+        "g",
         "68",
         "10",
         "0.2",
@@ -2306,7 +2306,7 @@
     "396": [
         "product",
         "Kichererbse getrocknet",
-        "gr",
+        "g",
         "327",
         "44.3",
         "4.9",
@@ -2318,7 +2318,7 @@
     "454": [
         "product",
         "Lattich roh",
-        "gr",
+        "g",
         "16",
         "1.3",
         "0.3",
@@ -2330,7 +2330,7 @@
     "838": [
         "product",
         "Sojabohne getrocknet",
-        "gr",
+        "g",
         "387",
         "6.3",
         "18.3",
@@ -2342,7 +2342,7 @@
     "848": [
         "product",
         "Spargel roh",
-        "gr",
+        "g",
         "27",
         "3.3",
         "0.2",
@@ -2354,7 +2354,7 @@
     "139": [
         "product",
         "Chicorée roh",
-        "gr",
+        "g",
         "14",
         "0.7",
         "0.2",
@@ -2366,7 +2366,7 @@
     "429": [
         "product",
         "Kopfsalat roh",
-        "gr",
+        "g",
         "14",
         "1.1",
         "0.2",
@@ -2378,7 +2378,7 @@
     "420": [
         "product",
         "Kohlrabi roh",
-        "gr",
+        "g",
         "27",
         "3.7",
         "0.2",
@@ -2390,7 +2390,7 @@
     "495": [
         "product",
         "Mangold roh",
-        "gr",
+        "g",
         "23",
         "2.7",
         "0.2",
@@ -2402,7 +2402,7 @@
     "644": [
         "product",
         "Rande roh",
-        "gr",
+        "g",
         "46",
         "8.4",
         "0.1",
@@ -2414,7 +2414,7 @@
     "795": [
         "product",
         "Schwarzwurzel roh",
-        "gr",
+        "g",
         "54",
         "2.1",
         "0.4",
@@ -2426,7 +2426,7 @@
     "940": [
         "product",
         "Weisskohl roh",
-        "gr",
+        "g",
         "30",
         "4.2",
         "0.2",
@@ -2438,7 +2438,7 @@
     "963": [
         "product",
         "Wirz roh",
-        "gr",
+        "g",
         "31",
         "2.9",
         "0.3",
@@ -2450,7 +2450,7 @@
     "862": [
         "product",
         "Steinpilz roh",
-        "gr",
+        "g",
         "32",
         "0.5",
         "0.4",
@@ -2462,7 +2462,7 @@
     "639": [
         "product",
         "Radieschen roh",
-        "gr",
+        "g",
         "16",
         "2.1",
         "0.1",
@@ -2474,7 +2474,7 @@
     "535": [
         "product",
         "Morchel roh",
-        "gr",
+        "g",
         "26",
         "0.5",
         "0.3",
@@ -2486,7 +2486,7 @@
     "144": [
         "product",
         "Cicorino rot roh",
-        "gr",
+        "g",
         "19",
         "1.6",
         "0.1",
@@ -2498,7 +2498,7 @@
     "183": [
         "product",
         "Eisbergsalat roh",
-        "gr",
+        "g",
         "16",
         "1.6",
         "0.2",
@@ -2510,7 +2510,7 @@
     "885": [
         "product",
         "Thymian roh",
-        "gr",
+        "g",
         "52",
         "7.4",
         "1.2",
@@ -2522,7 +2522,7 @@
     "738": [
         "product",
         "Salbei roh",
-        "gr",
+        "g",
         "58",
         "6.9",
         "2",
@@ -2534,7 +2534,7 @@
     "718": [
         "product",
         "Rosmarin roh",
-        "gr",
+        "g",
         "62",
         "7.7",
         "2.5",
@@ -2546,7 +2546,7 @@
     "572": [
         "product",
         "Pfefferminze roh",
-        "gr",
+        "g",
         "49",
         "5.3",
         "0.7",
@@ -2558,7 +2558,7 @@
     "38": [
         "product",
         "Basilikum roh",
-        "gr",
+        "g",
         "46",
         "5.1",
         "0.8",
@@ -2570,7 +2570,7 @@
     "984": [
         "product",
         "Zuckerhutsalat roh",
-        "gr",
+        "g",
         "16",
         "1.5",
         "0.2",
@@ -2582,7 +2582,7 @@
     "842": [
         "product",
         "Sojasprossen roh",
-        "gr",
+        "g",
         "55",
         "4.7",
         "1",
@@ -2594,7 +2594,7 @@
     "186": [
         "product",
         "Endivie roh",
-        "gr",
+        "g",
         "16",
         "1.2",
         "0.2",
@@ -2606,7 +2606,7 @@
     "723": [
         "product",
         "Rucola roh",
-        "gr",
+        "g",
         "28",
         "2.1",
         "0.7",
@@ -2618,7 +2618,7 @@
     "21": [
         "product",
         "Aprikose getrocknet",
-        "gr",
+        "g",
         "275",
         "47.9",
         "0.5",
@@ -2630,7 +2630,7 @@
     "983": [
         "product",
         "Zucker weiss",
-        "gr",
+        "g",
         "400",
         "100",
         "0",
@@ -2642,7 +2642,7 @@
     "982": [
         "product",
         "Zucker braun",
-        "gr",
+        "g",
         "390",
         "97.6",
         "0",
@@ -2654,7 +2654,7 @@
     "306": [
         "product",
         "Honig (Blütenhonig)",
-        "gr",
+        "g",
         "306",
         "76",
         "0",
@@ -2666,7 +2666,7 @@
     "85": [
         "product",
         "Bohne grün getrocknet",
-        "gr",
+        "g",
         "252",
         "25.7",
         "2",
@@ -2678,7 +2678,7 @@
     "581": [
         "product",
         "Pflaume roh",
-        "gr",
+        "g",
         "48",
         "10.2",
         "0.2",
@@ -2690,7 +2690,7 @@
     "580": [
         "product",
         "Pflaume getrocknet",
-        "gr",
+        "g",
         "204",
         "39.8",
         "0.3",
@@ -2702,7 +2702,7 @@
     "637": [
         "product",
         "Quitte roh",
-        "gr",
+        "g",
         "41",
         "6.3",
         "0.2",
@@ -2714,7 +2714,7 @@
     "717": [
         "product",
         "Rosine getrocknet",
-        "gr",
+        "g",
         "298",
         "68",
         "0.6",
@@ -2726,7 +2726,7 @@
     "902": [
         "product",
         "Traube roh",
-        "gr",
+        "g",
         "69",
         "15.2",
         "0.3",
@@ -2738,7 +2738,7 @@
     "990": [
         "product",
         "Zwetschge roh",
-        "gr",
+        "g",
         "43",
         "8.8",
         "0.1",
@@ -2750,7 +2750,7 @@
     "665": [
         "product",
         "Riesenkürbis roh",
-        "gr",
+        "g",
         "23",
         "4.5",
         "0.1",
@@ -2762,7 +2762,7 @@
     "220": [
         "product",
         "Flunder roh",
-        "gr",
+        "g",
         "72",
         "0",
         "0.7",
@@ -2774,7 +2774,7 @@
     "564": [
         "product",
         "Parmesan",
-        "gr",
+        "g",
         "374",
         "0",
         "25.6",
@@ -2786,7 +2786,7 @@
     "260": [
         "product",
         "Gorgonzola",
-        "gr",
+        "g",
         "359",
         "0.1",
         "31.2",
@@ -2798,7 +2798,7 @@
     "714": [
         "product",
         "Roquefort",
-        "gr",
+        "g",
         "361",
         "0.2",
         "31.7",
@@ -2810,7 +2810,7 @@
     "499": [
         "product",
         "Mascarpone",
-        "gr",
+        "g",
         "453",
         "0",
         "47",
@@ -2822,7 +2822,7 @@
     "286": [
         "product",
         "Hase (Durchschnitt) roh",
-        "gr",
+        "g",
         "115",
         "0",
         "3",
@@ -2834,7 +2834,7 @@
     "299": [
         "product",
         "Hirsch (Durchschnitt) roh",
-        "gr",
+        "g",
         "112",
         "0",
         "3.3",
@@ -2846,7 +2846,7 @@
     "650": [
         "product",
         "Reh (Durchschnitt) roh",
-        "gr",
+        "g",
         "122",
         "0",
         "3.6",
@@ -2858,7 +2858,7 @@
     "961": [
         "product",
         "Wildschwein (Durchschnitt) roh",
-        "gr",
+        "g",
         "109",
         "0",
         "3.4",
@@ -2870,7 +2870,7 @@
     "891": [
         "product",
         "Tofu",
-        "gr",
+        "g",
         "81",
         "0.7",
         "4.8",
@@ -2882,7 +2882,7 @@
     "271": [
         "product",
         "Gurke in Essig eingelegt",
-        "gr",
+        "g",
         "14",
         "2.1",
         "0.1",
@@ -2894,7 +2894,7 @@
     "549": [
         "product",
         "Olive grün",
-        "gr",
+        "g",
         "126",
         "0",
         "12.5",
@@ -2906,7 +2906,7 @@
     "550": [
         "product",
         "Olive schwarz",
-        "gr",
+        "g",
         "150",
         "3",
         "14",
@@ -2918,7 +2918,7 @@
     "833": [
         "product",
         "Silberzwiebel in Essig eingelegt",
-        "gr",
+        "g",
         "28",
         "4.9",
         "0.2",
@@ -2930,7 +2930,7 @@
     "880": [
         "product",
         "Tête de Moine",
-        "gr",
+        "g",
         "419",
         "0",
         "35.5",
@@ -2942,7 +2942,7 @@
     "498": [
         "product",
         "Marzipan",
-        "gr",
+        "g",
         "467",
         "68.6",
         "17.6",
@@ -2978,7 +2978,7 @@
     "147": [
         "product",
         "Colagetränk mit Süssstoffen",
-        "gr",
+        "g",
         "0",
         "0",
         "0",
@@ -2990,7 +2990,7 @@
     "315": [
         "product",
         "Hüttenkäse nature",
-        "gr",
+        "g",
         "101",
         "2.4",
         "4.5",
@@ -3002,7 +3002,7 @@
     "973": [
         "product",
         "Ziger weiss",
-        "gr",
+        "g",
         "123",
         "3.3",
         "7.2",
@@ -3158,7 +3158,7 @@
     "94": [
         "product",
         "Branntwein aus Zuckerrohr (z.B. Rum)",
-        "gr",
+        "g",
         "234",
         "0",
         "0",
@@ -3170,7 +3170,7 @@
     "425": [
         "product",
         "Kondensmilch gezuckert",
-        "gr",
+        "g",
         "339",
         "54.3",
         "10",
@@ -3206,7 +3206,7 @@
     "119": [
         "product",
         "Buttermilch",
-        "gr",
+        "g",
         "33",
         "4",
         "0.5",
@@ -3218,7 +3218,7 @@
     "262": [
         "product",
         "Greyerzer vollfett",
-        "gr",
+        "g",
         "399",
         "0",
         "32",
@@ -3230,7 +3230,7 @@
     "467": [
         "product",
         "Limburger (Münster)",
-        "gr",
+        "g",
         "275",
         "0",
         "21.4",
@@ -3242,7 +3242,7 @@
     "638": [
         "product",
         "Raclettekäse",
-        "gr",
+        "g",
         "359",
         "0",
         "27.9",
@@ -3254,7 +3254,7 @@
     "649": [
         "product",
         "Reblochon",
-        "gr",
+        "g",
         "308",
         "0",
         "25.2",
@@ -3266,7 +3266,7 @@
     "910": [
         "product",
         "Vacherin Mont d'Or",
-        "gr",
+        "g",
         "280",
         "0",
         "23.2",
@@ -3278,7 +3278,7 @@
     "227": [
         "product",
         "Freiburger Vacherin",
-        "gr",
+        "g",
         "372",
         "0",
         "30.4",
@@ -3290,7 +3290,7 @@
     "385": [
         "product",
         "Käse in Salzlake (Kuhmilch)",
-        "gr",
+        "g",
         "262",
         "1.4",
         "20.7",
@@ -3314,7 +3314,7 @@
     "776": [
         "product",
         "Schaumwein",
-        "gr",
+        "g",
         "70",
         "1.5",
         "0",
@@ -3326,7 +3326,7 @@
     "773": [
         "product",
         "Sbrinz",
-        "gr",
+        "g",
         "417",
         "0",
         "33.2",
@@ -3338,7 +3338,7 @@
     "19": [
         "product",
         "Appenzeller vollfett",
-        "gr",
+        "g",
         "386",
         "0",
         "31.7",
@@ -3350,7 +3350,7 @@
     "18": [
         "product",
         "Appenzeller viertelfett",
-        "gr",
+        "g",
         "238",
         "0",
         "11.4",
@@ -3362,7 +3362,7 @@
     "185": [
         "product",
         "Emmentaler vollfett",
-        "gr",
+        "g",
         "411",
         "0",
         "32.6",
@@ -3374,7 +3374,7 @@
     "886": [
         "product",
         "Tilsiter pasteurisiert vollfett",
-        "gr",
+        "g",
         "353",
         "0",
         "28",
@@ -3386,7 +3386,7 @@
     "887": [
         "product",
         "Tilsiter Rohmilch vollfett",
-        "gr",
+        "g",
         "378",
         "0",
         "30.2",
@@ -3398,7 +3398,7 @@
     "778": [
         "product",
         "Schmelzkäse Scheibe viertelfett",
-        "gr",
+        "g",
         "158",
         "0",
         "8.6",
@@ -3410,7 +3410,7 @@
     "779": [
         "product",
         "Schmelzkäse Scheibe vollfett",
-        "gr",
+        "g",
         "305",
         "0",
         "25",
@@ -3422,7 +3422,7 @@
     "781": [
         "product",
         "Schmelzkäse streichfähig viertelfett",
-        "gr",
+        "g",
         "161",
         "0",
         "9.3",
@@ -3446,7 +3446,7 @@
     "66": [
         "product",
         "Birnensaft",
-        "gr",
+        "g",
         "50",
         "11",
         "0.5",
@@ -3470,7 +3470,7 @@
     "898": [
         "product",
         "Tomatensaft",
-        "gr",
+        "g",
         "15",
         "3",
         "0",
@@ -3494,7 +3494,7 @@
     "373": [
         "product",
         "Karottensaft",
-        "gr",
+        "g",
         "33",
         "6.8",
         "0.1",
@@ -3530,7 +3530,7 @@
     "834": [
         "product",
         "Sirup unverdünnt",
-        "gr",
+        "g",
         "371",
         "91.8",
         "0.2",
@@ -3542,7 +3542,7 @@
     "857": [
         "product",
         "St. Paulin",
-        "gr",
+        "g",
         "279",
         "0",
         "23",
@@ -3578,7 +3578,7 @@
     "904": [
         "product",
         "Traubensaft",
-        "gr",
+        "g",
         "62",
         "15",
         "0.1",
@@ -3590,7 +3590,7 @@
     "771": [
         "product",
         "Sauerrahm",
-        "gr",
+        "g",
         "335",
         "2.8",
         "35",
@@ -3626,7 +3626,7 @@
     "555": [
         "product",
         "Orangensaft angereichert mit Vitamin C",
-        "gr",
+        "g",
         "55",
         "12",
         "0.5",
@@ -3638,7 +3638,7 @@
     "479": [
         "product",
         "Magermilchpulver",
-        "gr",
+        "g",
         "356",
         "51.5",
         "0.9",
@@ -3650,7 +3650,7 @@
     "68": [
         "product",
         "Blanc battu",
-        "gr",
+        "g",
         "43",
         "2.9",
         "0.1",
@@ -3662,7 +3662,7 @@
     "339": [
         "product",
         "Kakaopulver",
-        "gr",
+        "g",
         "408",
         "10.8",
         "24.5",
@@ -3674,7 +3674,7 @@
     "918": [
         "product",
         "Vollmilchpulver",
-        "gr",
+        "g",
         "480",
         "35.1",
         "26.2",
@@ -3686,7 +3686,7 @@
     "328": [
         "product",
         "Joghurt nature mager",
-        "gr",
+        "g",
         "40",
         "5.5",
         "0.1",
@@ -3710,7 +3710,7 @@
     "170": [
         "product",
         "Distelöl",
-        "gr",
+        "g",
         "806",
         "0",
         "89.6",
@@ -3758,7 +3758,7 @@
     "945": [
         "product",
         "Weizenkeimöl",
-        "gr",
+        "g",
         "809",
         "0",
         "89.9",
@@ -3818,7 +3818,7 @@
     "645": [
         "product",
         "Rapsöl",
-        "gr",
+        "g",
         "809",
         "0",
         "89.9",
@@ -3854,7 +3854,7 @@
     "841": [
         "product",
         "Sojaöl",
-        "gr",
+        "g",
         "809",
         "0",
         "89.9",
@@ -3878,7 +3878,7 @@
     "976": [
         "product",
         "Zitronensaft",
-        "gr",
+        "g",
         "30",
         "6.1",
         "0.3",
@@ -3890,7 +3890,7 @@
     "526": [
         "product",
         "Milchschokolade mit Nüssen",
-        "gr",
+        "g",
         "566",
         "45.6",
         "38.1",
@@ -3902,7 +3902,7 @@
     "101": [
         "product",
         "Brie vollfett",
-        "gr",
+        "g",
         "300",
         "0",
         "23.5",
@@ -3914,7 +3914,7 @@
     "128": [
         "product",
         "Camembert vollfett",
-        "gr",
+        "g",
         "299",
         "0",
         "23.7",
@@ -3926,7 +3926,7 @@
     "901": [
         "product",
         "Tomme",
-        "gr",
+        "g",
         "286",
         "0",
         "22.5",
@@ -3938,7 +3938,7 @@
     "100": [
         "product",
         "Brie Rahm",
-        "gr",
+        "g",
         "335",
         "0",
         "30",
@@ -3950,7 +3950,7 @@
     "5": [
         "product",
         "Ananas gezuckert (Konserve)",
-        "gr",
+        "g",
         "87",
         "20.2",
         "0.2",
@@ -3962,7 +3962,7 @@
     "7": [
         "product",
         "Ananas ungezuckert (Konserve)",
-        "gr",
+        "g",
         "51",
         "11.3",
         "0.2",
@@ -3974,7 +3974,7 @@
     "127": [
         "product",
         "Camembert Rahm",
-        "gr",
+        "g",
         "352",
         "0",
         "31.7",
@@ -3986,7 +3986,7 @@
     "61": [
         "product",
         "Birne gezuckert (Konserve)",
-        "gr",
+        "g",
         "92",
         "21",
         "0.3",
@@ -3998,7 +3998,7 @@
     "22": [
         "product",
         "Aprikose gezuckert (Konserve)",
-        "gr",
+        "g",
         "84",
         "19",
         "0.1",
@@ -4010,7 +4010,7 @@
     "126": [
         "product",
         "Camembert halbfett",
-        "gr",
+        "g",
         "178",
         "0",
         "10",
@@ -4022,7 +4022,7 @@
     "24": [
         "product",
         "Aprikose ungezuckert (Konserve)",
-        "gr",
+        "g",
         "48",
         "10",
         "0.1",
@@ -4034,7 +4034,7 @@
     "576": [
         "product",
         "Pfirsich gezuckert (Konserve)",
-        "gr",
+        "g",
         "83",
         "19",
         "0.2",
@@ -4046,7 +4046,7 @@
     "578": [
         "product",
         "Pfirsich ungezuckert (Konserve)",
-        "gr",
+        "g",
         "48",
         "10",
         "0.2",
@@ -4058,7 +4058,7 @@
     "63": [
         "product",
         "Birne ungezuckert (Konserve)",
-        "gr",
+        "g",
         "58",
         "12.2",
         "0.3",
@@ -4070,7 +4070,7 @@
     "13": [
         "product",
         "Apfelmus gezuckert (Konserve)",
-        "gr",
+        "g",
         "90",
         "20.5",
         "0.3",
@@ -4082,7 +4082,7 @@
     "14": [
         "product",
         "Apfelmus ungezuckert (Konserve)",
-        "gr",
+        "g",
         "55",
         "11.7",
         "0.3",
@@ -4094,7 +4094,7 @@
     "135": [
         "product",
         "Champignon (Konserve)",
-        "gr",
+        "g",
         "19",
         "0.5",
         "0.3",
@@ -4106,7 +4106,7 @@
     "188": [
         "product",
         "Erbse (Konserve) ",
-        "gr",
+        "g",
         "88",
         "12.8",
         "0.8",
@@ -4118,7 +4118,7 @@
     "929": [
         "product",
         "Weichkäse Doppelrahm",
-        "gr",
+        "g",
         "363",
         "0",
         "35",
@@ -4130,7 +4130,7 @@
     "985": [
         "product",
         "Zuckermais (Konserve)",
-        "gr",
+        "g",
         "100",
         "18.2",
         "1.2",
@@ -4142,7 +4142,7 @@
     "487": [
         "product",
         "Maiskölbchen in Essig eingelegt",
-        "gr",
+        "g",
         "119",
         "21",
         "1.4",
@@ -4154,7 +4154,7 @@
     "414": [
         "product",
         "Kochsalz ohne Jod und Fluor",
-        "gr",
+        "g",
         "0",
         "0",
         "0",
@@ -4166,7 +4166,7 @@
     "394": [
         "product",
         "Ketchup",
-        "gr",
+        "g",
         "117",
         "26",
         "0.4",
@@ -4178,7 +4178,7 @@
     "897": [
         "product",
         "Tomatenpüree",
-        "gr",
+        "g",
         "77",
         "12.9",
         "0.2",
@@ -4190,7 +4190,7 @@
     "893": [
         "product",
         "Tomate geschält (Konserve)",
-        "gr",
+        "g",
         "19",
         "3",
         "0.2",
@@ -4202,7 +4202,7 @@
     "686": [
         "product",
         "Rind Schulter Braten roh",
-        "gr",
+        "g",
         "117",
         "0",
         "3.4",
@@ -4214,7 +4214,7 @@
     "674": [
         "product",
         "Rind Filet roh",
-        "gr",
+        "g",
         "106",
         "0",
         "2",
@@ -4226,7 +4226,7 @@
     "668": [
         "product",
         "Rind Eckstück roh",
-        "gr",
+        "g",
         "111",
         "0",
         "2.3",
@@ -4238,7 +4238,7 @@
     "527": [
         "product",
         "Milchschokolade mit Weinbeeren Nüssen und Mandeln",
-        "gr",
+        "g",
         "511",
         "51.2",
         "29.6",
@@ -4250,7 +4250,7 @@
     "91": [
         "product",
         "Branchli (Milchschokolade mit Haselnusscrèmefüllung)",
-        "gr",
+        "g",
         "557",
         "48.9",
         "36",
@@ -4286,7 +4286,7 @@
     "853": [
         "product",
         "Spirituosen 40 vol% (z.B. Brandy Gin)",
-        "gr",
+        "g",
         "221",
         "0",
         "0",
@@ -4298,7 +4298,7 @@
     "770": [
         "product",
         "Sauerkraut in Essig eingelegt",
-        "gr",
+        "g",
         "19",
         "1.7",
         "0.3",
@@ -4310,7 +4310,7 @@
     "678": [
         "product",
         "Rind Hals roh",
-        "gr",
+        "g",
         "149",
         "0",
         "8",
@@ -4322,7 +4322,7 @@
     "96": [
         "product",
         "Bratensauce gebunden",
-        "gr",
+        "g",
         "53",
         "4.6",
         "3",
@@ -4334,7 +4334,7 @@
     "97": [
         "product",
         "Bratensauce klar",
-        "gr",
+        "g",
         "44",
         "3.5",
         "2.5",
@@ -4346,7 +4346,7 @@
     "317": [
         "product",
         "Jägersauce",
-        "gr",
+        "g",
         "58",
         "8",
         "1.8",
@@ -4358,7 +4358,7 @@
     "87": [
         "product",
         "Bolognaisesauce",
-        "gr",
+        "g",
         "96",
         "8.3",
         "4",
@@ -4370,7 +4370,7 @@
     "523": [
         "product",
         "Milchschokolade mit Alkoholfüllung",
-        "gr",
+        "g",
         "488",
         "59.1",
         "23",
@@ -4382,7 +4382,7 @@
     "524": [
         "product",
         "Milchschokolade mit Crèmefüllung (Gianduja Nougat)",
-        "gr",
+        "g",
         "571",
         "47.2",
         "38.5",
@@ -4394,7 +4394,7 @@
     "692": [
         "product",
         "Rind Zunge roh",
-        "gr",
+        "g",
         "196",
         "3.7",
         "13",
@@ -4406,7 +4406,7 @@
     "681": [
         "product",
         "Rind Leber roh",
-        "gr",
+        "g",
         "138",
         "5.3",
         "3.9",
@@ -4418,7 +4418,7 @@
     "358": [
         "product",
         "Kalb Schulter Braten roh",
-        "gr",
+        "g",
         "124",
         "0",
         "4.8",
@@ -4430,7 +4430,7 @@
     "344": [
         "product",
         "Kalb Filet roh",
-        "gr",
+        "g",
         "119",
         "0",
         "3.8",
@@ -4442,7 +4442,7 @@
     "349": [
         "product",
         "Kalb Haxe roh",
-        "gr",
+        "g",
         "122",
         "0",
         "4.4",
@@ -4454,7 +4454,7 @@
     "343": [
         "product",
         "Kalb Eckstück roh",
-        "gr",
+        "g",
         "103",
         "0",
         "1.6",
@@ -4466,7 +4466,7 @@
     "561": [
         "product",
         "Paprika (Gewürz)",
-        "gr",
+        "g",
         "358",
         "34.9",
         "13",
@@ -4478,7 +4478,7 @@
     "90": [
         "product",
         "Bouillon Gemüse zubereitet",
-        "gr",
+        "g",
         "6",
         "0.4",
         "0.4",
@@ -4490,7 +4490,7 @@
     "89": [
         "product",
         "Bouillon Geflügel zubereitet",
-        "gr",
+        "g",
         "5",
         "0.3",
         "0.3",
@@ -4502,7 +4502,7 @@
     "304": [
         "product",
         "Hollandaisesauce",
-        "gr",
+        "g",
         "211",
         "9.3",
         "18",
@@ -4514,7 +4514,7 @@
     "899": [
         "product",
         "Tomatensauce",
-        "gr",
+        "g",
         "69",
         "9.7",
         "2.1",
@@ -4526,7 +4526,7 @@
     "88": [
         "product",
         "Bouillon Fleisch zubereitet",
-        "gr",
+        "g",
         "5",
         "0.2",
         "0.3",
@@ -4538,7 +4538,7 @@
     "115": [
         "product",
         "Bündner Gerstensuppe",
-        "gr",
+        "g",
         "42",
         "6.7",
         "0.9",
@@ -4550,7 +4550,7 @@
     "900": [
         "product",
         "Tomatensuppe",
-        "gr",
+        "g",
         "42",
         "6.6",
         "1.1",
@@ -4562,7 +4562,7 @@
     "528": [
         "product",
         "Minestrone",
-        "gr",
+        "g",
         "53",
         "7",
         "1.8",
@@ -4574,7 +4574,7 @@
     "352": [
         "product",
         "Kalb Milken roh",
-        "gr",
+        "g",
         "99",
         "0",
         "3.4",
@@ -4586,7 +4586,7 @@
     "353": [
         "product",
         "Kalb Niere roh",
-        "gr",
+        "g",
         "112",
         "1",
         "5",
@@ -4598,7 +4598,7 @@
     "360": [
         "product",
         "Kalb Zunge roh",
-        "gr",
+        "g",
         "181",
         "1.9",
         "11.6",
@@ -4610,7 +4610,7 @@
     "443": [
         "product",
         "Lamm Filet roh",
-        "gr",
+        "g",
         "112",
         "0",
         "3.4",
@@ -4622,7 +4622,7 @@
     "815": [
         "product",
         "Schwein Schulter Braten roh",
-        "gr",
+        "g",
         "181",
         "0",
         "9.2",
@@ -4634,7 +4634,7 @@
     "800": [
         "product",
         "Schwein Filet roh",
-        "gr",
+        "g",
         "121",
         "0",
         "3.6",
@@ -4646,7 +4646,7 @@
     "807": [
         "product",
         "Schwein Haxe roh",
-        "gr",
+        "g",
         "174",
         "0.7",
         "7.6",
@@ -4658,7 +4658,7 @@
     "798": [
         "product",
         "Schwein Eckstück roh",
-        "gr",
+        "g",
         "115",
         "0",
         "2.7",
@@ -4670,7 +4670,7 @@
     "615": [
         "product",
         "Poulet Brust Schnitzel roh",
-        "gr",
+        "g",
         "105",
         "0.4",
         "1.2",
@@ -4682,7 +4682,7 @@
     "198": [
         "product",
         "Erdnuss-Flips",
-        "gr",
+        "g",
         "506",
         "56.5",
         "24.2",
@@ -4694,7 +4694,7 @@
     "587": [
         "product",
         "Pilzsauce gebunden",
-        "gr",
+        "g",
         "82",
         "7.6",
         "4",
@@ -4706,7 +4706,7 @@
     "269": [
         "product",
         "Gulaschsuppe",
-        "gr",
+        "g",
         "67",
         "6.3",
         "2.4",
@@ -4718,7 +4718,7 @@
     "574": [
         "product",
         "Pferd Filet roh",
-        "gr",
+        "g",
         "103",
         "0",
         "1.9",
@@ -4730,7 +4730,7 @@
     "369": [
         "product",
         "Kaninchen (Durchschnitt) roh",
-        "gr",
+        "g",
         "150",
         "0",
         "7.5",
@@ -4742,7 +4742,7 @@
     "971": [
         "product",
         "Ziege (Durchschnitt) roh",
-        "gr",
+        "g",
         "149",
         "0",
         "7.9",
@@ -4754,7 +4754,7 @@
     "588": [
         "product",
         "Pilzsuppe",
-        "gr",
+        "g",
         "38",
         "5.5",
         "1.2",
@@ -4766,7 +4766,7 @@
     "810": [
         "product",
         "Schwein Leber roh",
-        "gr",
+        "g",
         "130",
         "0.9",
         "4.9",
@@ -4778,7 +4778,7 @@
     "298": [
         "product",
         "Hinterschinken",
-        "gr",
+        "g",
         "104",
         "0.7",
         "2.3",
@@ -4790,7 +4790,7 @@
     "921": [
         "product",
         "Vorderschinken",
-        "gr",
+        "g",
         "106",
         "0.4",
         "3.3",
@@ -4802,7 +4802,7 @@
     "707": [
         "product",
         "Rohschinken",
-        "gr",
+        "g",
         "229",
         "0.3",
         "11.5",
@@ -4814,7 +4814,7 @@
     "641": [
         "product",
         "Rahmglace Frucht",
-        "gr",
+        "g",
         "185",
         "24.7",
         "8",
@@ -4826,7 +4826,7 @@
     "427": [
         "product",
         "Konfitüre",
-        "gr",
+        "g",
         "246",
         "58.7",
         "0.5",
@@ -4838,7 +4838,7 @@
     "428": [
         "product",
         "Konfitüre energievermindert mit Süssstoffen",
-        "gr",
+        "g",
         "136",
         "31.9",
         "0.5",
@@ -4850,7 +4850,7 @@
     "695": [
         "product",
         "Rippli (Nierstück) roh",
-        "gr",
+        "g",
         "154",
         "0.5",
         "7.3",
@@ -4862,7 +4862,7 @@
     "288": [
         "product",
         "Haselnuss-Schokolade-Brotaufstrich",
-        "gr",
+        "g",
         "546",
         "55.6",
         "32.7",
@@ -4874,7 +4874,7 @@
     "415": [
         "product",
         "Kochspeck",
-        "gr",
+        "g",
         "322",
         "0.6",
         "27.6",
@@ -4886,7 +4886,7 @@
     "98": [
         "product",
         "Bresaola",
-        "gr",
+        "g",
         "166",
         "0.4",
         "3.9",
@@ -4910,7 +4910,7 @@
     "556": [
         "product",
         "Palmöl - Palmfett",
-        "gr",
+        "g",
         "799",
         "0",
         "88.8",
@@ -4922,7 +4922,7 @@
     "907": [
         "product",
         "Trockenfleisch",
-        "gr",
+        "g",
         "190",
         "0.4",
         "3.5",
@@ -4934,7 +4934,7 @@
     "617": [
         "product",
         "Poulet ganz mit Haut roh",
-        "gr",
+        "g",
         "168",
         "0",
         "10.3",
@@ -4946,7 +4946,7 @@
     "619": [
         "product",
         "Poulet Schenkel mit Haut roh",
-        "gr",
+        "g",
         "184",
         "0",
         "12.6",
@@ -4958,7 +4958,7 @@
     "909": [
         "product",
         "Truthahn Brust Schnitzel oder Geschnetzeltes roh",
-        "gr",
+        "g",
         "108",
         "0",
         "1.3",
@@ -4970,7 +4970,7 @@
     "149": [
         "product",
         "Coppa",
-        "gr",
+        "g",
         "319",
         "0.3",
         "22.5",
@@ -4982,7 +4982,7 @@
     "557": [
         "product",
         "Pancetta",
-        "gr",
+        "g",
         "467",
         "0.4",
         "43",
@@ -4994,7 +4994,7 @@
     "537": [
         "product",
         "Mostbröckli",
-        "gr",
+        "g",
         "150",
         "0.5",
         "1.9",
@@ -5006,7 +5006,7 @@
     "712": [
         "product",
         "Rollschinken",
-        "gr",
+        "g",
         "181",
         "1.2",
         "10.6",
@@ -5018,7 +5018,7 @@
     "667": [
         "product",
         "Rind Brust roh",
-        "gr",
+        "g",
         "188",
         "0",
         "12.5",
@@ -5030,7 +5030,7 @@
     "670": [
         "product",
         "Rind Entrecôte roh",
-        "gr",
+        "g",
         "138",
         "0",
         "5.4",
@@ -5042,7 +5042,7 @@
     "513": [
         "product",
         "Melasse Melassesirup",
-        "gr",
+        "g",
         "274",
         "67.2",
         "0",
@@ -5054,7 +5054,7 @@
     "942": [
         "product",
         "Weizen (Weichweizen) ganzes Korn",
-        "gr",
+        "g",
         "325",
         "59.6",
         "1.8",
@@ -5066,7 +5066,7 @@
     "252": [
         "product",
         "Gerstenflocken",
-        "gr",
+        "g",
         "330",
         "66.1",
         "1.5",
@@ -5078,7 +5078,7 @@
     "35": [
         "product",
         "Banane gedörrt",
-        "gr",
+        "g",
         "370",
         "80.7",
         "1.8",
@@ -5090,7 +5090,7 @@
     "36": [
         "product",
         "Banane getrocknet",
-        "gr",
+        "g",
         "273",
         "60.2",
         "1",
@@ -5102,7 +5102,7 @@
     "424": [
         "product",
         "Kokosnuss getrocknet (Kokosrapseln Kokosflocken)",
-        "gr",
+        "g",
         "660",
         "6.4",
         "63.3",
@@ -5114,7 +5114,7 @@
     "701": [
         "product",
         "Roggenmehl halbweiss Typ 815",
-        "gr",
+        "g",
         "337",
         "71.8",
         "1.2",
@@ -5126,7 +5126,7 @@
     "703": [
         "product",
         "Roggenmehl Vollkorn Schrot Typ 1800",
-        "gr",
+        "g",
         "325",
         "63.3",
         "1.7",
@@ -5138,7 +5138,7 @@
     "559": [
         "product",
         "Paniermehl",
-        "gr",
+        "g",
         "370",
         "71.8",
         "1.9",
@@ -5150,7 +5150,7 @@
     "200": [
         "product",
         "Erdnussbutter",
-        "gr",
+        "g",
         "638",
         "12.2",
         "53.7",
@@ -5162,7 +5162,7 @@
     "702": [
         "product",
         "Roggenmehl Ruch Typ 1050",
-        "gr",
+        "g",
         "333",
         "68.6",
         "1.5",
@@ -5174,7 +5174,7 @@
     "296": [
         "product",
         "Heilbutt roh",
-        "gr",
+        "g",
         "118",
         "0",
         "3.9",
@@ -5186,7 +5186,7 @@
     "825": [
         "product",
         "Seelachs roh",
-        "gr",
+        "g",
         "80",
         "0",
         "0.3",
@@ -5198,7 +5198,7 @@
     "826": [
         "product",
         "Seezunge roh",
-        "gr",
+        "g",
         "85",
         "0",
         "1.1",
@@ -5210,7 +5210,7 @@
     "884": [
         "product",
         "Thunfisch roh",
-        "gr",
+        "g",
         "149",
         "0",
         "6.2",
@@ -5222,7 +5222,7 @@
     "765": [
         "product",
         "Sardine roh",
-        "gr",
+        "g",
         "163",
         "0",
         "9",
@@ -5234,7 +5234,7 @@
     "153": [
         "product",
         "Cotechino",
-        "gr",
+        "g",
         "450",
         "0",
         "42.3",
@@ -5246,7 +5246,7 @@
     "970": [
         "product",
         "Zampone",
-        "gr",
+        "g",
         "361",
         "0",
         "31.6",
@@ -5258,7 +5258,7 @@
     "824": [
         "product",
         "Seehecht roh",
-        "gr",
+        "g",
         "71",
         "0",
         "0.3",
@@ -5270,7 +5270,7 @@
     "515": [
         "product",
         "Miesmuschel roh",
-        "gr",
+        "g",
         "85",
         "3.4",
         "2.7",
@@ -5282,7 +5282,7 @@
     "412": [
         "product",
         "Kochsalz mit Jod",
-        "gr",
+        "g",
         "0",
         "0",
         "0",
@@ -5294,7 +5294,7 @@
     "33": [
         "product",
         "Bäckerhefe gepresst",
-        "gr",
+        "g",
         "96",
         "1.1",
         "1.2",
@@ -5306,7 +5306,7 @@
     "367": [
         "product",
         "Kalmar roh",
-        "gr",
+        "g",
         "83",
         "2.3",
         "1.1",
@@ -5318,7 +5318,7 @@
     "176": [
         "product",
         "Egli roh",
-        "gr",
+        "g",
         "78",
         "0",
         "0.7",
@@ -5330,7 +5330,7 @@
     "242": [
         "product",
         "Garnele roh",
-        "gr",
+        "g",
         "56",
         "1.2",
         "0.6",
@@ -5342,7 +5342,7 @@
     "774": [
         "product",
         "Scampi (Kaisergranat) roh",
-        "gr",
+        "g",
         "93",
         "0.8",
         "1.3",
@@ -5354,7 +5354,7 @@
     "905": [
         "product",
         "Traubenzucker",
-        "gr",
+        "g",
         "399",
         "99.8",
         "0",
@@ -5366,7 +5366,7 @@
     "278": [
         "product",
         "Haferkleie",
-        "gr",
+        "g",
         "366",
         "50.8",
         "7",
@@ -5378,7 +5378,7 @@
     "863": [
         "product",
         "Surimi",
-        "gr",
+        "g",
         "81",
         "6.1",
         "0.7",
@@ -5390,7 +5390,7 @@
     "500": [
         "product",
         "Mayonnaise",
-        "gr",
+        "g",
         "742",
         "0.5",
         "81.7",
@@ -5402,7 +5402,7 @@
     "501": [
         "product",
         "Mayonnaise kalorienvermindert",
-        "gr",
+        "g",
         "327",
         "3.2",
         "34.5",
@@ -5414,7 +5414,7 @@
     "214": [
         "product",
         "Fischstäbchen paniert und vorfritiert",
-        "gr",
+        "g",
         "232",
         "15.3",
         "11.6",
@@ -5426,7 +5426,7 @@
     "566": [
         "product",
         "Pâté de campagne",
-        "gr",
+        "g",
         "391",
         "1",
         "36.9",
@@ -5438,7 +5438,7 @@
     "234": [
         "product",
         "Fruchtsalat gezuckert (Konserve)",
-        "gr",
+        "g",
         "78",
         "17.7",
         "0.2",
@@ -5450,7 +5450,7 @@
     "462": [
         "product",
         "Leberwurst",
-        "gr",
+        "g",
         "292",
         "0.5",
         "22.9",
@@ -5462,7 +5462,7 @@
     "235": [
         "product",
         "Fruchtsalat ungezuckert (Konserve)",
-        "gr",
+        "g",
         "53",
         "11.3",
         "0.2",
@@ -5474,7 +5474,7 @@
     "81": [
         "product",
         "Blutwurst",
-        "gr",
+        "g",
         "151",
         "2.6",
         "10.8",
@@ -5486,7 +5486,7 @@
     "560": [
         "product",
         "Pantli",
-        "gr",
+        "g",
         "538",
         "0.9",
         "50",
@@ -5498,7 +5498,7 @@
     "767": [
         "product",
         "Saucisson",
-        "gr",
+        "g",
         "467",
         "0.5",
         "44.2",
@@ -5510,7 +5510,7 @@
     "766": [
         "product",
         "Saucisse aux choux",
-        "gr",
+        "g",
         "362",
         "1.5",
         "32.3",
@@ -5522,7 +5522,7 @@
     "823": [
         "product",
         "Schweizer Salami Schweine- und Rindfleisch",
-        "gr",
+        "g",
         "487",
         "1.3",
         "43.7",
@@ -5534,7 +5534,7 @@
     "733": [
         "product",
         "Salametti",
-        "gr",
+        "g",
         "342",
         "0.3",
         "31.3",
@@ -5546,7 +5546,7 @@
     "43": [
         "product",
         "Bauernsalami",
-        "gr",
+        "g",
         "532",
         "0.8",
         "49.5",
@@ -5558,7 +5558,7 @@
     "475": [
         "product",
         "Luganighe",
-        "gr",
+        "g",
         "459",
         "0.5",
         "43",
@@ -5570,7 +5570,7 @@
     "44": [
         "product",
         "Bauernschüblig",
-        "gr",
+        "g",
         "524",
         "0.3",
         "48.5",
@@ -5582,7 +5582,7 @@
     "57": [
         "product",
         "Bierwurst",
-        "gr",
+        "g",
         "350",
         "0",
         "31.3",
@@ -5594,7 +5594,7 @@
     "53": [
         "product",
         "Berner Zungenwurst",
-        "gr",
+        "g",
         "334",
         "0",
         "29.4",
@@ -5606,7 +5606,7 @@
     "792": [
         "product",
         "Schützenwurst",
-        "gr",
+        "g",
         "306",
         "0.2",
         "29.5",
@@ -5618,7 +5618,7 @@
     "856": [
         "product",
         "St. Galler Schüblig",
-        "gr",
+        "g",
         "292",
         "0.2",
         "26.3",
@@ -5630,7 +5630,7 @@
     "960": [
         "product",
         "Wildfleischterrine",
-        "gr",
+        "g",
         "286",
         "1.8",
         "23",
@@ -5642,7 +5642,7 @@
     "222": [
         "product",
         "Fondue klassisch zubereitet",
-        "gr",
+        "g",
         "308",
         "1.1",
         "23.1",
@@ -5654,7 +5654,7 @@
     "171": [
         "product",
         "Doppelrahm pasteurisiert",
-        "gr",
+        "g",
         "425",
         "2.8",
         "45",
@@ -5666,7 +5666,7 @@
     "869": [
         "product",
         "Teigwaren mit Ei trocken",
-        "gr",
+        "g",
         "365",
         "69.9",
         "2.8",
@@ -5678,7 +5678,7 @@
     "871": [
         "product",
         "Teigwaren ohne Ei trocken",
-        "gr",
+        "g",
         "353",
         "70.5",
         "1.2",
@@ -5690,7 +5690,7 @@
     "873": [
         "product",
         "Teigwaren ohne Ei Vollkorn trocken",
-        "gr",
+        "g",
         "342",
         "60.6",
         "2.5",
@@ -5714,7 +5714,7 @@
     "867": [
         "product",
         "Tee ungezuckert",
-        "gr",
+        "g",
         "0",
         "0",
         "0",
@@ -5726,7 +5726,7 @@
     "184": [
         "product",
         "Eistee gezuckert",
-        "gr",
+        "g",
         "30",
         "7.5",
         "0",
@@ -5738,7 +5738,7 @@
     "711": [
         "product",
         "Rollmops",
-        "gr",
+        "g",
         "270",
         "19.6",
         "15.9",
@@ -5750,7 +5750,7 @@
     "626": [
         "product",
         "Pudding Caramel",
-        "gr",
+        "g",
         "125",
         "23",
         "2.1",
@@ -5762,7 +5762,7 @@
     "788": [
         "product",
         "Schokoladencrème",
-        "gr",
+        "g",
         "122",
         "20",
         "3",
@@ -5774,7 +5774,7 @@
     "628": [
         "product",
         "Pudding Vanille",
-        "gr",
+        "g",
         "101",
         "18",
         "2",
@@ -5786,7 +5786,7 @@
     "627": [
         "product",
         "Pudding Schokolade",
-        "gr",
+        "g",
         "121",
         "21",
         "2.6",
@@ -5798,7 +5798,7 @@
     "375": [
         "product",
         "Kartoffel geschält roh",
-        "gr",
+        "g",
         "76",
         "15.6",
         "0.1",
@@ -5822,7 +5822,7 @@
     "240": [
         "product",
         "Fünfkornbier",
-        "gr",
+        "g",
         "40",
         "2",
         "0",
@@ -5834,7 +5834,7 @@
     "548": [
         "product",
         "Ofen-Frites tiefgekühlt",
-        "gr",
+        "g",
         "127",
         "18.2",
         "4.9",
@@ -5846,7 +5846,7 @@
     "536": [
         "product",
         "Mortadella",
-        "gr",
+        "g",
         "305",
         "0.8",
         "26.6",
@@ -5858,7 +5858,7 @@
     "121": [
         "product",
         "Butterzopf",
-        "gr",
+        "g",
         "326",
         "45.7",
         "11.4",
@@ -5870,7 +5870,7 @@
     "954": [
         "product",
         "Weizenvollkornbrot",
-        "gr",
+        "g",
         "213",
         "38.3",
         "1.3",
@@ -5882,7 +5882,7 @@
     "120": [
         "product",
         "Butterweggli",
-        "gr",
+        "g",
         "310",
         "47.3",
         "8.7",
@@ -5894,7 +5894,7 @@
     "937": [
         "product",
         "Weissbrot",
-        "gr",
+        "g",
         "242",
         "48.9",
         "0.8",
@@ -5906,7 +5906,7 @@
     "923": [
         "product",
         "Walliser Roggenbrot",
-        "gr",
+        "g",
         "220",
         "42.7",
         "1.1",
@@ -5918,7 +5918,7 @@
     "890": [
         "product",
         "Toastbrot mit Pflanzenölen",
-        "gr",
+        "g",
         "332",
         "45.6",
         "12.2",
@@ -5930,7 +5930,7 @@
     "889": [
         "product",
         "Toastbrot mit Butter",
-        "gr",
+        "g",
         "316",
         "45.7",
         "10.4",
@@ -5942,7 +5942,7 @@
     "879": [
         "product",
         "Tessinerbrot",
-        "gr",
+        "g",
         "323",
         "57.2",
         "5.2",
@@ -5954,7 +5954,7 @@
     "722": [
         "product",
         "Ruchbrot",
-        "gr",
+        "g",
         "234",
         "44.3",
         "1.2",
@@ -5966,7 +5966,7 @@
     "700": [
         "product",
         "Roggenbrot mit Sauerteig",
-        "gr",
+        "g",
         "210",
         "41.8",
         "1",
@@ -5978,7 +5978,7 @@
     "46": [
         "product",
         "Baumnussbrot",
-        "gr",
+        "g",
         "338",
         "30.9",
         "18.6",
@@ -5990,7 +5990,7 @@
     "457": [
         "product",
         "Laugenbrötli",
-        "gr",
+        "g",
         "277",
         "48.4",
         "4.8",
@@ -6002,7 +6002,7 @@
     "282": [
         "product",
         "Halbweissbrot",
-        "gr",
+        "g",
         "240",
         "46.4",
         "1.1",
@@ -6014,7 +6014,7 @@
     "118": [
         "product",
         "Buttergipfeli Vollkorn",
-        "gr",
+        "g",
         "366",
         "38.7",
         "19.8",
@@ -6026,7 +6026,7 @@
     "459": [
         "product",
         "Laugengipfeli",
-        "gr",
+        "g",
         "419",
         "38.9",
         "25",
@@ -6038,7 +6038,7 @@
     "117": [
         "product",
         "Buttergipfeli hell",
-        "gr",
+        "g",
         "432",
         "43.5",
         "24.2",
@@ -6050,7 +6050,7 @@
     "56": [
         "product",
         "Bierhefe getrocknet",
-        "gr",
+        "g",
         "354",
         "26.5",
         "4.2",
@@ -6062,7 +6062,7 @@
     "41": [
         "product",
         "Bauernbratwurst roh",
-        "gr",
+        "g",
         "243",
         "0.2",
         "19.3",
@@ -6074,7 +6074,7 @@
     "116": [
         "product",
         "Bürli (halbweiss)",
-        "gr",
+        "g",
         "216",
         "41.6",
         "1",
@@ -6086,7 +6086,7 @@
     "855": [
         "product",
         "St. Galler Bürli (halbweiss)",
-        "gr",
+        "g",
         "231",
         "44.6",
         "1",
@@ -6098,7 +6098,7 @@
     "541": [
         "product",
         "Mütschli",
-        "gr",
+        "g",
         "254",
         "51.8",
         "0.8",
@@ -6110,7 +6110,7 @@
     "563": [
         "product",
         "Pariserbrot",
-        "gr",
+        "g",
         "254",
         "51.1",
         "0.9",
@@ -6122,7 +6122,7 @@
     "704": [
         "product",
         "Roggenschrotbrot",
-        "gr",
+        "g",
         "228",
         "44.3",
         "1.2",
@@ -6134,7 +6134,7 @@
     "72": [
         "product",
         "Blätterteigpastetli Butter",
-        "gr",
+        "g",
         "564",
         "43.1",
         "40.5",
@@ -6146,7 +6146,7 @@
     "50": [
         "product",
         "Berliner",
-        "gr",
+        "g",
         "326",
         "43.1",
         "12.8",
@@ -6158,7 +6158,7 @@
     "474": [
         "product",
         "Löffelbiscuit",
-        "gr",
+        "g",
         "414",
         "71.8",
         "8.3",
@@ -6170,7 +6170,7 @@
     "514": [
         "product",
         "Meringue",
-        "gr",
+        "g",
         "400",
         "94",
         "0.5",
@@ -6182,7 +6182,7 @@
     "719": [
         "product",
         "Rösti Fertigprodukt",
-        "gr",
+        "g",
         "117",
         "18.6",
         "3.6",
@@ -6194,7 +6194,7 @@
     "54": [
         "product",
         "Biber",
-        "gr",
+        "g",
         "464",
         "56.9",
         "19.9",
@@ -6206,7 +6206,7 @@
     "376": [
         "product",
         "Kartoffelflocken mit Milchpulver und Salz (Instant-Kartoffelstock)",
-        "gr",
+        "g",
         "366",
         "65.5",
         "5.4",
@@ -6218,7 +6218,7 @@
     "67": [
         "product",
         "Birnenweggen",
-        "gr",
+        "g",
         "358",
         "56.6",
         "10.4",
@@ -6230,7 +6230,7 @@
     "384": [
         "product",
         "Kartoffelstock zubereitet (mit Vollmilch und Butter)",
-        "gr",
+        "g",
         "91",
         "13.5",
         "2.8",
@@ -6242,7 +6242,7 @@
     "112": [
         "product",
         "Brunsli",
-        "gr",
+        "g",
         "493",
         "41.5",
         "28.9",
@@ -6254,7 +6254,7 @@
     "316": [
         "product",
         "Instant-Kartoffelstock zubereitet (mit Wasser und Butter)",
-        "gr",
+        "g",
         "81",
         "11.5",
         "2.8",
@@ -6266,7 +6266,7 @@
     "143": [
         "product",
         "Chräbeli (Anisgebäck)",
-        "gr",
+        "g",
         "366",
         "75.3",
         "3",
@@ -6278,7 +6278,7 @@
     "4": [
         "product",
         "Amaretti (Mandelgebäck)",
-        "gr",
+        "g",
         "451",
         "75.7",
         "12.4",
@@ -6290,7 +6290,7 @@
     "290": [
         "product",
         "Haselnussmakrone",
-        "gr",
+        "g",
         "533",
         "35.5",
         "37",
@@ -6302,7 +6302,7 @@
     "291": [
         "product",
         "Haselnussstängeli",
-        "gr",
+        "g",
         "562",
         "46.1",
         "36.7",
@@ -6314,7 +6314,7 @@
     "625": [
         "product",
         "Prussien",
-        "gr",
+        "g",
         "438",
         "53.8",
         "22.4",
@@ -6326,7 +6326,7 @@
     "732": [
         "product",
         "Sablé Butter",
-        "gr",
+        "g",
         "475",
         "53.1",
         "26.2",
@@ -6338,7 +6338,7 @@
     "974": [
         "product",
         "Zimtstern",
-        "gr",
+        "g",
         "481",
         "49",
         "24.9",
@@ -6350,7 +6350,7 @@
     "124": [
         "product",
         "Cake Financier",
-        "gr",
+        "g",
         "426",
         "37.4",
         "25.5",
@@ -6362,7 +6362,7 @@
     "477": [
         "product",
         "Madeleine",
-        "gr",
+        "g",
         "346",
         "52.2",
         "11.6",
@@ -6374,7 +6374,7 @@
     "480": [
         "product",
         "Mailänderli",
-        "gr",
+        "g",
         "431",
         "53.1",
         "20.8",
@@ -6386,7 +6386,7 @@
     "463": [
         "product",
         "Lebkuchen",
-        "gr",
+        "g",
         "405",
         "61.6",
         "13.8",
@@ -6398,7 +6398,7 @@
     "987": [
         "product",
         "Zuger Kirschtorte",
-        "gr",
+        "g",
         "335",
         "34.6",
         "18.7",
@@ -6410,7 +6410,7 @@
     "793": [
         "product",
         "Schwarzwälder Kirschtorte",
-        "gr",
+        "g",
         "248",
         "21.4",
         "16.1",
@@ -6422,7 +6422,7 @@
     "888": [
         "product",
         "Tirolercake",
-        "gr",
+        "g",
         "411",
         "41.1",
         "23.2",
@@ -6434,7 +6434,7 @@
     "422": [
         "product",
         "Kokosmakronen",
-        "gr",
+        "g",
         "554",
         "35.8",
         "40.2",
@@ -6446,7 +6446,7 @@
     "789": [
         "product",
         "Schokoladengugelhopf",
-        "gr",
+        "g",
         "379",
         "46.3",
         "18.4",
@@ -6458,7 +6458,7 @@
     "846": [
         "product",
         "Sorbet Frucht",
-        "gr",
+        "g",
         "136",
         "32.1",
         "0",
@@ -6470,7 +6470,7 @@
     "925": [
         "product",
         "Wassereis",
-        "gr",
+        "g",
         "88",
         "22",
         "0",
@@ -6482,7 +6482,7 @@
     "953": [
         "product",
         "Weizenstärke",
-        "gr",
+        "g",
         "348",
         "85.8",
         "0.1",
@@ -6494,7 +6494,7 @@
     "497": [
         "product",
         "Marmorkuchen",
-        "gr",
+        "g",
         "357",
         "42.6",
         "17.2",
@@ -6506,7 +6506,7 @@
     "473": [
         "product",
         "Linzertorte",
-        "gr",
+        "g",
         "425",
         "43.7",
         "23.6",
@@ -6518,7 +6518,7 @@
     "730": [
         "product",
         "Rührteigcake Gleichschwer",
-        "gr",
+        "g",
         "431",
         "44.8",
         "24.8",
@@ -6530,7 +6530,7 @@
     "187": [
         "product",
         "Engadiner Nusstorte",
-        "gr",
+        "g",
         "486",
         "49.9",
         "28.3",
@@ -6542,7 +6542,7 @@
     "289": [
         "product",
         "Haselnusskekse",
-        "gr",
+        "g",
         "473",
         "47.4",
         "27.7",
@@ -6554,7 +6554,7 @@
     "70": [
         "product",
         "Blätterteig hausgemacht (Butter) ungebacken",
-        "gr",
+        "g",
         "364",
         "29.4",
         "24.7",
@@ -6566,7 +6566,7 @@
     "71": [
         "product",
         "Blätterteig hausgemacht (mit pflanzlichem Fett) ungebacken",
-        "gr",
+        "g",
         "358",
         "29.4",
         "24.1",
@@ -6578,7 +6578,7 @@
     "434": [
         "product",
         "Kuchenteig (mit pflanzlichem Fett) ungebacken",
-        "gr",
+        "g",
         "325",
         "38.7",
         "15.5",
@@ -6590,7 +6590,7 @@
     "600": [
         "product",
         "Pizzateig (mit Olivenöl) ungebacken",
-        "gr",
+        "g",
         "229",
         "41.2",
         "3.6",
@@ -6602,7 +6602,7 @@
     "540": [
         "product",
         "Mürbeteig (mit pflanzlichem Fett) süss ungebacken",
-        "gr",
+        "g",
         "419",
         "45.8",
         "22.4",
@@ -6614,7 +6614,7 @@
     "293": [
         "product",
         "Hefeteig (mit Butter) süss ungebacken",
-        "gr",
+        "g",
         "311",
         "43.2",
         "11.1",
@@ -6626,7 +6626,7 @@
     "544": [
         "product",
         "Nussgipfel aus Blätterteig",
-        "gr",
+        "g",
         "416",
         "35.6",
         "26.9",
@@ -6638,7 +6638,7 @@
     "545": [
         "product",
         "Nussgipfel aus Hefeteig",
-        "gr",
+        "g",
         "315",
         "41.5",
         "12.6",
@@ -6650,7 +6650,7 @@
     "547": [
         "product",
         "Nussschnecke aus Hefeteig",
-        "gr",
+        "g",
         "442",
         "54.4",
         "18.7",
@@ -6662,7 +6662,7 @@
     "724": [
         "product",
         "Rüeblitorte",
-        "gr",
+        "g",
         "291",
         "24.7",
         "16",
@@ -6674,7 +6674,7 @@
     "854": [
         "product",
         "Spitzbube (Mürbeteiggebäck mit Konfitüre)",
-        "gr",
+        "g",
         "499",
         "60.3",
         "25.6",
@@ -6686,7 +6686,7 @@
     "403": [
         "product",
         "Knäckebrot Vollkorn",
-        "gr",
+        "g",
         "327",
         "62.4",
         "1.8",
@@ -6698,7 +6698,7 @@
     "405": [
         "product",
         "Knäckebrot Vollkorn mit Sesam",
-        "gr",
+        "g",
         "353",
         "57.1",
         "6.6",
@@ -6710,7 +6710,7 @@
     "404": [
         "product",
         "Knäckebrot Vollkorn mit Leinsamen",
-        "gr",
+        "g",
         "340",
         "56.1",
         "4.7",
@@ -6722,7 +6722,7 @@
     "911": [
         "product",
         "Vanillecrème gekocht",
-        "gr",
+        "g",
         "140",
         "23.8",
         "3.6",
@@ -6734,7 +6734,7 @@
     "156": [
         "product",
         "Crèmeschnitte",
-        "gr",
+        "g",
         "318",
         "34.6",
         "18.3",
@@ -6746,7 +6746,7 @@
     "73": [
         "product",
         "Blätterteigstängel",
-        "gr",
+        "g",
         "497",
         "40.4",
         "33.6",
@@ -6758,7 +6758,7 @@
     "994": [
         "product",
         "Zwieback Vollkorn",
-        "gr",
+        "g",
         "412",
         "61.2",
         "9",
@@ -6770,7 +6770,7 @@
     "993": [
         "product",
         "Zwieback",
-        "gr",
+        "g",
         "428",
         "69.6",
         "9.5",
@@ -6782,7 +6782,7 @@
     "481": [
         "product",
         "Mais-Chips (Apérogebäck)",
-        "gr",
+        "g",
         "509",
         "56",
         "27.2",
@@ -6794,7 +6794,7 @@
     "253": [
         "product",
         "Gerstenflocken Vollkorn",
-        "gr",
+        "g",
         "330",
         "66.1",
         "1.5",
@@ -6806,7 +6806,7 @@
     "302": [
         "product",
         "Hirseflocken Vollkorn",
-        "gr",
+        "g",
         "357",
         "68.8",
         "3.9",
@@ -6818,7 +6818,7 @@
     "943": [
         "product",
         "Weizenflocken Vollkorn",
-        "gr",
+        "g",
         "329",
         "61",
         "2",
@@ -6830,7 +6830,7 @@
     "152": [
         "product",
         "Cornflakes",
-        "gr",
+        "g",
         "359",
         "79.1",
         "0.6",
@@ -6842,7 +6842,7 @@
     "458": [
         "product",
         "Laugengebäck trocken (Bretzel Sticks)",
-        "gr",
+        "g",
         "360",
         "72.1",
         "4",
@@ -6854,7 +6854,7 @@
     "155": [
         "product",
         "Cracker Salzgebäck Apérogebäck",
-        "gr",
+        "g",
         "449",
         "66.3",
         "15.9",
@@ -6866,7 +6866,7 @@
     "270": [
         "product",
         "Gummibonbon mit Fruchtessenz",
-        "gr",
+        "g",
         "341",
         "78.6",
         "0",
@@ -6878,7 +6878,7 @@
     "284": [
         "product",
         "Hartkaramellen Hartbonbons",
-        "gr",
+        "g",
         "385",
         "95",
         "0.3",
@@ -6890,7 +6890,7 @@
     "642": [
         "product",
         "Rahmkaramellen",
-        "gr",
+        "g",
         "351",
         "79.3",
         "3.6",
@@ -6902,7 +6902,7 @@
     "927": [
         "product",
         "Weichkaramellen Bonbons",
-        "gr",
+        "g",
         "448",
         "71.1",
         "17.2",
@@ -6914,7 +6914,7 @@
     "790": [
         "product",
         "Schokoladenpulver",
-        "gr",
+        "g",
         "402",
         "71.3",
         "7.8",
@@ -6926,7 +6926,7 @@
     "336": [
         "product",
         "Kaffee löslich Pulver",
-        "gr",
+        "g",
         "253",
         "42.6",
         "0",
@@ -6938,7 +6938,7 @@
     "565": [
         "product",
         "Passionsfrucht roh",
-        "gr",
+        "g",
         "92",
         "11.8",
         "0.5",
@@ -6950,7 +6950,7 @@
     "624": [
         "product",
         "Preiselbeere roh",
-        "gr",
+        "g",
         "40",
         "7.1",
         "0.5",
@@ -6974,7 +6974,7 @@
     "337": [
         "product",
         "Kaffee schwarz ungezuckert",
-        "gr",
+        "g",
         "2",
         "0.3",
         "0",
@@ -6986,7 +6986,7 @@
     "840": [
         "product",
         "Sojamehl vollfett",
-        "gr",
+        "g",
         "398",
         "3.1",
         "20.6",
@@ -6998,7 +6998,7 @@
     "839": [
         "product",
         "Sojamehl entfettet",
-        "gr",
+        "g",
         "249",
         "0.6",
         "1.2",
@@ -7010,7 +7010,7 @@
     "371": [
         "product",
         "Karotte gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "41",
         "7.3",
         "0.3",
@@ -7022,7 +7022,7 @@
     "27": [
         "product",
         "Aubergine gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "28",
         "3.9",
         "0.2",
@@ -7034,7 +7034,7 @@
     "79": [
         "product",
         "Blumenkohl gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "27",
         "2.4",
         "0.3",
@@ -7046,7 +7046,7 @@
     "102": [
         "product",
         "Broccoli gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "30",
         "2.3",
         "0.4",
@@ -7058,7 +7058,7 @@
     "138": [
         "product",
         "Chicorée gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "14",
         "0.7",
         "0.2",
@@ -7070,7 +7070,7 @@
     "141": [
         "product",
         "Chinakohl gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "16",
         "1.2",
         "0.3",
@@ -7082,7 +7082,7 @@
     "208": [
         "product",
         "Fenchel gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "23",
         "2.3",
         "0.3",
@@ -7094,7 +7094,7 @@
     "84": [
         "product",
         "Bohne grün gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "34",
         "4",
         "0.2",
@@ -7106,7 +7106,7 @@
     "190": [
         "product",
         "Erbse grün gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "104",
         "13.8",
         "0.8",
@@ -7118,7 +7118,7 @@
     "189": [
         "product",
         "Erbse (Konserve) aufgewärmt (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "94",
         "13.6",
         "0.9",
@@ -7130,7 +7130,7 @@
     "392": [
         "product",
         "Kefe gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "77",
         "11.4",
         "0.2",
@@ -7142,7 +7142,7 @@
     "407": [
         "product",
         "Knollensellerie gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "30",
         "2.6",
         "0.3",
@@ -7154,7 +7154,7 @@
     "419": [
         "product",
         "Kohlrabi gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "30",
         "4.1",
         "0.2",
@@ -7166,7 +7166,7 @@
     "455": [
         "product",
         "Lauch gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "33",
         "4.2",
         "0.3",
@@ -7178,7 +7178,7 @@
     "494": [
         "product",
         "Mangold gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "31",
         "3.6",
         "0.3",
@@ -7190,7 +7190,7 @@
     "567": [
         "product",
         "Peperoni grün gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "26",
         "3.4",
         "0.4",
@@ -7202,7 +7202,7 @@
     "569": [
         "product",
         "Peperoni rot gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "42",
         "6.8",
         "0.5",
@@ -7214,7 +7214,7 @@
     "643": [
         "product",
         "Rande gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "57",
         "10.5",
         "0.1",
@@ -7226,7 +7226,7 @@
     "664": [
         "product",
         "Riesenkürbis gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "23",
         "4.5",
         "0.1",
@@ -7238,7 +7238,7 @@
     "715": [
         "product",
         "Rosenkohl gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "42",
         "3.4",
         "0.5",
@@ -7250,7 +7250,7 @@
     "720": [
         "product",
         "Rotkohl gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "28",
         "3.7",
         "0.3",
@@ -7262,7 +7262,7 @@
     "794": [
         "product",
         "Schwarzwurzel gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "60",
         "2.3",
         "0.4",
@@ -7274,7 +7274,7 @@
     "847": [
         "product",
         "Spargel gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "27",
         "3.3",
         "0.2",
@@ -7286,7 +7286,7 @@
     "849": [
         "product",
         "Spinat gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "30",
         "1",
         "0.5",
@@ -7298,7 +7298,7 @@
     "859": [
         "product",
         "Stangensellerie gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "16",
         "1.6",
         "0.1",
@@ -7310,7 +7310,7 @@
     "892": [
         "product",
         "Tomate gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "28",
         "4.2",
         "0.4",
@@ -7322,7 +7322,7 @@
     "938": [
         "product",
         "Weisskohl gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "30",
         "4.2",
         "0.2",
@@ -7334,7 +7334,7 @@
     "939": [
         "product",
         "Weisskohl gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "32",
         "4.5",
         "0.2",
@@ -7346,7 +7346,7 @@
     "962": [
         "product",
         "Wirz gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "31",
         "2.9",
         "0.3",
@@ -7358,7 +7358,7 @@
     "979": [
         "product",
         "Zucchetti gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "25",
         "2.6",
         "0.3",
@@ -7370,7 +7370,7 @@
     "482": [
         "product",
         "Mais gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "105",
         "17.8",
         "1.4",
@@ -7382,7 +7382,7 @@
     "986": [
         "product",
         "Zuckermais (Konserve) aufgewärmt (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "107",
         "19.4",
         "1.3",
@@ -7394,7 +7394,7 @@
     "195": [
         "product",
         "Erbsen und Karotten (Konserve) aufgewärmt (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "71",
         "10.2",
         "0.5",
@@ -7406,7 +7406,7 @@
     "995": [
         "product",
         "Zwiebel gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "46",
         "8.4",
         "0.2",
@@ -7418,7 +7418,7 @@
     "996": [
         "product",
         "Zwiebel geröstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "92",
         "16.7",
         "0.5",
@@ -7430,7 +7430,7 @@
     "136": [
         "product",
         "Champignon gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "27",
         "1.3",
         "0.4",
@@ -7442,7 +7442,7 @@
     "181": [
         "product",
         "Eierschwamm gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "26",
         "0.2",
         "0.6",
@@ -7454,7 +7454,7 @@
     "534": [
         "product",
         "Morchel gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "31",
         "0.6",
         "0.4",
@@ -7466,7 +7466,7 @@
     "861": [
         "product",
         "Steinpilz gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "39",
         "0.6",
         "0.5",
@@ -7478,7 +7478,7 @@
     "167": [
         "product",
         "Dinkelmehl Ruch Typ 1100",
-        "gr",
+        "g",
         "348",
         "65",
         "2.2",
@@ -7490,7 +7490,7 @@
     "168": [
         "product",
         "Dinkelmehl Vollkorn Typ 1900",
-        "gr",
+        "g",
         "346",
         "60",
         "2.7",
@@ -7502,7 +7502,7 @@
     "169": [
         "product",
         "Dinkelmehl weiss Typ 550",
-        "gr",
+        "g",
         "348",
         "69",
         "1.5",
@@ -7514,7 +7514,7 @@
     "8": [
         "product",
         "Apfel gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "72",
         "15.4",
         "0.4",
@@ -7526,7 +7526,7 @@
     "59": [
         "product",
         "Birne gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "75",
         "15.8",
         "0.4",
@@ -7538,7 +7538,7 @@
     "20": [
         "product",
         "Aprikose gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "60",
         "12.5",
         "0.1",
@@ -7550,7 +7550,7 @@
     "398": [
         "product",
         "Kirsche gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "86",
         "17.6",
         "0.6",
@@ -7562,7 +7562,7 @@
     "530": [
         "product",
         "Mirabelle gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "65",
         "13.8",
         "0.2",
@@ -7574,7 +7574,7 @@
     "579": [
         "product",
         "Pflaume gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "59",
         "12.6",
         "0.2",
@@ -7586,7 +7586,7 @@
     "636": [
         "product",
         "Quitte gekocht abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "51",
         "7.9",
         "0.2",
@@ -7598,7 +7598,7 @@
     "989": [
         "product",
         "Zwetschge gedünstet abgetropft (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "53",
         "10.9",
         "0.1",
@@ -7610,7 +7610,7 @@
     "374": [
         "product",
         "Kartoffel geschält gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "77",
         "15.9",
         "0.1",
@@ -7622,7 +7622,7 @@
     "395": [
         "product",
         "Kichererbse gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "131",
         "17.7",
         "2",
@@ -7634,7 +7634,7 @@
     "469": [
         "product",
         "Linse ganz gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "121",
         "18.5",
         "0.4",
@@ -7646,7 +7646,7 @@
     "837": [
         "product",
         "Sojabohne gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "173",
         "11.7",
         "7",
@@ -7658,7 +7658,7 @@
     "868": [
         "product",
         "Teigwaren mit Ei gekocht im Salzwasser (unjodiert)",
-        "gr",
+        "g",
         "137",
         "26.3",
         "1",
@@ -7670,7 +7670,7 @@
     "870": [
         "product",
         "Teigwaren ohne Ei gekocht im Salzwasser (unjodiert)",
-        "gr",
+        "g",
         "165",
         "32.8",
         "0.6",
@@ -7682,7 +7682,7 @@
     "872": [
         "product",
         "Teigwaren ohne Ei Vollkorn gekocht im Salzwasser (unjodiert)",
-        "gr",
+        "g",
         "159",
         "28.2",
         "1.2",
@@ -7694,7 +7694,7 @@
     "654": [
         "product",
         "Reis parboiled gekocht in Salzwasser (unjodiert)",
-        "gr",
+        "g",
         "119",
         "26.6",
         "0.2",
@@ -7706,7 +7706,7 @@
     "656": [
         "product",
         "Reis poliert gekocht in Salzwasser (unjodiert)",
-        "gr",
+        "g",
         "115",
         "25.9",
         "0.2",
@@ -7742,7 +7742,7 @@
     "646": [
         "product",
         "Rapsöl HOLL (high oleic low linolenic)",
-        "gr",
+        "g",
         "810",
         "0",
         "90",
@@ -7754,7 +7754,7 @@
     "309": [
         "product",
         "Hühnerei ganz festgekocht",
-        "gr",
+        "g",
         "157",
         "0.3",
         "11.4",
@@ -7766,7 +7766,7 @@
     "341": [
         "product",
         "Kalb Brust gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "291",
         "0",
         "20.7",
@@ -7778,7 +7778,7 @@
     "666": [
         "product",
         "Rind Brust gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "313",
         "0",
         "20.8",
@@ -7790,7 +7790,7 @@
     "357": [
         "product",
         "Kalb Schulter Braten im Ofen gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "185",
         "0",
         "7.2",
@@ -7802,7 +7802,7 @@
     "684": [
         "product",
         "Rind Schulter Braten rare im Ofen gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "150",
         "0",
         "4.4",
@@ -7814,7 +7814,7 @@
     "683": [
         "product",
         "Rind Schulter Braten medium im Ofen gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "162",
         "0",
         "4.7",
@@ -7826,7 +7826,7 @@
     "685": [
         "product",
         "Rind Schulter Braten well done im Ofen gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "189",
         "0",
         "5.5",
@@ -7838,7 +7838,7 @@
     "813": [
         "product",
         "Schwein Schulter Braten medium im Ofen gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "229",
         "0",
         "11.6",
@@ -7850,7 +7850,7 @@
     "814": [
         "product",
         "Schwein Schulter Braten well done  im Ofen gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "292",
         "0",
         "14.8",
@@ -7862,7 +7862,7 @@
     "362": [
         "product",
         "Kalbsbratwurst",
-        "gr",
+        "g",
         "228",
         "1.2",
         "19.2",
@@ -7874,7 +7874,7 @@
     "134": [
         "product",
         "Cervelat",
-        "gr",
+        "g",
         "249",
         "0.5",
         "21.5",
@@ -7886,7 +7886,7 @@
     "956": [
         "product",
         "Wienerli",
-        "gr",
+        "g",
         "242",
         "0.6",
         "20.4",
@@ -7898,7 +7898,7 @@
     "476": [
         "product",
         "Lyoner",
-        "gr",
+        "g",
         "244",
         "0.5",
         "21.8",
@@ -7910,7 +7910,7 @@
     "217": [
         "product",
         "Fleischkäse",
-        "gr",
+        "g",
         "256",
         "1.4",
         "22.3",
@@ -7922,7 +7922,7 @@
     "819": [
         "product",
         "Schweinsbratwurst",
-        "gr",
+        "g",
         "236",
         "0.5",
         "18.8",
@@ -7934,7 +7934,7 @@
     "822": [
         "product",
         "Schweinswurst",
-        "gr",
+        "g",
         "268",
         "0.5",
         "22.4",
@@ -7946,7 +7946,7 @@
     "529": [
         "product",
         "Minipic Würstchen",
-        "gr",
+        "g",
         "460",
         "0.8",
         "39.1",
@@ -7958,7 +7958,7 @@
     "768": [
         "product",
         "Saucisson vaudois",
-        "gr",
+        "g",
         "358",
         "0.2",
         "32.3",
@@ -7970,7 +7970,7 @@
     "739": [
         "product",
         "Salsiz",
-        "gr",
+        "g",
         "415",
         "0",
         "34.9",
@@ -7982,7 +7982,7 @@
     "452": [
         "product",
         "Landjäger",
-        "gr",
+        "g",
         "491",
         "0",
         "42.7",
@@ -7994,7 +7994,7 @@
     "735": [
         "product",
         "Salami Typ Nostrano",
-        "gr",
+        "g",
         "367",
         "0",
         "30.1",
@@ -8006,7 +8006,7 @@
     "246": [
         "product",
         "Geflügellyoner",
-        "gr",
+        "g",
         "205",
         "0.9",
         "16.4",
@@ -8018,7 +8018,7 @@
     "154": [
         "product",
         "Cotto (Fleischerzeugnis)",
-        "gr",
+        "g",
         "93",
         "0.6",
         "3.1",
@@ -8030,7 +8030,7 @@
     "734": [
         "product",
         "Salami (Billiglinie)",
-        "gr",
+        "g",
         "422",
         "0",
         "37.1",
@@ -8042,7 +8042,7 @@
     "211": [
         "product",
         "Fisch (Durchschnitt) roh ",
-        "gr",
+        "g",
         "137",
         "0",
         "6.2",
@@ -8054,7 +8054,7 @@
     "432": [
         "product",
         "Krustentiere (Durchschnitt) roh",
-        "gr",
+        "g",
         "75",
         "1",
         "1",
@@ -8066,7 +8066,7 @@
     "243": [
         "product",
         "Geflügelfleisch (Durchschnitt exkl. Innereien) roh",
-        "gr",
+        "g",
         "131",
         "0",
         "4.8",
@@ -8078,7 +8078,7 @@
     "602": [
         "product",
         "Plätzli (Durchschnitt aus Rind Kalb Schwein Geflügel) roh ",
-        "gr",
+        "g",
         "114",
         "0.1",
         "2.7",
@@ -8090,7 +8090,7 @@
     "817": [
         "product",
         "Schweinefleisch (Durchschnitt exkl. Innereien Kotelett Haxe) roh",
-        "gr",
+        "g",
         "160",
         "0",
         "8.3",
@@ -8102,7 +8102,7 @@
     "693": [
         "product",
         "Rindfleisch (Durchschnitt exkl. Innereien Rippensteak) roh",
-        "gr",
+        "g",
         "134",
         "0",
         "5.4",
@@ -8114,7 +8114,7 @@
     "256": [
         "product",
         "Geschnetzeltes (Durchschnitt aus Rind Kalb Schwein Geflügel) roh",
-        "gr",
+        "g",
         "118",
         "0.1",
         "3.3",
@@ -8126,7 +8126,7 @@
     "248": [
         "product",
         "Gehacktes (Durchschnitt aus Rind Kalb Schwein Poulet) roh",
-        "gr",
+        "g",
         "142",
         "0",
         "6.2",
@@ -8138,7 +8138,7 @@
     "361": [
         "product",
         "Kalbfleisch (Durchschnitt exkl. Innereien Kotelett) roh",
-        "gr",
+        "g",
         "128",
         "0",
         "4.8",
@@ -8150,7 +8150,7 @@
     "431": [
         "product",
         "Kotelett (Durchschnitt aus Kalb Schwein Lamm) roh",
-        "gr",
+        "g",
         "177",
         "0",
         "10.2",
@@ -8162,7 +8162,7 @@
     "245": [
         "product",
         "Geflügelfleisch ohne Haut (Durchschnitt exkl. Innereien) roh",
-        "gr",
+        "g",
         "114",
         "0.1",
         "2.5",
@@ -8174,7 +8174,7 @@
     "244": [
         "product",
         "Geflügelfleisch mit Haut (Durchschnitt) roh",
-        "gr",
+        "g",
         "151",
         "0",
         "7.6",
@@ -8186,7 +8186,7 @@
     "450": [
         "product",
         "Lamm/Schaf (Durchschnitt exkl. Innereien Kotelett) roh",
-        "gr",
+        "g",
         "134",
         "0",
         "5.8",
@@ -8198,7 +8198,7 @@
     "216": [
         "product",
         "Fleisch (Durchschnitt exkl. Innereien) roh ",
-        "gr",
+        "g",
         "145",
         "0",
         "6.6",
@@ -8210,7 +8210,7 @@
     "109": [
         "product",
         "Brühwürste geräuchert (Durchschnitt)",
-        "gr",
+        "g",
         "263",
         "0.4",
         "22.7",
@@ -8222,7 +8222,7 @@
     "110": [
         "product",
         "Brühwürste ungeräuchert (Durchschnitt)",
-        "gr",
+        "g",
         "256",
         "0.8",
         "22.2",
@@ -8234,7 +8234,7 @@
     "709": [
         "product",
         "Rohwürste/Dauerwürste (Durchschnitt)",
-        "gr",
+        "g",
         "454",
         "0.3",
         "40.5",
@@ -8246,7 +8246,7 @@
     "708": [
         "product",
         "Rohwürste mit abgebrochener Reifung (Durchschnitt)",
-        "gr",
+        "g",
         "369",
         "0.6",
         "33.8",
@@ -8258,7 +8258,7 @@
     "416": [
         "product",
         "Kochwürste (Durchschnitt)",
-        "gr",
+        "g",
         "314",
         "1.2",
         "27.2",
@@ -8270,7 +8270,7 @@
     "706": [
         "product",
         "Rohpökelwaren (Durchschnitt)",
-        "gr",
+        "g",
         "304",
         "0.4",
         "21.1",
@@ -8282,7 +8282,7 @@
     "411": [
         "product",
         "Kochpökelware (Durchschnitt)",
-        "gr",
+        "g",
         "222",
         "0.7",
         "15.6",
@@ -8294,7 +8294,7 @@
     "49": [
         "product",
         "Beeren (Durchschnitt) roh",
-        "gr",
+        "g",
         "42",
         "7.2",
         "0.5",
@@ -8318,7 +8318,7 @@
     "131": [
         "product",
         "Cappuccino (ohne Schokoladenpulver) ungezuckert",
-        "gr",
+        "g",
         "37",
         "2.6",
         "2.2",
@@ -8330,7 +8330,7 @@
     "48": [
         "product",
         "Beeren (Durchschnitt) gekocht (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "44",
         "7.6",
         "0.5",
@@ -8342,7 +8342,7 @@
     "231": [
         "product",
         "Früchte (Durchschnitt) roh",
-        "gr",
+        "g",
         "57",
         "11.8",
         "0.3",
@@ -8354,7 +8354,7 @@
     "229": [
         "product",
         "Früchte (Durchschnitt) gekocht (ohne Zugabe von Zucker)",
-        "gr",
+        "g",
         "64",
         "13.1",
         "0.4",
@@ -8366,7 +8366,7 @@
     "959": [
         "product",
         "Wildfleisch (Durchschnitt) roh",
-        "gr",
+        "g",
         "115",
         "0",
         "3.4",
@@ -8378,7 +8378,7 @@
     "977": [
         "product",
         "Zitrusfrüchte (Durchschnitt) roh",
-        "gr",
+        "g",
         "41",
         "8.3",
         "0.2",
@@ -8390,7 +8390,7 @@
     "77": [
         "product",
         "Blattsalat (Durchschnitt) roh ",
-        "gr",
+        "g",
         "18",
         "1.4",
         "0.3",
@@ -8402,7 +8402,7 @@
     "585": [
         "product",
         "Pilz (Durchschnitt) roh",
-        "gr",
+        "g",
         "25",
         "0.6",
         "0.4",
@@ -8450,7 +8450,7 @@
     "835": [
         "product",
         "Sirup zubereitet (verdünnt im Verhältnis 1:5.5)",
-        "gr",
+        "g",
         "54",
         "13.5",
         "0",
@@ -8462,7 +8462,7 @@
     "314": [
         "product",
         "Hülsenfrüchte (Durchschnitt) getrocknet",
-        "gr",
+        "g",
         "335",
         "39.3",
         "4.9",
@@ -8474,7 +8474,7 @@
     "313": [
         "product",
         "Hülsenfrüchte (Durchschnitt) gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "138",
         "16.4",
         "2.6",
@@ -8486,7 +8486,7 @@
     "503": [
         "product",
         "Mehl (Durchschnitt)",
-        "gr",
+        "g",
         "343",
         "67.8",
         "1.4",
@@ -8498,7 +8498,7 @@
     "504": [
         "product",
         "Mehl hell (Durchschnitt)",
-        "gr",
+        "g",
         "344",
         "68.9",
         "1.3",
@@ -8510,7 +8510,7 @@
     "249": [
         "product",
         "Gemüse (Durchschnitt) roh",
-        "gr",
+        "g",
         "27",
         "3.7",
         "0.3",
@@ -8522,7 +8522,7 @@
     "968": [
         "product",
         "Wurzel- und Knollengemüse (Durchschnitt) gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "38",
         "6.3",
         "0.3",
@@ -8534,7 +8534,7 @@
     "966": [
         "product",
         "Wurzel- und Knollengemüse (Durchschnitt) gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "40",
         "6.6",
         "0.3",
@@ -8546,7 +8546,7 @@
     "967": [
         "product",
         "Wurzel- und Knollengemüse (Durchschnitt) gedünstet (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "35",
         "5.8",
         "0.3",
@@ -8558,7 +8558,7 @@
     "76": [
         "product",
         "Blattgemüse (Durchschnitt exkl. Salate) gekocht (ohne Zugabe von Salz und Fett)",
-        "gr",
+        "g",
         "24",
         "2.4",
         "0.3",
@@ -8570,7 +8570,7 @@
     "74": [
         "product",
         "Blattgemüse (Durchschnitt exkl. Salate) gedämpft (ohne Zugabe von Salz)",
-        "gr",
+        "g",
         "23",
         "2.3",
         "0.3",
@@ -8582,7 +8582,7 @@
     "75": [
         "product",
         "Blattgemüse (Durchschnitt exkl. Salate) gedünstet (ohne Zugabe von Salz und Fett)",
-        "gr",
+        "g",
         "25",
         "2.5",
         "0.3",
@@ -8594,7 +8594,7 @@
     "418": [
         "product",
         "Kohlgemüse (Durchschnitt) roh",
-        "gr",
+        "g",
         "29",
         "3",
         "0.3",
@@ -8606,7 +8606,7 @@
     "212": [
         "product",
         "Fischstäbchen (paniert und vorfritiert) gebraten in HOLL-Rapsöl",
-        "gr",
+        "g",
         "310",
         "16.6",
         "19.1",
@@ -8618,7 +8618,7 @@
     "213": [
         "product",
         "Fischstäbchen (paniert und vorfritiert) im Ofen gebacken (ohne Zugabe von Fett)",
-        "gr",
+        "g",
         "264",
         "17.4",
         "13.2",
@@ -8630,7 +8630,7 @@
     "741": [
         "product",
         "Samen Kerne Nüsse (Durchschnitt) ungesalzen",
-        "gr",
+        "g",
         "600",
         "11.2",
         "50.6",
@@ -8642,7 +8642,7 @@
     "539": [
         "product",
         "Mürbeteig (mit Butter) süss ungebacken",
-        "gr",
+        "g",
         "424",
         "45.8",
         "22.9",
@@ -8654,7 +8654,7 @@
     "433": [
         "product",
         "Kuchenteig (mit Butter) ungebacken",
-        "gr",
+        "g",
         "329",
         "38.7",
         "15.9",
@@ -8666,7 +8666,7 @@
     "294": [
         "product",
         "Hefeteig (mit pflanzlichem Fett) süss ungebacken",
-        "gr",
+        "g",
         "304",
         "40",
         "11.5",
@@ -8678,7 +8678,7 @@
     "633": [
         "product",
         "Quarkblätterteig (mit pflanzlichem Fett) ungebacken",
-        "gr",
+        "g",
         "396",
         "28.9",
         "27.7",
@@ -8762,7 +8762,7 @@
     "123": [
         "product",
         "Café crème ungezuckert",
-        "gr",
+        "g",
         "14",
         "0.6",
         "1.1",
@@ -8774,7 +8774,7 @@
     "697": [
         "product",
         "Ristretto crème ungezuckert",
-        "gr",
+        "g",
         "47",
         "1.3",
         "4.3",
@@ -8786,7 +8786,7 @@
     "202": [
         "product",
         "Espresso crème ungezuckert",
-        "gr",
+        "g",
         "28",
         "0.9",
         "2.5",
@@ -8798,7 +8798,7 @@
     "78": [
         "product",
         "Blauschimmelkäse (Durchschnitt)",
-        "gr",
+        "g",
         "361",
         "0.2",
         "31.5",
@@ -8810,7 +8810,7 @@
     "320": [
         "product",
         "Joghurt gezuckert (Durchschnitt)",
-        "gr",
+        "g",
         "105",
         "14.7",
         "3.4",
@@ -8834,7 +8834,7 @@
     "516": [
         "product",
         "Milch (Durchschnitt)",
-        "gr",
+        "g",
         "62",
         "4.6",
         "3.4",
@@ -8846,7 +8846,7 @@
     "640": [
         "product",
         "Rahm (Durchschnitt)",
-        "gr",
+        "g",
         "252",
         "3.4",
         "25.4",
@@ -8858,7 +8858,7 @@
     "653": [
         "product",
         "Reibkäse",
-        "gr",
+        "g",
         "396",
         "0",
         "29.4",
@@ -8870,7 +8870,7 @@
     "928": [
         "product",
         "Weichkäse (Durchschnitt ohne fettreduzierte Varianten)",
-        "gr",
+        "g",
         "324",
         "0",
         "27.4",
@@ -8930,7 +8930,7 @@
     "912": [
         "product",
         "Vinaigrette (mit Rapsöl)",
-        "gr",
+        "g",
         "259",
         "2.3",
         "25.2",
@@ -8942,7 +8942,7 @@
     "648": [
         "product",
         "Rauchsalami",
-        "gr",
+        "g",
         "513",
         "0.9",
         "47",
@@ -8954,7 +8954,7 @@
     "51": [
         "product",
         "Berner Alpkäse",
-        "gr",
+        "g",
         "456",
         "0",
         "38.3",
@@ -8966,7 +8966,7 @@
     "52": [
         "product",
         "Berner Hobelkäse",
-        "gr",
+        "g",
         "493",
         "0",
         "41.2",
@@ -8978,7 +8978,7 @@
     "39": [
         "product",
         "Basler Leckerli",
-        "gr",
+        "g",
         "404",
         "74.8",
         "7.6",
@@ -8990,7 +8990,7 @@
     "969": [
         "product",
         "Wurzel- und Knollengemüse (Durchschnitt) roh",
-        "gr",
+        "g",
         "36",
         "6",
         "0.3",
@@ -9002,7 +9002,7 @@
     "42": [
         "product",
         "Bauernbrot",
-        "gr",
+        "g",
         "240",
         "44.5",
         "2",
@@ -9014,7 +9014,7 @@
     "267": [
         "product",
         "Grittibänz",
-        "gr",
+        "g",
         "330",
         "46.9",
         "11.2",
@@ -9026,7 +9026,7 @@
     "941": [
         "product",
         "Weisswurst",
-        "gr",
+        "g",
         "202",
         "0.9",
         "17.7",
@@ -9038,7 +9038,7 @@
     "409": [
         "product",
         "Knöpflimehl",
-        "gr",
+        "g",
         "350",
         "70.5",
         "1.2",
@@ -9050,7 +9050,7 @@
     "122": [
         "product",
         "Butterzopf Vollkorn",
-        "gr",
+        "g",
         "272",
         "40.5",
         "6.4",
@@ -9062,7 +9062,7 @@
     "829": [
         "product",
         "Semmeli",
-        "gr",
+        "g",
         "262",
         "53.4",
         "0.8",
@@ -9074,7 +9074,7 @@
     "268": [
         "product",
         "Gugelhopf Grossmutter Art",
-        "gr",
+        "g",
         "459",
         "32.7",
         "32.1",
@@ -9086,7 +9086,7 @@
     "223": [
         "product",
         "Fondue moitié-moitié zubereitet",
-        "gr",
+        "g",
         "282",
         "1",
         "21.4",
@@ -9098,7 +9098,7 @@
     "221": [
         "product",
         "Fondue alkoholfrei zubereitet",
-        "gr",
+        "g",
         "281",
         "1.6",
         "21.8",
@@ -9110,7 +9110,7 @@
     "3": [
         "product",
         "Älplermagronen zubereitet",
-        "gr",
+        "g",
         "184",
         "18.6",
         "9",
@@ -9122,7 +9122,7 @@
     "11": [
         "product",
         "Apfelkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "142",
         "16.5",
         "7",
@@ -9134,7 +9134,7 @@
     "12": [
         "product",
         "Apfelkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "134",
         "18.8",
         "4.9",
@@ -9146,7 +9146,7 @@
     "25": [
         "product",
         "Aprikosenkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "137",
         "15.4",
         "6.8",
@@ -9158,7 +9158,7 @@
     "26": [
         "product",
         "Aprikosenkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "128",
         "17.6",
         "4.7",
@@ -9170,7 +9170,7 @@
     "64": [
         "product",
         "Birnenkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "144",
         "16.9",
         "7",
@@ -9182,7 +9182,7 @@
     "65": [
         "product",
         "Birnenkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "136",
         "19.1",
         "4.9",
@@ -9194,7 +9194,7 @@
     "107": [
         "product",
         "Brombeerkuchen gebacken (mit süssem Mürbeteig)",
-        "gr",
+        "g",
         "199",
         "19.1",
         "11.3",
@@ -9206,7 +9206,7 @@
     "164": [
         "product",
         "Crêpes nature zubereitet",
-        "gr",
+        "g",
         "234",
         "19",
         "13.3",
@@ -9218,7 +9218,7 @@
     "163": [
         "product",
         "Crêpes mit Zimt und Zucker zubereitet",
-        "gr",
+        "g",
         "256",
         "29",
         "11.7",
@@ -9230,7 +9230,7 @@
     "157": [
         "product",
         "Crêpes mit Camembert zubereitet",
-        "gr",
+        "g",
         "249",
         "14.9",
         "15.6",
@@ -9242,7 +9242,7 @@
     "158": [
         "product",
         "Crêpes mit Champignonfüllung zubereitet",
-        "gr",
+        "g",
         "137",
         "7.9",
         "9",
@@ -9254,7 +9254,7 @@
     "159": [
         "product",
         "Crêpes mit Gemüsefüllung zubereitet",
-        "gr",
+        "g",
         "165",
         "13.6",
         "9.3",
@@ -9266,7 +9266,7 @@
     "160": [
         "product",
         "Crêpes mit Nutella zubereitet",
-        "gr",
+        "g",
         "376",
         "35.7",
         "22.1",
@@ -9278,7 +9278,7 @@
     "161": [
         "product",
         "Crêpes mit Schinken zubereitet",
-        "gr",
+        "g",
         "193",
         "13.2",
         "9.8",
@@ -9290,7 +9290,7 @@
     "162": [
         "product",
         "Crêpes mit Speck zubereitet",
-        "gr",
+        "g",
         "253",
         "15",
         "16.4",
@@ -9302,7 +9302,7 @@
     "241": [
         "product",
         "Garnele gekocht",
-        "gr",
+        "g",
         "59",
         "1.3",
         "0.6",
@@ -9314,7 +9314,7 @@
     "165": [
         "product",
         "Crevettencocktail zubereitet",
-        "gr",
+        "g",
         "174",
         "4.6",
         "13.2",
@@ -9326,7 +9326,7 @@
     "180": [
         "product",
         "Eieromeletten zubereitet",
-        "gr",
+        "g",
         "154",
         "1.4",
         "11.5",
@@ -9338,7 +9338,7 @@
     "178": [
         "product",
         "Eieromeletten mit Schinken zubereitet",
-        "gr",
+        "g",
         "146",
         "1.3",
         "10",
@@ -9350,7 +9350,7 @@
     "177": [
         "product",
         "Eieromeletten mit Käse zubereitet",
-        "gr",
+        "g",
         "195",
         "1.2",
         "14.9",
@@ -9362,7 +9362,7 @@
     "179": [
         "product",
         "Eieromeletten mit Speck zubereitet",
-        "gr",
+        "g",
         "182",
         "1.3",
         "14.2",
@@ -9374,7 +9374,7 @@
     "215": [
         "product",
         "Flammenkuchen gebacken",
-        "gr",
+        "g",
         "268",
         "22.9",
         "15.1",
@@ -9386,7 +9386,7 @@
     "745": [
         "product",
         "Sandwich (Baguette) mit Fleischkäse",
-        "gr",
+        "g",
         "220",
         "25.1",
         "9.4",
@@ -9398,7 +9398,7 @@
     "754": [
         "product",
         "Sandwich (Ruchbrot) mit Fleischkäse",
-        "gr",
+        "g",
         "210",
         "21.9",
         "9.5",
@@ -9410,7 +9410,7 @@
     "265": [
         "product",
         "Griessschnitte zubereitet (mit teilentrahmter Milch)",
-        "gr",
+        "g",
         "146",
         "15.4",
         "6.4",
@@ -9422,7 +9422,7 @@
     "266": [
         "product",
         "Griessschnitte zubereitet (mit Vollmilch)",
-        "gr",
+        "g",
         "156",
         "15.4",
         "7.5",
@@ -9434,7 +9434,7 @@
     "263": [
         "product",
         "Griessbrei zubereitet (mit teilentrahmter Milch)",
-        "gr",
+        "g",
         "95",
         "12",
         "3",
@@ -9446,7 +9446,7 @@
     "264": [
         "product",
         "Griessbrei zubereitet (mit Vollmilch)",
-        "gr",
+        "g",
         "95",
         "12",
         "3",
@@ -9458,7 +9458,7 @@
     "276": [
         "product",
         "Haferbrei zubereitet (mit Vollmilch)",
-        "gr",
+        "g",
         "150",
         "16",
         "6.3",
@@ -9470,7 +9470,7 @@
     "275": [
         "product",
         "Haferbrei zubereitet (mit teilentrahmter Milch)",
-        "gr",
+        "g",
         "133",
         "18.3",
         "3.6",
@@ -9482,7 +9482,7 @@
     "520": [
         "product",
         "Milchreis zubereitet (mit teilentrahmter Milch)",
-        "gr",
+        "g",
         "132",
         "19.5",
         "3.5",
@@ -9494,7 +9494,7 @@
     "521": [
         "product",
         "Milchreis zubereitet (mit Vollmilch)",
-        "gr",
+        "g",
         "144",
         "19.5",
         "5",
@@ -9506,7 +9506,7 @@
     "226": [
         "product",
         "Fotzelschnitte ungezuckert",
-        "gr",
+        "g",
         "224",
         "24.9",
         "10",
@@ -9518,7 +9518,7 @@
     "380": [
         "product",
         "Kartoffelsalat mit Mayonnaise-Joghurt-Sauce",
-        "gr",
+        "g",
         "82",
         "12.6",
         "2.2",
@@ -9530,7 +9530,7 @@
     "379": [
         "product",
         "Kartoffelsalat mit Essig-Öl-Sauce",
-        "gr",
+        "g",
         "97",
         "13.1",
         "3.8",
@@ -9542,7 +9542,7 @@
     "383": [
         "product",
         "Kartoffelstock zubereitet (mit teilentrahmter Milch und Butter)",
-        "gr",
+        "g",
         "90",
         "13.5",
         "2.6",
@@ -9554,7 +9554,7 @@
     "382": [
         "product",
         "Kartoffelstock zubereitet (mit Rahm und Butter)",
-        "gr",
+        "g",
         "140",
         "13.2",
         "8.4",
@@ -9566,7 +9566,7 @@
     "761": [
         "product",
         "Sandwich (Ruchbrot) mit Weichkäse",
-        "gr",
+        "g",
         "174",
         "18.6",
         "7.7",
@@ -9578,7 +9578,7 @@
     "752": [
         "product",
         "Sandwich (Baguette) mit Weichkäse",
-        "gr",
+        "g",
         "182",
         "21.3",
         "7.6",
@@ -9590,7 +9590,7 @@
     "512": [
         "product",
         "Mehlomeletten zubereitet",
-        "gr",
+        "g",
         "166",
         "20.4",
         "5.8",
@@ -9602,7 +9602,7 @@
     "507": [
         "product",
         "Mehlomeletten mit Käse zubereitet",
-        "gr",
+        "g",
         "196",
         "18.2",
         "9",
@@ -9614,7 +9614,7 @@
     "505": [
         "product",
         "Mehlomeletten mit Champignonfüllung zubereitet",
-        "gr",
+        "g",
         "124",
         "10.8",
         "6.3",
@@ -9626,7 +9626,7 @@
     "506": [
         "product",
         "Mehlomeletten mit Gemüsefüllung zubereitet",
-        "gr",
+        "g",
         "137",
         "16.2",
         "5.2",
@@ -9638,7 +9638,7 @@
     "509": [
         "product",
         "Mehlomeletten mit Schinken zubereitet",
-        "gr",
+        "g",
         "157",
         "17.3",
         "5.2",
@@ -9650,7 +9650,7 @@
     "510": [
         "product",
         "Mehlomeletten mit Speck zubereitet",
-        "gr",
+        "g",
         "194",
         "17.3",
         "9.5",
@@ -9662,7 +9662,7 @@
     "582": [
         "product",
         "Pflaumenkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "137",
         "15.5",
         "6.9",
@@ -9674,7 +9674,7 @@
     "991": [
         "product",
         "Zwetschgenkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "133",
         "14.6",
         "6.8",
@@ -9686,7 +9686,7 @@
     "583": [
         "product",
         "Pflaumenkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "129",
         "17.8",
         "4.8",
@@ -9698,7 +9698,7 @@
     "992": [
         "product",
         "Zwetschgenkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "125",
         "16.8",
         "4.7",
@@ -9710,7 +9710,7 @@
     "591": [
         "product",
         "Pizza al tonno gebacken",
-        "gr",
+        "g",
         "227",
         "26.5",
         "7.7",
@@ -9722,7 +9722,7 @@
     "592": [
         "product",
         "Pizza Calzone gebacken",
-        "gr",
+        "g",
         "226",
         "26.6",
         "7.8",
@@ -9734,7 +9734,7 @@
     "593": [
         "product",
         "Pizza Hawaii gebacken",
-        "gr",
+        "g",
         "195",
         "24.2",
         "6.4",
@@ -9746,7 +9746,7 @@
     "594": [
         "product",
         "Pizza Margherita gebacken",
-        "gr",
+        "g",
         "238",
         "29.9",
         "8.4",
@@ -9758,7 +9758,7 @@
     "596": [
         "product",
         "Pizza mit Mascarpone und Rucola gebacken",
-        "gr",
+        "g",
         "240",
         "27.4",
         "9.9",
@@ -9770,7 +9770,7 @@
     "597": [
         "product",
         "Pizza Prosciutto e Funghi gebacken",
-        "gr",
+        "g",
         "205",
         "24",
         "7",
@@ -9782,7 +9782,7 @@
     "598": [
         "product",
         "Pizza Prosciutto gebacken",
-        "gr",
+        "g",
         "219",
         "28.7",
         "6.5",
@@ -9794,7 +9794,7 @@
     "599": [
         "product",
         "Pizza Quattro Formaggi gebacken",
-        "gr",
+        "g",
         "297",
         "37.2",
         "10.3",
@@ -9806,7 +9806,7 @@
     "595": [
         "product",
         "Pizza mit Gemüse gebacken",
-        "gr",
+        "g",
         "124",
         "17.4",
         "3.1",
@@ -9818,7 +9818,7 @@
     "635": [
         "product",
         "Quiche Lorraine gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "293",
         "14.6",
         "21.9",
@@ -9830,7 +9830,7 @@
     "634": [
         "product",
         "Quiche Lorraine gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "305",
         "11.5",
         "24.9",
@@ -9842,7 +9842,7 @@
     "388": [
         "product",
         "Käsekuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "293",
         "14.6",
         "19.2",
@@ -9854,7 +9854,7 @@
     "387": [
         "product",
         "Käsekuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "304",
         "11.7",
         "22",
@@ -9866,7 +9866,7 @@
     "400": [
         "product",
         "Kirschenkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "154",
         "18.9",
         "7.1",
@@ -9878,7 +9878,7 @@
     "401": [
         "product",
         "Kirschenkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "146",
         "21.1",
         "5",
@@ -9890,7 +9890,7 @@
     "662": [
         "product",
         "Rhabarberkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "113",
         "9.4",
         "6.8",
@@ -9902,7 +9902,7 @@
     "663": [
         "product",
         "Rhabarberkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "105",
         "11.7",
         "4.7",
@@ -9914,7 +9914,7 @@
     "748": [
         "product",
         "Sandwich (Baguette) mit Rohschinken",
-        "gr",
+        "g",
         "164",
         "18.7",
         "5.7",
@@ -9926,7 +9926,7 @@
     "757": [
         "product",
         "Sandwich (Ruchbrot) mit Rohschinken",
-        "gr",
+        "g",
         "157",
         "16.3",
         "5.8",
@@ -9938,7 +9938,7 @@
     "744": [
         "product",
         "Sandwich (Baguette) mit Aufschnitt",
-        "gr",
+        "g",
         "152",
         "17.3",
         "6.6",
@@ -9950,7 +9950,7 @@
     "753": [
         "product",
         "Sandwich (Ruchbrot) mit Aufschnitt",
-        "gr",
+        "g",
         "143",
         "15.2",
         "6.4",
@@ -9962,7 +9962,7 @@
     "751": [
         "product",
         "Sandwich (Baguette) mit Trockenfleisch",
-        "gr",
+        "g",
         "141",
         "18.4",
         "3.9",
@@ -9974,7 +9974,7 @@
     "760": [
         "product",
         "Sandwich (Ruchbrot) mit Trockenfleisch",
-        "gr",
+        "g",
         "135",
         "16.2",
         "4",
@@ -9986,7 +9986,7 @@
     "749": [
         "product",
         "Sandwich (Baguette) mit Salami",
-        "gr",
+        "g",
         "157",
         "18.3",
         "6.4",
@@ -9998,7 +9998,7 @@
     "758": [
         "product",
         "Sandwich (Ruchbrot) mit Salami",
-        "gr",
+        "g",
         "151",
         "16.2",
         "6.5",
@@ -10010,7 +10010,7 @@
     "750": [
         "product",
         "Sandwich (Baguette) mit Schinken",
-        "gr",
+        "g",
         "131",
         "17.3",
         "3.7",
@@ -10022,7 +10022,7 @@
     "759": [
         "product",
         "Sandwich (Ruchbrot) mit Schinken",
-        "gr",
+        "g",
         "125",
         "15.3",
         "3.8",
@@ -10034,7 +10034,7 @@
     "746": [
         "product",
         "Sandwich (Baguette) mit Halbhartkäse",
-        "gr",
+        "g",
         "179",
         "20",
         "7.6",
@@ -10046,7 +10046,7 @@
     "755": [
         "product",
         "Sandwich (Ruchbrot) mit Halbhartkäse",
-        "gr",
+        "g",
         "172",
         "17.5",
         "7.7",
@@ -10058,7 +10058,7 @@
     "747": [
         "product",
         "Sandwich (Baguette) mit Mozzarella",
-        "gr",
+        "g",
         "163",
         "20.1",
         "6.2",
@@ -10070,7 +10070,7 @@
     "756": [
         "product",
         "Sandwich (Ruchbrot) mit Mozzarella",
-        "gr",
+        "g",
         "155",
         "17.6",
         "6.3",
@@ -10082,7 +10082,7 @@
     "852": [
         "product",
         "Spinatkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "169",
         "12.3",
         "10.1",
@@ -10094,7 +10094,7 @@
     "851": [
         "product",
         "Spinatkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "178",
         "10.2",
         "12.2",
@@ -10106,7 +10106,7 @@
     "965": [
         "product",
         "Wurstsalat zubereitet",
-        "gr",
+        "g",
         "226",
         "1.6",
         "21",
@@ -10118,7 +10118,7 @@
     "964": [
         "product",
         "Wurst-Käse-Salat zubereitet",
-        "gr",
+        "g",
         "264",
         "0.8",
         "22.6",
@@ -10130,7 +10130,7 @@
     "391": [
         "product",
         "Kebab im Fladenbrot",
-        "gr",
+        "g",
         "125",
         "14.5",
         "3.7",
@@ -10142,7 +10142,7 @@
     "148": [
         "product",
         "Coleslaw Salat zubereitet",
-        "gr",
+        "g",
         "120",
         "4.2",
         "10.3",
@@ -10154,7 +10154,7 @@
     "34": [
         "product",
         "Bami Goreng zubereitet",
-        "gr",
+        "g",
         "137",
         "14",
         "2.6",
@@ -10166,7 +10166,7 @@
     "542": [
         "product",
         "Nasi Goreng zubereitet",
-        "gr",
+        "g",
         "126",
         "16.1",
         "1.9",
@@ -10178,7 +10178,7 @@
     "250": [
         "product",
         "Gemüsegratin gebacken",
-        "gr",
+        "g",
         "57",
         "2.3",
         "3.6",
@@ -10190,7 +10190,7 @@
     "273": [
         "product",
         "Hackbraten im Ofen gebacken",
-        "gr",
+        "g",
         "197",
         "8.2",
         "10.5",
@@ -10202,7 +10202,7 @@
     "274": [
         "product",
         "Hackplätzli (Rind) gebraten in Rapsöl HOLL",
-        "gr",
+        "g",
         "204",
         "6.4",
         "10.6",
@@ -10214,7 +10214,7 @@
     "696": [
         "product",
         "Risotto ohne Käse gekocht",
-        "gr",
+        "g",
         "123",
         "25.1",
         "1.4",
@@ -10226,7 +10226,7 @@
     "586": [
         "product",
         "Pilzrisotto gekocht",
-        "gr",
+        "g",
         "126",
         "18.7",
         "3.6",
@@ -10238,7 +10238,7 @@
     "303": [
         "product",
         "Hirsotto gekocht",
-        "gr",
+        "g",
         "145",
         "24.9",
         "3.1",
@@ -10250,7 +10250,7 @@
     "254": [
         "product",
         "Gerstotto gekocht",
-        "gr",
+        "g",
         "136",
         "24.8",
         "2.2",
@@ -10262,7 +10262,7 @@
     "952": [
         "product",
         "Weizenotto gekocht",
-        "gr",
+        "g",
         "171",
         "27.7",
         "3",
@@ -10274,7 +10274,7 @@
     "957": [
         "product",
         "Wienerli gekocht",
-        "gr",
+        "g",
         "235",
         "0.6",
         "19.8",
@@ -10286,7 +10286,7 @@
     "308": [
         "product",
         "Hot Dog in Weissbrot mit Ketchup und Senf",
-        "gr",
+        "g",
         "230",
         "32.3",
         "6.7",
@@ -10298,7 +10298,7 @@
     "335": [
         "product",
         "Johannisbeerkuchen gebacken (mit süssem Mürbeteig)",
-        "gr",
+        "g",
         "200",
         "18.4",
         "11.4",
@@ -10310,7 +10310,7 @@
     "333": [
         "product",
         "Johannisbeerkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "135",
         "12.1",
         "7.1",
@@ -10322,7 +10322,7 @@
     "105": [
         "product",
         "Brombeerkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "135",
         "12.9",
         "7",
@@ -10334,7 +10334,7 @@
     "334": [
         "product",
         "Johannisbeerkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "127",
         "14.3",
         "5",
@@ -10346,7 +10346,7 @@
     "106": [
         "product",
         "Brombeerkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "126",
         "15.1",
         "4.9",
@@ -10358,7 +10358,7 @@
     "876": [
         "product",
         "Teigwarensalat mit italienischer Sauce",
-        "gr",
+        "g",
         "133",
         "13.3",
         "6.1",
@@ -10370,7 +10370,7 @@
     "875": [
         "product",
         "Teigwarensalat mit französischer Sauce",
-        "gr",
+        "g",
         "131",
         "13.3",
         "5.8",
@@ -10382,7 +10382,7 @@
     "377": [
         "product",
         "Kartoffelgratin dauphinois zubereitet",
-        "gr",
+        "g",
         "128",
         "11.3",
         "7.8",
@@ -10394,7 +10394,7 @@
     "378": [
         "product",
         "Kartoffelgratin Savoyer Art zubereitet",
-        "gr",
+        "g",
         "75",
         "10.6",
         "2.3",
@@ -10406,7 +10406,7 @@
     "390": [
         "product",
         "Käseschnitte zubereitet",
-        "gr",
+        "g",
         "272",
         "26",
         "11.5",
@@ -10418,7 +10418,7 @@
     "729": [
         "product",
         "Rührei zubereitet",
-        "gr",
+        "g",
         "149",
         "1.3",
         "11.2",
@@ -10430,7 +10430,7 @@
     "727": [
         "product",
         "Rührei mit Kräutern zubereitet",
-        "gr",
+        "g",
         "143",
         "1.8",
         "10.4",
@@ -10442,7 +10442,7 @@
     "725": [
         "product",
         "Rührei mit Champignons zubereitet",
-        "gr",
+        "g",
         "128",
         "1.5",
         "9.3",
@@ -10454,7 +10454,7 @@
     "726": [
         "product",
         "Rührei mit Käse zubereitet",
-        "gr",
+        "g",
         "159",
         "1.3",
         "11.9",
@@ -10466,7 +10466,7 @@
     "728": [
         "product",
         "Rührei mit Schinken zubereitet",
-        "gr",
+        "g",
         "146",
         "1.3",
         "10",
@@ -10478,7 +10478,7 @@
     "731": [
         "product",
         "Russischer Salat zubereitet",
-        "gr",
+        "g",
         "198",
         "9.9",
         "15.9",
@@ -10490,7 +10490,7 @@
     "864": [
         "product",
         "Taboulé zubereitet (mit Bulgur)",
-        "gr",
+        "g",
         "114",
         "12.1",
         "5.5",
@@ -10502,7 +10502,7 @@
     "865": [
         "product",
         "Taboulé zubereitet (mit Couscous)",
-        "gr",
+        "g",
         "134",
         "15.9",
         "6.1",
@@ -10526,7 +10526,7 @@
     "318": [
         "product",
         "Joghurt-Salatsauce (ohne Öl)",
-        "gr",
+        "g",
         "68",
         "5.7",
         "3.3",
@@ -10538,7 +10538,7 @@
     "883": [
         "product",
         "Thonsalat an Essig-Öl-Sauce (aus Thon im Wasser)",
-        "gr",
+        "g",
         "110",
         "6.8",
         "4.8",
@@ -10550,7 +10550,7 @@
     "998": [
         "product",
         "Zwiebelkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "178",
         "13.3",
         "11.5",
@@ -10562,7 +10562,7 @@
     "999": [
         "product",
         "Zwiebelkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "171",
         "15.3",
         "9.6",
@@ -10574,7 +10574,7 @@
     "895": [
         "product",
         "Tomatenkuchen gebacken (mit Blätterteig)",
-        "gr",
+        "g",
         "156",
         "10",
         "11.1",
@@ -10586,7 +10586,7 @@
     "896": [
         "product",
         "Tomatenkuchen gebacken (mit Kuchenteig)",
-        "gr",
+        "g",
         "146",
         "12.3",
         "8.8",
@@ -10598,7 +10598,7 @@
     "484": [
         "product",
         "Maisgriess gekocht",
-        "gr",
+        "g",
         "79",
         "16.7",
         "0.2",
@@ -10610,7 +10610,7 @@
     "129": [
         "product",
         "Cannelloni mit Fleischfüllung zubereitet",
-        "gr",
+        "g",
         "193",
         "14.6",
         "9.9",
@@ -10622,7 +10622,7 @@
     "130": [
         "product",
         "Cannelloni mit Spinat-Ricotta-Füllung zubereitet",
-        "gr",
+        "g",
         "222",
         "15.2",
         "13.7",
@@ -10634,7 +10634,7 @@
     "140": [
         "product",
         "Chili con carne zubereitet",
-        "gr",
+        "g",
         "125",
         "9.2",
         "4.4",
@@ -10646,7 +10646,7 @@
     "150": [
         "product",
         "Cordon Bleu aus Kalbsplätzli gebraten",
-        "gr",
+        "g",
         "240",
         "10.2",
         "11.4",
@@ -10658,7 +10658,7 @@
     "151": [
         "product",
         "Cordon Bleu aus Schweinsplätzli gebraten",
-        "gr",
+        "g",
         "249",
         "10.2",
         "12.2",
@@ -10670,7 +10670,7 @@
     "828": [
         "product",
         "Selleriescheiben paniert zubereitet",
-        "gr",
+        "g",
         "138",
         "13.9",
         "5.7",
@@ -10682,7 +10682,7 @@
     "437": [
         "product",
         "Kürbisscheiben paniert zubereitet",
-        "gr",
+        "g",
         "140",
         "16.7",
         "5.8",
@@ -10694,7 +10694,7 @@
     "981": [
         "product",
         "Zucchettischeiben paniert zubereitet",
-        "gr",
+        "g",
         "128",
         "13.4",
         "5.6",
@@ -10706,7 +10706,7 @@
     "30": [
         "product",
         "Auberginenscheiben paniert zubereitet",
-        "gr",
+        "g",
         "139",
         "15.2",
         "5.9",
@@ -10718,7 +10718,7 @@
     "29": [
         "product",
         "Auberginen-Piccata zubereitet",
-        "gr",
+        "g",
         "169",
         "9.1",
         "11.8",
@@ -10730,7 +10730,7 @@
     "827": [
         "product",
         "Sellerie-Piccata zubereitet",
-        "gr",
+        "g",
         "162",
         "6.8",
         "11.6",
@@ -10742,7 +10742,7 @@
     "978": [
         "product",
         "Zucchetti-Piccata zubereitet",
-        "gr",
+        "g",
         "151",
         "6.4",
         "11.3",
@@ -10754,7 +10754,7 @@
     "435": [
         "product",
         "Kürbis-Piccata zubereitet",
-        "gr",
+        "g",
         "165",
         "9",
         "12",
@@ -10766,7 +10766,7 @@
     "218": [
         "product",
         "Fleischlasagne zubereitet",
-        "gr",
+        "g",
         "156",
         "12.9",
         "6.9",
@@ -10778,7 +10778,7 @@
     "647": [
         "product",
         "Ratatouille zubereitet",
-        "gr",
+        "g",
         "48",
         "4.6",
         "2.1",
@@ -10790,7 +10790,7 @@
     "251": [
         "product",
         "Gemüselasagne zubereitet",
-        "gr",
+        "g",
         "135",
         "11.7",
         "7.4",
@@ -10802,7 +10802,7 @@
     "363": [
         "product",
         "Kalbspiccata zubereitet",
-        "gr",
+        "g",
         "223",
         "5.5",
         "11.9",
@@ -10814,7 +10814,7 @@
     "820": [
         "product",
         "Schweinspiccata zubereitet",
-        "gr",
+        "g",
         "233",
         "5.5",
         "12.8",
@@ -10826,7 +10826,7 @@
     "366": [
         "product",
         "Kalbsragout mit Sauce zubereitet",
-        "gr",
+        "g",
         "91",
         "3",
         "3.5",
@@ -10838,7 +10838,7 @@
     "575": [
         "product",
         "Pferderagout mit Sauce zubereitet",
-        "gr",
+        "g",
         "94",
         "3.1",
         "3.3",
@@ -10850,7 +10850,7 @@
     "821": [
         "product",
         "Schweinsragout mit Sauce zubereitet",
-        "gr",
+        "g",
         "113",
         "3.1",
         "5.5",
@@ -10862,7 +10862,7 @@
     "694": [
         "product",
         "Rindsragout mit Sauce zubereitet",
-        "gr",
+        "g",
         "91",
         "3.1",
         "3",
@@ -10874,7 +10874,7 @@
     "451": [
         "product",
         "Lammragout mit Sauce zubereitet",
-        "gr",
+        "g",
         "123",
         "3.1",
         "7",
@@ -10886,7 +10886,7 @@
     "699": [
         "product",
         "Riz Casimir mit Poulet zubereitet",
-        "gr",
+        "g",
         "126",
         "16",
         "3.3",
@@ -10898,7 +10898,7 @@
     "698": [
         "product",
         "Riz Casimir mit Kalbfleisch zubereitet",
-        "gr",
+        "g",
         "124",
         "16",
         "3.3",
@@ -10910,7 +10910,7 @@
     "914": [
         "product",
         "Vitello tonnato ohne Garnitur",
-        "gr",
+        "g",
         "208",
         "0.5",
         "12.6",
@@ -10922,7 +10922,7 @@
     "913": [
         "product",
         "Vitello tonnato mit Garnitur",
-        "gr",
+        "g",
         "179",
         "0.8",
         "11",
@@ -10934,7 +10934,7 @@
     "365": [
         "product",
         "Kalbsplätzli gebraten in HOLL-Rapsöl",
-        "gr",
+        "g",
         "196",
         "0",
         "9.2",
@@ -10946,7 +10946,7 @@
     "502": [
         "product",
         "Mayonnaise selbst zubereitet mit Rapsöl",
-        "gr",
+        "g",
         "791",
         "0.2",
         "86.7",
@@ -10958,7 +10958,7 @@
     "145": [
         "product",
         "Cocktailsauce selbst zubereitet mit Rapsöl-Mayonnaise",
-        "gr",
+        "g",
         "695",
         "3.9",
         "74.4",
@@ -10970,7 +10970,7 @@
     "866": [
         "product",
         "Tartarsauce selbst zubereitet mit Rapsöl-Mayonnaise",
-        "gr",
+        "g",
         "383",
         "1.9",
         "40",
@@ -10982,7 +10982,7 @@
     "784": [
         "product",
         "Schnitzelbrot mit Cocktailsauce",
-        "gr",
+        "g",
         "266",
         "25.1",
         "11.4",
@@ -10994,7 +10994,7 @@
     "785": [
         "product",
         "Schnitzelbrot mit Tartarsauce",
-        "gr",
+        "g",
         "246",
         "23.2",
         "10.3",
@@ -11006,7 +11006,7 @@
     "740": [
         "product",
         "Saltimbocca gebraten in HOLL-Rapsöl",
-        "gr",
+        "g",
         "230",
         "0.1",
         "12.1",
@@ -11030,7 +11030,7 @@
     "203": [
         "product",
         "Essig",
-        "gr",
+        "g",
         "22",
         "0.7",
         "0",
@@ -11042,7 +11042,7 @@
     "511": [
         "product",
         "Mehlomeletten mit Zimt und Zucker zubereitet",
-        "gr",
+        "g",
         "178",
         "24.5",
         "5.5",
@@ -11054,7 +11054,7 @@
     "508": [
         "product",
         "Mehlomeletten mit Nutella zubereitet",
-        "gr",
+        "g",
         "259",
         "29",
         "12.4",
@@ -11066,7 +11066,7 @@
     "257": [
         "product",
         "Getreideflocken (Durchschnitt)",
-        "gr",
+        "g",
         "344",
         "63.9",
         "3.3",
@@ -11078,7 +11078,7 @@
     "832": [
         "product",
         "Siedfleischsalat zubereitet",
-        "gr",
+        "g",
         "227",
         "1.5",
         "17",
@@ -11090,7 +11090,7 @@
     "99": [
         "product",
         "Brie halbfett",
-        "gr",
+        "g",
         "200",
         "0",
         "11.5",
@@ -11102,7 +11102,7 @@
     "31": [
         "product",
         "Aufschnitt (Durchschnitt)",
-        "gr",
+        "g",
         "289",
         "0.7",
         "25.5",
@@ -11114,7 +11114,7 @@
     "460": [
         "product",
         "Leber (Durchschnitt aus Rind Kalb Schwein Geflügel) roh",
-        "gr",
+        "g",
         "226",
         "2.8",
         "15.9",
@@ -11126,7 +11126,7 @@
     "988": [
         "product",
         "Zunge (Durchschnitt aus Kalb und Rind) roh",
-        "gr",
+        "g",
         "188",
         "2.8",
         "12.3",
@@ -11138,7 +11138,7 @@
     "258": [
         "product",
         "Gipfeli (Durchschnitt)",
-        "gr",
+        "g",
         "406",
         "40.4",
         "23",
@@ -11150,7 +11150,7 @@
     "108": [
         "product",
         "Brot (Durchschnitt)",
-        "gr",
+        "g",
         "265",
         "44.6",
         "4.7",
@@ -11162,7 +11162,7 @@
     "607": [
         "product",
         "Pommes Frites (in HO Sonnenblumenöl fritiert) ungesalzen",
-        "gr",
+        "g",
         "285",
         "32.5",
         "15.3",
@@ -11174,7 +11174,7 @@
     "606": [
         "product",
         "Pommes Frites (im Ofen gebacken) ungesalzen",
-        "gr",
+        "g",
         "230",
         "33.1",
         "8.9",
@@ -11186,7 +11186,7 @@
     "237": [
         "product",
         "Fruchtwähe/-kuchen mit Blätterteig (Durchschnitt)",
-        "gr",
+        "g",
         "136",
         "14.7",
         "6.9",
@@ -11198,7 +11198,7 @@
     "238": [
         "product",
         "Fruchtwähe/-kuchen mit Kuchenteig (Durchschnitt)",
-        "gr",
+        "g",
         "128",
         "16.9",
         "4.8",
@@ -11210,7 +11210,7 @@
     "239": [
         "product",
         "Fruchtwähe/-kuchen mit süssem Mürbeteig (Durchschnitt)",
-        "gr",
+        "g",
         "200",
         "18.8",
         "11.4",
@@ -11222,7 +11222,7 @@
     "236": [
         "product",
         "Fruchtwähe/-kuchen (Durchschnitt)",
-        "gr",
+        "g",
         "155",
         "16.8",
         "7.7",
@@ -11282,7 +11282,7 @@
     "125": [
         "product",
         "Calimocho (Rotwein mit Cola)",
-        "gr",
+        "g",
         "58",
         "5.1",
         "0",
@@ -11294,7 +11294,7 @@
     "763": [
         "product",
         "Sardellenpaste",
-        "gr",
+        "g",
         "272",
         "0.2",
         "21.3",
@@ -11306,7 +11306,7 @@
     "1": [
         "product",
         "Agar Agar",
-        "gr",
+        "g",
         "160",
         "0",
         "0.2",
@@ -11318,7 +11318,7 @@
     "466": [
         "product",
         "Lemon Curd",
-        "gr",
+        "g",
         "320",
         "37.5",
         "16.2",
@@ -11330,7 +11330,7 @@
     "174": [
         "product",
         "Dulce de Leche",
-        "gr",
+        "g",
         "300",
         "52.6",
         "7.3",
@@ -11342,7 +11342,7 @@
     "2": [
         "product",
         "Agavensirup",
-        "gr",
+        "g",
         "293",
         "73.1",
         "0",
@@ -11354,7 +11354,7 @@
     "924": [
         "product",
         "Wasabi Paste",
-        "gr",
+        "g",
         "308",
         "49.6",
         "10.6",
@@ -11366,7 +11366,7 @@
     "532": [
         "product",
         "Mit Hackfleisch gefüllte Oliven frittiert",
-        "gr",
+        "g",
         "320",
         "32.3",
         "14",
@@ -11378,7 +11378,7 @@
     "603": [
         "product",
         "Polenta nera (aus Maisgriess und Buchweizenmehl) gekocht",
-        "gr",
+        "g",
         "103",
         "12.9",
         "3.4",
@@ -11390,7 +11390,7 @@
     "743": [
         "product",
         "Samosa gebacken",
-        "gr",
+        "g",
         "310",
         "33.5",
         "15.8",
@@ -11402,7 +11402,7 @@
     "742": [
         "product",
         "Samosa frittiert",
-        "gr",
+        "g",
         "342",
         "31.6",
         "20.4",
@@ -11414,7 +11414,7 @@
     "417": [
         "product",
         "Kohlgemüse (Durchschnitt) gekocht (ohne Zugabe von Salz und Fett)",
-        "gr",
+        "g",
         "29",
         "3",
         "0.3",
@@ -11426,7 +11426,7 @@
     "47": [
         "product",
         "Béchamelsauce hausgemacht",
-        "gr",
+        "g",
         "148",
         "10.2",
         "9.9",
@@ -11438,7 +11438,7 @@
     "604": [
         "product",
         "Pommes Chips",
-        "gr",
+        "g",
         "537",
         "49.4",
         "34.7",
@@ -11450,7 +11450,7 @@
     "605": [
         "product",
         "Pommes Chips fettreduziert",
-        "gr",
+        "g",
         "467",
         "59.4",
         "21.9",
@@ -11462,7 +11462,7 @@
     "669": [
         "product",
         "Rind Entrecôte medium gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "183",
         "0",
         "6.2",
@@ -11474,7 +11474,7 @@
     "673": [
         "product",
         "Rind Filet medium gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "141",
         "0",
         "2.7",
@@ -11486,7 +11486,7 @@
     "799": [
         "product",
         "Schwein Filet gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "168",
         "0",
         "5",
@@ -11498,7 +11498,7 @@
     "797": [
         "product",
         "Schwein Eckstück Plätzli gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "177",
         "0",
         "4.2",
@@ -11510,7 +11510,7 @@
     "442": [
         "product",
         "Lamm Filet medium gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "149",
         "0",
         "4.5",
@@ -11522,7 +11522,7 @@
     "908": [
         "product",
         "Truthahn Brust Schnitzel oder Geschnetzeltes grebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "146",
         "0",
         "1.8",
@@ -11534,7 +11534,7 @@
     "614": [
         "product",
         "Poulet Brust Schnitzel oder Geschnetzeltes gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "131",
         "0.5",
         "1.5",
@@ -11546,7 +11546,7 @@
     "958": [
         "product",
         "Wildfleisch (Durchschnitt) gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "158",
         "0",
         "4.7",
@@ -11558,7 +11558,7 @@
     "808": [
         "product",
         "Schwein Kotelett gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "276",
         "0",
         "16",
@@ -11570,7 +11570,7 @@
     "804": [
         "product",
         "Schwein Hals Steak gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "298",
         "0",
         "20.7",
@@ -11582,7 +11582,7 @@
     "802": [
         "product",
         "Schwein Geschnetzeltes gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "196",
         "0",
         "7.9",
@@ -11594,7 +11594,7 @@
     "806": [
         "product",
         "Schwein Haxe geschmort (ohne zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "267",
         "1.1",
         "11.7",
@@ -11606,7 +11606,7 @@
     "688": [
         "product",
         "Rind Siedfleisch durchzogen gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "289",
         "0",
         "17.7",
@@ -11618,7 +11618,7 @@
     "689": [
         "product",
         "Rind Siedfleisch mager gekocht (ohne Zusatz von Fett and Salz)",
-        "gr",
+        "g",
         "221",
         "0",
         "9.2",
@@ -11630,7 +11630,7 @@
     "675": [
         "product",
         "Rind Gehacktes gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "244",
         "0",
         "11.9",
@@ -11642,7 +11642,7 @@
     "444": [
         "product",
         "Lamm Gigot gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "230",
         "0",
         "12.2",
@@ -11654,7 +11654,7 @@
     "616": [
         "product",
         "Poulet ganz mit Haut gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "224",
         "0",
         "13.7",
@@ -11666,7 +11666,7 @@
     "618": [
         "product",
         "Poulet Schenkel mit Haut gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "218",
         "0",
         "13.6",
@@ -11678,7 +11678,7 @@
     "364": [
         "product",
         "Kalbsplätzli gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "140",
         "0",
         "2.2",
@@ -11690,7 +11690,7 @@
     "247": [
         "product",
         "Gehacktes (Durchschnitt aus Rind Kalb Schwein Poulet) gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "179",
         "0",
         "7.8",
@@ -11702,7 +11702,7 @@
     "255": [
         "product",
         "Geschnetzeltes (Durchschnitt aus Rind Kalb Schwein Geflügel) gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "161",
         "0.1",
         "4.5",
@@ -11714,7 +11714,7 @@
     "601": [
         "product",
         "Plätzli (Durchschnitt aus Geflügel Kalb Rind Schwein) gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "155",
         "0.1",
         "3.7",
@@ -11726,7 +11726,7 @@
     "461": [
         "product",
         "Leber (Durchschnitt aus Rind Kalb Schwein Geglügel) gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "275",
         "3.4",
         "19.4",
@@ -11738,7 +11738,7 @@
     "430": [
         "product",
         "Kotelett (Durchschnitt aus Kalb Schwein Lamm) gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "250",
         "0",
         "14.4",
@@ -11750,7 +11750,7 @@
     "354": [
         "product",
         "Kalb Nierstück Steak gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "160",
         "0",
         "5.1",
@@ -11762,7 +11762,7 @@
     "346": [
         "product",
         "Kalb Geschnetzeltes gebraten (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "132",
         "0",
         "1.5",
@@ -11774,7 +11774,7 @@
     "573": [
         "product",
         "Pferd Filet gebraten (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "141",
         "0",
         "2.6",
@@ -11786,7 +11786,7 @@
     "368": [
         "product",
         "Kaninchen (Durchschnitt) gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "205",
         "0",
         "10.3",
@@ -11798,7 +11798,7 @@
     "713": [
         "product",
         "Rollschinken gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "227",
         "1.5",
         "13.3",
@@ -11810,7 +11810,7 @@
     "769": [
         "product",
         "Saucisson gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "550",
         "0.6",
         "51.5",
@@ -11822,7 +11822,7 @@
     "40": [
         "product",
         "Bauernbratwurst gebraten (ohne Zusatz von Fett un Salz)",
-        "gr",
+        "g",
         "270",
         "0.2",
         "20.4",
@@ -11834,7 +11834,7 @@
     "210": [
         "product",
         "Fisch (Durchschnitt) Filet gedämpft (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "171",
         "0",
         "7.8",
@@ -11846,7 +11846,7 @@
     "224": [
         "product",
         "Forelle ganz gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "159",
         "0",
         "8.8",
@@ -11858,7 +11858,7 @@
     "172": [
         "product",
         "Dorsch Filet gedämpft (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "95",
         "0",
         "0.5",
@@ -11870,7 +11870,7 @@
     "219": [
         "product",
         "Flunder Filet gedämpft (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "90",
         "0",
         "0.9",
@@ -11882,7 +11882,7 @@
     "440": [
         "product",
         "Lachs Zucht Filet gedämpft (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "251",
         "0",
         "16.8",
@@ -11906,7 +11906,7 @@
     "775": [
         "product",
         "Schafmilch roh",
-        "gr",
+        "g",
         "105",
         "4.7",
         "7.1",
@@ -11918,7 +11918,7 @@
     "472": [
         "product",
         "Linse geschält getrocknet",
-        "gr",
+        "g",
         "334",
         "48",
         "1.5",
@@ -11930,7 +11930,7 @@
     "471": [
         "product",
         "Linse geschält gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "139",
         "20",
         "0.6",
@@ -11942,7 +11942,7 @@
     "83": [
         "product",
         "Bohne (alle Arten) getrocknet",
-        "gr",
+        "g",
         "305",
         "40.7",
         "1.5",
@@ -11954,7 +11954,7 @@
     "82": [
         "product",
         "Bohne (alle Arten) gekocht (ohne Zugabe von Fett und Salz)",
-        "gr",
+        "g",
         "114",
         "15.2",
         "0.6",
@@ -11966,7 +11966,7 @@
     "192": [
         "product",
         "Erbse reif getrocknet",
-        "gr",
+        "g",
         "331",
         "51.9",
         "1.7",
@@ -11978,7 +11978,7 @@
     "193": [
         "product",
         "Erbse reif getrocknet gekocht (ohne Zusatz von Fett und Salz)",
-        "gr",
+        "g",
         "142",
         "22.3",
         "0.7",

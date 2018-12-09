@@ -18,6 +18,8 @@ class PersonController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+
+        $this->authorize('update-person', Auth::user()->person()->getResults());;
     }
 
     /**
@@ -88,9 +90,8 @@ class PersonController extends Controller
     {
         $this->validator($request->all())->validate();
 
-
-
         $person = Auth::user()->person();
+
         $person->name = $request->name;
     }
 
@@ -118,6 +119,7 @@ class PersonController extends Controller
     public function delete()
     {
         $person = Auth::user()->person();
+
         $person->delete();
     }
 
