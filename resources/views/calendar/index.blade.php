@@ -98,7 +98,7 @@
                    </thead>
                    <tbody>
                    <tr>
-                       <td>{{ $values[0] }} g</td>
+                       <td>{{ $values[0] }} kcal</td>
                        <td>{{ $values[1] }} g</td>
                        <td>{{ $values[2] }} g</td>
                        <td>{{ $values[3] }} g</td>
