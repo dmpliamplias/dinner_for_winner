@@ -82,7 +82,7 @@
             @endif
         </div>
     </div>
-    @if(sizeof($amountOfRecipes) > 0)
+    @if($amountOfRecipes > 0)
         <div class="container" style="margin-top: 40px">
             <div class="row">
                 <div class="col-lg-12">
