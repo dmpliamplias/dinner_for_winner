@@ -15,11 +15,11 @@
                 <th scope="row">{{ $familyCount * 100 }}</th>
                 <td>{{ $product->unit }}</td>
                 <td>{{ $product->name }}</td>
-                <td>{{ $product->price }}</td>
+                <td>{{ $product->price * $familyCount }}</td>
             </tr>
         @endforeach
         </tbody>
     </table>
 
-    <p><b>Total Preis: {{ $totalPrice }}</b></p>
+    <p><b>Total Preis: {{ $totalPrice * $familyCount }}</b></p>
 </div>
