@@ -88,7 +88,7 @@
     der Produkte sind bereits auf die Anzahl deiner Familienmitglieder angepasst.
     <div class="row">
       <div class="col-12 col-sm-3">
-        <a class="btn btn-outline-primary" href="{{ route('dashboard.index') }}" role="button">Zum aktuellen Einkaufszettel</a>
+        <a class="btn btn-outline-primary" href="{{url('/buylist') }}" role="button">Zum aktuellen Einkaufszettel</a>
   </div>
 </div>
   </div>
