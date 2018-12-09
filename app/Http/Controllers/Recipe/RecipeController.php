@@ -88,7 +88,12 @@ class RecipeController extends Controller
     public function show($id)
     {
         $recipe = Recipe::find($id);
-        return view('recipe.show')->with('recipe', $recipe);
+        $products = Product::pluck('name', 'id');
+
+        $refl = new ReflectionClass('App\Category');
+        $categories = ($refl->getConstants());
+
+        return view('recipe.show')->with(['recipe' => $recipe, 'products' => $products, 'categories' => $categories]);
     }
 
     public function update(Request $request, $id)
@@ -139,7 +144,6 @@ class RecipeController extends Controller
 
     public static function createFromJson($json)
     {
-        // todo validate if invalid return false
         $recipe = new Recipe();
         $recipe->name = $json['name'];
         $recipe->description = $json['calorie_amount'];
@@ -154,7 +158,7 @@ class RecipeController extends Controller
     {
         return Validator::make($data, [
            'name' => 'required|string|max:255',
-           'description' => 'required|string|max:500'
+           'description' => 'required'
         ]);
     }
 

@@ -17,7 +17,7 @@ class CreateRecipesTable extends Migration
             $table->increments('id');
 
             $table->string('name');
-            $table->string('description');
+            $table->longText('description');
             $table->integer('time');
             $table->string('categories');
             $table->string('imagePath');

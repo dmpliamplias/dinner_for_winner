@@ -17,11 +17,11 @@
     </div>
     <div class="form-group">
         {{ Form::label('products', 'Produkte') }}
-        {{ Form::select('products[]', $recipe->products()->getResults(), null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
+        {{ Form::select('products[]', $products, null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
     </div>
     <div class="form-group">
         {{ Form::label('categories', 'Kategorien') }}
-        {{ Form::select('categories[]', $recipe->categories, null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
+        {{ Form::select('categories[]', $categories, null, ['class' => 'form-control', 'multiple' => true, 'data-placeholder' => 'Bitte wählen']) }}
     </div>
     <div class="form-group">
         {{ Form::label('time', 'Zeit') }}
@@ -31,11 +31,13 @@
         {{Form::label('file', 'Bild')}}
         {{Form::file('file', ['class' => 'form-control-file'])}}
     </div>
-    {{ Form::submit('Speichern', ['class' => 'btn btn-primary'] )}}
-    {!! Form::close() !!}
+    <div class="btn-group">
+        {{ Form::submit('Speichern', ['class' => 'btn btn-primary'] )}}
+        {!! Form::close() !!}
 
-    {!! Form::open(['action' => ['Recipe\RecipeController@destroy', $recipe->id], 'method' => 'DELETE']) !!}
-    {{Form::submit('Löschen', ['class' => 'btn btn-secondary'])}}
-    {!! Form::close() !!}
+        {!! Form::open(['action' => ['Recipe\RecipeController@destroy', $recipe->id], 'method' => 'DELETE']) !!}
+        {{Form::submit('Löschen', ['class' => 'btn btn-secondary'])}}
+        {!! Form::close() !!}
+    </div>
 
 @endsection
