@@ -101,7 +101,7 @@ class CalendarController extends Controller
             $calendar->save();
         }
 
-        return $calendars;
+        return $calendars->getResults();
     }
 
     private function getExistingCalendarEntries()
