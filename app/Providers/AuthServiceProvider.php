@@ -2,10 +2,15 @@
 
 namespace App\Providers;
 
-use App\Person;
+use App\Calendar;
+use App\FamilyMember;
+use App\Policies\CalendarPolicy;
+use App\Policies\FamilyMemberPolicy;
 use App\Policies\PersonPolicy;
-use Illuminate\Support\Facades\Gate;
+use App\Policies\RecipePolicy;
+use App\Recipe;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Gate;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -15,8 +20,9 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
-        Person::class => PersonPolicy::class,
+        Calendar::class => CalendarPolicy::class,
+        FamilyMember::class => FamilyMemberPolicy::class,
+        Recipe::class => RecipePolicy::class,
     ];
 
     /**
