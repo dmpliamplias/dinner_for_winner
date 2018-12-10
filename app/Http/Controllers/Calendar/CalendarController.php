@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Calendar;
 
 use App\Calendar;
+use App\Day;
+use App\Daytime;
 use App\Http\Controllers\Controller;
 use App\Recipe;
 use Illuminate\Http\Request;
@@ -24,9 +26,8 @@ class CalendarController extends Controller
 
         $values = $this->getValuesOfAllConfirmedRecipes($existingEntries);
 
-        //todo lookup recipes when theres enough time
         return view('calendar.index')
-            ->with(['calendars' => $existingEntries->take(sizeof($existingEntries)),
+            ->with(['calendars' => $existingEntries->take(sizeof($existingEntries))->values(),
                 'amountOfRecipes' => $amountOfRecipes, 'values' => $values]);
     }
 
@@ -69,13 +70,108 @@ class CalendarController extends Controller
     {
         $calendar = Calendar::find($id);
 
-        $calendar->day = $request->input('day');
-        $calendar->daytime = $request->input('daytime');
+        $index = $request->input('index');
+        $this->determineDayAndDaytime($calendar, $index);
+
         $calendar->confirmed = true;
 
         $calendar->save();
 
         return redirect('/calendar');
+    }
+
+    private function determineDayAndDaytime($calendar, $index)
+    {
+        $day = null;
+        $daytime = null;
+        if ($index < 3) {
+            $day = Day::MONDAY;
+            if ($index == 0) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 1) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 2) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        else if ($index < 6) {
+            $day = Day::TUESDAY;
+            if ($index == 3) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 4) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 5) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        else if ($index < 9) {
+            $day = Day::WEDNESDAY;
+            if ($index == 6) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 7) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 8) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        else if ($index < 12) {
+            $day = Day::THURSDAY;
+            if ($index == 9) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 10) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 11) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        else if ($index < 15) {
+            $day = Day::FRIDAY;
+            if ($index == 12) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 13) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 14) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        else if ($index < 18) {
+            $day = Day::SATURDAY;
+            if ($index == 15) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 16) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 17) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        else {
+            $day = Day::SUNDAY;
+            if ($index == 18) {
+                $daytime = Daytime::MORNING;
+            }
+            if ($index == 19) {
+                $daytime = Daytime::MIDDAY;
+            }
+            if ($index == 20) {
+                $daytime = Daytime::EVENING;
+            }
+        }
+        $calendar->day = $day;
+        $calendar->daytime = $daytime;
+
+        $calendar->save();
     }
 
     private function create()
@@ -120,7 +216,7 @@ class CalendarController extends Controller
 
         if ($amountOfRecipes < sizeof($allRecipes)) {
             $allEntriesWithoutRecipe = $existingEntries->where('recipe_id', null);
-            $allEntriesWithRecipe = $existingEntries->where('recipe_id', '!=', null);
+            $allEntriesWithRecipe = $existingEntries->where('recipe_id', '!=', null)->values();
             $ids = [];
             for ($i = 0; $i < sizeof($allEntriesWithRecipe); $i++) {
                 $ids[$i] = $allEntriesWithRecipe[$i]->recipe_id;
