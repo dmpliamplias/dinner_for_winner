@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Recipe;
 
+use App\Category;
 use App\Http\Controllers\Controller;
 use App\Product;
 use App\Recipe;
@@ -61,8 +62,9 @@ class RecipeController extends Controller
         $categories = $request->input('categories');
         $categoriesString = "";
         foreach ($categories as $category) {
-            $categoriesString = $categoriesString.$category.";";
+            $categoriesString = $categoriesString.Category::getValueFor($category).", ";
         }
+        $categoriesString = substr($categoriesString, 0, strlen($categoriesString) - 2);
         $recipe->categories = $categoriesString;
 
         // Picture

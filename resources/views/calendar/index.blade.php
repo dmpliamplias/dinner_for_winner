@@ -11,7 +11,7 @@
                             <div class="card-body">
                                 <p class="card-text"><b>{{ $calendars[$x]->recipe()->getResults()->name }}</b></p>
                                 <p class="card-text">
-                                    {{ $calendars[$x]->recipe()->getResults()->description }}
+                                    Kategorien: {{ $calendars[$x]->recipe()->getResults()->categories }}
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
@@ -49,7 +49,7 @@
                         <div class="card-body">
                             <p class="card-text"><b>{{ $calendars[$i]->recipe()->getResults()->name }}</b></p>
                             <p class="card-text">
-                                {{ $calendars[$i]->recipe()->getResults()->description }}
+                                {{ $calendars[$i]->recipe()->getResults()->categories }}
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
