@@ -14,7 +14,7 @@ Route::resource('person', 'Person\PersonController');
 // Calendar
 Route::get('/calendar', 'Calendar\CalendarController@index')->name('calendar.index');
 Route::post('/calendar/{id}/store', 'Calendar\CalendarController@store');
-Route::post('/calendar/{id}/new', 'Calendar\CalendarController@newRecipe');
+Route::post('/calendar/{id}/newRecipe', 'Calendar\CalendarController@newRecipe');
 Route::post('/calendar/{id}/unconfirm', 'Calendar\CalendarController@unconfirm');
 
 // Dashboard
@@ -23,7 +23,7 @@ Route::resource('dashboard', 'Dashboard\DashboardController');
 // Recipe
 Route::resource('recipe', 'Recipe\RecipeController');
 
-// Recipe
+// Product
 Route::resource('product', 'Product\ProductController');
 
 // Family member

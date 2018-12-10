@@ -35,6 +35,8 @@ class CalendarController extends Controller
     {
         $calendar = Calendar::find($calendarId);
 
+        $this->authorize('calendar-unconfirm', $calendar);
+
         $calendar->confirmed = false;
 
         $calendar->save();
@@ -45,6 +47,8 @@ class CalendarController extends Controller
     public function newRecipe(Request $request, $id)
     {
         $calendar = Calendar::find($id);
+
+        $this->authorize('calendar-newRecipe', $calendar);
 
         $recipeId = $request->input('recipeId');
         $newRecipe = $this->getNewRecipe($recipeId);
@@ -69,6 +73,8 @@ class CalendarController extends Controller
     public function store(Request $request, $id)
     {
         $calendar = Calendar::find($id);
+
+        $this->authorize('calendar-store', $calendar);
 
         $index = $request->input('index');
         $this->determineDayAndDaytime($calendar, $index);
@@ -251,7 +257,7 @@ class CalendarController extends Controller
     {
         $otherRecipes = Recipe::all()->whereNotIn('id', [$recipeId]);
         if (sizeof($otherRecipes) === 0) {
-            return Recipe::all()->where('id = '.$recipeId);
+            return Recipe::all()->where('id', $recipeId);
         }
 
         return $otherRecipes->random(1);

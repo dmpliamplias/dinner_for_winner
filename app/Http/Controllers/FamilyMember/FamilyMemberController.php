@@ -34,12 +34,16 @@ class FamilyMemberController extends Controller
     {
         $familyMember = FamilyMember::find($id);
 
+        $this->authorize('familyMember-show', $familyMember);
+
         return view('family.show')->with('member', $familyMember);
     }
 
     public function update(Request $request, $id)
     {
         $familyMember = FamilyMember::find($id);
+
+        $this->authorize('familyMember-update', $familyMember);
 
         $familyMember->name = $request->input('name');
         $familyMember->gender = $request->input('gender');
@@ -83,6 +87,9 @@ class FamilyMemberController extends Controller
     public function destroy($id)
     {
         $familyMember = FamilyMember::find($id);
+
+        $this->authorize('familyMember-delete', $familyMember);
+
         $familyMember->delete();
 
         return redirect('/familyMember')->with('success', 'Familienmitglied gelöscht');

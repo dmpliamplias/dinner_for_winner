@@ -36,7 +36,7 @@
         {!! Form::close() !!}
 
         {!! Form::open(['action' => ['Recipe\RecipeController@destroy', $recipe->id], 'method' => 'DELETE']) !!}
-        {{Form::submit('Löschen', ['class' => 'btn btn-secondary'])}}
+        {{Form::submit('Löschen', ['class' => 'btn btn-danger'])}}
         {!! Form::close() !!}
     </div>
 

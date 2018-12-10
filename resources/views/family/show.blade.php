@@ -54,7 +54,12 @@
         </div>
     </div>
 
-    {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
-    {!! Form::close() !!}
+    <div class="btn-group">
+        {{Form::submit('Speichern', ['class' => 'btn btn-primary'])}}
+        {!! Form::close() !!}
+        {!! Form::open(['action' => ['FamilyMember\FamilyMemberController@destroy', $member->id], 'method' => 'DELETE']) !!}
+        {{Form::submit('Löschen', ['class' => 'btn btn-danger'])}}
+        {!! Form::close() !!}
+    </div>
 
 @endsection

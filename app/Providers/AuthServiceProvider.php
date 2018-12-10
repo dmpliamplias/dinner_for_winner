@@ -6,7 +6,6 @@ use App\Calendar;
 use App\FamilyMember;
 use App\Policies\CalendarPolicy;
 use App\Policies\FamilyMemberPolicy;
-use App\Policies\PersonPolicy;
 use App\Policies\RecipePolicy;
 use App\Recipe;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -34,7 +33,18 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        // Gates
-        Gate::define('update-person', 'App\Policies\PersonPolicy@update');
+        // Calendar
+        Gate::define('calendar-store', 'App\Policies\CalendarPolicy@store');
+        Gate::define('calendar-newRecipe', 'App\Policies\CalendarPolicy@newRecipe');
+        Gate::define('calendar-unconfirm', 'App\Policies\CalendarPolicy@unconfirm');
+
+        // FamilyMember
+        Gate::define('familyMember-show', 'App\Policies\FamilyMemberPolicy@show');
+        Gate::define('familyMember-update', 'App\Policies\FamilyMemberPolicy@update');
+        Gate::define('familyMember-delete', 'App\Policies\FamilyMemberPolicy@delete');
+
+        // Recipe
+        Gate::define('recipe-update', 'App\Policies\RecipePolicy@update');
+        Gate::define('recipe-delete', 'App\Policies\RecipePolicy@delete');
     }
 }

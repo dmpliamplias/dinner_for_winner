@@ -109,6 +109,8 @@ class RecipeController extends Controller
 
         $recipe = Recipe::find($id);
 
+        $this->authorize('recipe-update', $recipe);
+
         // Name
         $recipe->name = $request->input('name');
         // Description
@@ -139,6 +141,9 @@ class RecipeController extends Controller
     public function destroy($id)
     {
         $recipe = Recipe::find($id);
+
+        $this->authorize('recipe-delete', $recipe);
+
         $recipe->delete();
 
         return redirect('/recipe')->with('success', 'Rezept gelöscht');
