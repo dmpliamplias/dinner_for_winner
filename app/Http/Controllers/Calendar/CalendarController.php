@@ -24,7 +24,7 @@ class CalendarController extends Controller
 
         $values = $this->getValuesOfAllConfirmedRecipes($existingEntries);
 
-        //todo first run crash & lookup recipes when theres enough time
+        //todo lookup recipes when theres enough time
         return view('calendar.index')
             ->with(['calendars' => $existingEntries->take(sizeof($existingEntries)),
                 'amountOfRecipes' => $amountOfRecipes, 'values' => $values]);
@@ -113,6 +113,28 @@ class CalendarController extends Controller
 
         if (sizeof($existingEntries) === 0) {
             $existingEntries = $this->create();
+        }
+
+        $amountOfRecipes = $this->getAmountOfRecipes($existingEntries);
+        $allRecipes = $this->getRecipes();
+
+        if ($amountOfRecipes < sizeof($allRecipes)) {
+            $allEntriesWithoutRecipe = $existingEntries->where('recipe_id', null);
+            $allEntriesWithRecipe = $existingEntries->where('recipe_id', '!=', null);
+            $ids = [];
+            for ($i = 0; $i < sizeof($allEntriesWithRecipe); $i++) {
+                $ids[$i] = $allEntriesWithRecipe[$i]->recipe_id;
+            }
+            $recipes = Recipe::all()->whereNotIn('id', $ids)->values()->all();
+            $counter = 0;
+            foreach ($allEntriesWithoutRecipe as $entry) {
+                if ($counter === sizeof($recipes)) {
+                    continue;
+                }
+                $entry->recipe()->associate($recipes[$counter]);
+                $entry->save();
+                $counter++;
+            }
         }
 
         return $existingEntries;
