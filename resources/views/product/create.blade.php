@@ -169,7 +169,7 @@
     </div>
     <div class="col-12 col-sm-5">
       <div id="validationProtein" class="alert alert-warning" role="alert" style="visibility: hidden">
-        Wert für Zucker darf nicht grösser als 100 sein.
+        Wert für Protein darf nicht grösser als 100 sein.
       </div>
     </div>
     </div>

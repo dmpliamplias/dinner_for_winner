@@ -12,3 +12,5 @@ yarn-error.log
 /vendor
 config/database.php
 config/database.php
+config/database.php
+app/Providers/AppServiceProvider.php
