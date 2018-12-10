@@ -10,7 +10,3 @@ yarn-error.log
 .phpunit.result.cache
 /public/img/recipes
 /vendor
-config/database.php
-config/database.php
-config/database.php
-app/Providers/AppServiceProvider.php
