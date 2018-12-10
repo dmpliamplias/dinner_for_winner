@@ -77,10 +77,11 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                  <!--  {{ config('app-name', 'Dinner für Gewinner') }}-->
-                    <img src="{{ asset('img/Logo_oben.png') }}" class="img-fluid" alt="Responsive image">
-                </div>
+
+              <img src="{{ asset('img/Logo_oben.svg') }}"  class="myImgClass"  alt="Logo">
+              <!--   <div class="title m-b-md">
+                   {{ config('app-name', 'Dinner für Gewinner')        }}-->
+
             </div>
         </div>
     </body>
