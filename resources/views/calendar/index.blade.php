@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
+      <h1> Wochenplan </h1>
         <div class="row">
             @if($amountOfRecipes < 21)
                 @for($i = 0; $i < $amountOfRecipes; $i++)
