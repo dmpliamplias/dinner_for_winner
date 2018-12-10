@@ -115,6 +115,18 @@
     </div>
     </div>
 
+    <div class="row">
+        <div class="col-12 col-sm-3">
+            <div class="form-group">
+                {{Form::label('unit', 'Einheit')}}
+                {{Form::select('unit', ['g', 'ml'], $product->unit, ['class' => 'form-control', 'placeholder' => 'Bitte wählen'])}}
+                <small id="priceHelp" class="form-text text-muted">Einheit des Produktes</small>
+            </div>
+        </div>
+        <div class="alert alert-warning" role="alert" style="visibility: hidden">
+            Platzhalter
+        </div>
+    </div>
 
     <div class="row">
       <div class="col-12 col-sm-3">

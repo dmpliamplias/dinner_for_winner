@@ -70,13 +70,15 @@ class ProductController extends Controller
             'fattyAcid' => 'bail|required|numeric|max:100',
             'sugar' => 'bail|required|numeric|max:100',
             'protein' => 'bail|required|numeric|max:100',
+            'unit' => 'required',
         ]
       );
 
         $product = new Product();
 
         $product->name = $request->input('name');
-        $product->unit = 'gramm';
+        $unit = $request->input('unit') == 0 ? $unit = 'g' : $unit = 'ml';
+        $product->unit = $unit;
         $product->calorie = $request->input('calorie');
         $product->carb = $request->input('carb');
         $product->fat = $request->input('fat');
@@ -139,11 +141,13 @@ class ProductController extends Controller
           'fattyAcid' => 'bail|required|numeric|max:100',
           'sugar' => 'bail|required|numeric|max:100',
           'protein' => 'bail|required|numeric|max:100',
+          'unit' => 'required',
         ]);
 
         $product = Product::find($id);
         $product->name = $request->input('name');
-        $product->unit = 'gramm';
+        $unit = $request->input('unit') == 0 ? $unit = 'g' : $unit = 'ml';
+        $product->unit = $unit;
         $product->calorie = $request->input('calorie');
         $product->carb = $request->input('carb');
         $product->fat = $request->input('fat');
