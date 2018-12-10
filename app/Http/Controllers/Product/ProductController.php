@@ -76,7 +76,7 @@ class ProductController extends Controller
         $product = new Product();
 
         $product->name = $request->input('name');
-        $product->unit = '1';
+        $product->unit = 'gramm';
         $product->calorie = $request->input('calorie');
         $product->carb = $request->input('carb');
         $product->fat = $request->input('fat');
@@ -143,7 +143,7 @@ class ProductController extends Controller
 
         $product = Product::find($id);
         $product->name = $request->input('name');
-        $product->unit = '1';
+        $product->unit = 'gramm';
         $product->calorie = $request->input('calorie');
         $product->carb = $request->input('carb');
         $product->fat = $request->input('fat');
