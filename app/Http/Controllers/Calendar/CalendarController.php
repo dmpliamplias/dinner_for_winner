@@ -216,7 +216,7 @@ class CalendarController extends Controller
 
         if ($amountOfRecipes < sizeof($allRecipes)) {
             $allEntriesWithoutRecipe = $existingEntries->where('recipe_id', null);
-            $allEntriesWithRecipe = $existingEntries->where('recipe_id', '!=', null);
+            $allEntriesWithRecipe = $existingEntries->where('recipe_id', '!=', null)->values();
             $ids = [];
             for ($i = 0; $i < sizeof($allEntriesWithRecipe); $i++) {
                 $ids[$i] = $allEntriesWithRecipe[$i]->recipe_id;
