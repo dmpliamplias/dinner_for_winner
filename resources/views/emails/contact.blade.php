@@ -10,10 +10,9 @@
     </br>
     <p>Wir werden Sie so schnell wie möglich kontaktieren</p></br>
     <p>Sie haben folgende Nahchricht hinterlassen</p></br>
-    <h3>$subject</h3></br>
-    <p>$message</p>
-
-
+    <h3>Von: {{ $name }}</h3></br>
+    <h4>Ihre Nachricht:</h4>
+    <p>{{ $body }}</p>
 </div>
 </body>
 </html>

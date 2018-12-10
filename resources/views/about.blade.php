@@ -26,9 +26,9 @@
         <div class="row">
              <div class="col-12 col-sm-4">
                 <div class="card" >
-                    <img class="card-img-top rounded" src="{{ asset('img/dyoni.JPG') }}"  alt="Dyoni">
+                    <img class="card-img-top rounded" src="{{ asset('img/dyoni.JPG') }}"  alt="Johnny Plämpläm">
                     <div class="card-body">
-                        <h5 class="card-title">Dyoni Plämpläm</h5>
+                        <h5 class="card-title">Dyonisos Mpliamplias</h5>
                         <p>Der, der mit dem Code tanzt</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                 <div class="card">
                     <img class="card-img-top rounded" src="{{ asset('img/adrian.jpg') }}" alt="Ädu">
                     <div class="card-body">
-                        <h5 class="card-title">Ädu Widmer</h5>
+                        <h5 class="card-title">Adrian Widmer</h5>
                         <p>Der Agile</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="card">
                     <img class="card-img-top rounded" src="{{ asset('img/nico.jpg') }}" alt="Nico Wäuti">
                     <div class="card-body">
-                        <h5 class="card-title">Nico</h5>
+                        <h5 class="card-title">Nico Wälti</h5>
                         <p>Der Grossmaulige</p>
                     </div>
                 </div>

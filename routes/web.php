@@ -6,6 +6,7 @@ Route::get('/home', 'Page\PageController@home')->name('home');
 Route::get('/about', 'Page\PageController@about')->name('about');
 Route::get('/contact', 'Page\PageController@contact')->name('contact');
 Route::get('/test', 'Page\PageController@test');
+Route::post('/contact', 'Contact\ContactController@send');
 
 // Person
 Route::resource('person', 'Person\PersonController');
