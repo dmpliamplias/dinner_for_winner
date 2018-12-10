@@ -25,6 +25,7 @@ class FamilyMemberController extends Controller
 
         if (!$this->hasPersonFamilyMemberEntry($person)) {
             $this->createForPerson($person);
+            $families = $person->familyMembers()->getResults();
         }
 
         return view('family.index')->with('families', $families);
