@@ -27,7 +27,7 @@ class CalendarController extends Controller
         $values = $this->getValuesOfAllConfirmedRecipes($existingEntries);
 
         return view('calendar.index')
-            ->with(['calendars' => $existingEntries->take(sizeof($existingEntries)),
+            ->with(['calendars' => $existingEntries->take(sizeof($existingEntries))->values(),
                 'amountOfRecipes' => $amountOfRecipes, 'values' => $values]);
     }
 
