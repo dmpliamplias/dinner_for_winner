@@ -14,6 +14,10 @@ class BuylistController extends Controller
     {
         $values = $this->getBuylistValues();
 
+        if (sizeof($values) === 0) {
+            return view('buylist.index')->with('error', 'Keine bestätigte Rezepte vorhanden');
+        }
+
         return view('buylist.index')->with(['products' => $values[0], 'totalPrice' => $values[1], 'familyCount' => $values[2]]);
     }
 
@@ -34,12 +38,12 @@ class BuylistController extends Controller
             ->where('kw', date("W", time()))
             ->where('confirmed', true);
 
+        $data = [];
         if (sizeof($calendarEntries) === 0) {
-            return redirect('/buylist')->with('error', 'Keine bestätigte Rezepte vorhanden');
+            return $data;
         }
 
         $familyCount = count($person->familyMembers()->getResults());
-        $data = [];
         $totalPrice = 0;
         $i = 0;
         foreach ($calendarEntries as $entry) {
