@@ -42,7 +42,7 @@
                     </div>
                 @endfor
             @else
-                @for($i = 0; $i < sizeof($calendars) - 1; $i++)
+                @for($i = 0; $i <= sizeof($calendars) - 1; $i++)
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <a href="/recipe/{{ $calendars[$i]->recipe()->getResults()->id }}"><img class="card-img-top" src="{{ asset($calendars[$i]->recipe()->getResults()->imagePath) }}" style="height: 255px; width: 100%"></a>
