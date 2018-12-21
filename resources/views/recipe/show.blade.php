@@ -6,7 +6,7 @@
 
 @section('content')
 
-    {!! Form::open(['action' => ['Recipe\RecipeController@update', $recipe->id], 'method' => 'POST', 'files' => 'true']) !!}
+    {!! Form::open(['action' => ['Recipe\RecipeController@update', $recipe->id], 'method' => 'PUT', 'files' => 'true']) !!}
     <div class="form-group">
         {{ Form::label('name', 'Name') }}
         {{ Form::text('name', $recipe->name, ['class' => 'form-control', 'placeholder' => 'Name'] )}}
